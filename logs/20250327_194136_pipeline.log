@@ -1,0 +1,2 @@
+2025-03-27 19:41:37,328 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job IDs
+2025-03-27 19:41:38,064 - src.scraping.linkedin_scraper - SUCCESS - Scraped 10 IDs successfully

@@ -6,4 +6,4 @@ if __name__ == "__main__":
     setup_logging()
     job_scraper = JobScraper()
     job_ids = job_scraper.get_job_ids(10, JOB_KEYWORD)
-    print(job_ids)
+    job_scraper.get_job_info(job_ids)
