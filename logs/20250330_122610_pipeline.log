@@ -1,0 +1,11 @@
+2025-03-30 12:26:12,329 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 100 job IDs
+2025-03-30 12:26:19,083 - src.scraping.linkedin_scraper - SUCCESS - Successfully scraped 97 IDs
+2025-03-30 12:26:19,083 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 97 job postings
+2025-03-30 12:26:22,481 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188511746?_l=pt_BR (Attempt 1) - Waiting 3.33 seconds
+2025-03-30 12:26:26,139 - src.scraping.linkedin_scraper - ERROR - Request failed for job ID 4188511746: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188511746?_l=pt_BR
+2025-03-30 12:26:34,817 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195321662?_l=pt_BR (Attempt 1) - Waiting 3.15 seconds
+2025-03-30 12:26:38,336 - src.scraping.linkedin_scraper - ERROR - Request failed for job ID 4195321662: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195321662?_l=pt_BR
+2025-03-30 12:26:47,993 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195398600?_l=pt_BR (Attempt 1) - Waiting 3.18 seconds
+2025-03-30 12:26:51,486 - src.scraping.linkedin_scraper - ERROR - Request failed for job ID 4195398600: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195398600?_l=pt_BR
+2025-03-30 12:27:00,312 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196110511?_l=pt_BR (Attempt 1) - Waiting 3.73 seconds
+2025-03-30 12:27:04,414 - src.scraping.linkedin_scraper - ERROR - Request failed for job ID 4196110511: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196110511?_l=pt_BR

@@ -1,0 +1,4 @@
+2025-03-30 11:15:25,876 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job IDs
+2025-03-30 11:16:46,814 - src.scraping.linkedin_scraper - SUCCESS - Scraped 922 IDs successfully
+2025-03-30 11:16:46,814 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job information
+2025-03-30 11:17:11,022 - src.scraping.linkedin_scraper - ERROR - Error while fetching data from job ID 4178032988: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178032988?_l=pt_BR
