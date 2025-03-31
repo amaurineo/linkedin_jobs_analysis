@@ -1,0 +1,41 @@
+2025-03-30 21:33:34,631 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 1000 job IDs
+2025-03-30 21:33:47,705 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching a specific page: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=60
+2025-03-30 21:34:31,990 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching a specific page: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=470
+2025-03-30 21:34:56,848 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching a specific page: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=710
+2025-03-30 21:35:26,496 - src.scraping.linkedin_scraper - SUCCESS - Successfully scraped 901 IDs
+2025-03-30 21:35:26,496 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 901 job postings
+2025-03-30 21:35:28,479 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4075018778?_l=pt_BR (Attempt 1) - Waiting 3.70 seconds
+2025-03-30 21:35:43,534 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194474739?_l=pt_BR (Attempt 1) - Waiting 3.63 seconds
+2025-03-30 21:35:49,219 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4177112239?_l=pt_BR (Attempt 1) - Waiting 3.59 seconds
+2025-03-30 21:35:56,248 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188378920?_l=pt_BR (Attempt 1) - Waiting 3.77 seconds
+2025-03-30 21:36:03,005 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182297531?_l=pt_BR (Attempt 1) - Waiting 4.47 seconds
+2025-03-30 21:36:15,444 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196107798?_l=pt_BR (Attempt 1) - Waiting 3.45 seconds
+2025-03-30 21:36:24,473 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4102121611?_l=pt_BR (Attempt 1) - Waiting 3.00 seconds
+2025-03-30 21:36:28,153 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4106263486?_l=pt_BR (Attempt 1) - Waiting 3.99 seconds
+2025-03-30 21:36:41,465 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4176609141?_l=pt_BR (Attempt 1) - Waiting 3.98 seconds
+2025-03-30 21:36:55,959 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193074531?_l=pt_BR (Attempt 1) - Waiting 4.60 seconds
+2025-03-30 21:37:11,346 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188386583?_l=pt_BR (Attempt 1) - Waiting 4.61 seconds
+2025-03-30 21:37:23,983 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4174520690?_l=pt_BR (Attempt 1) - Waiting 3.77 seconds
+2025-03-30 21:37:37,151 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192783560?_l=pt_BR (Attempt 1) - Waiting 3.30 seconds
+2025-03-30 21:37:45,068 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182947179?_l=pt_BR (Attempt 1) - Waiting 3.44 seconds
+2025-03-30 21:37:55,024 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3791113697?_l=pt_BR (Attempt 1) - Waiting 3.69 seconds
+2025-03-30 21:38:13,794 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178514697?_l=pt_BR (Attempt 1) - Waiting 3.51 seconds
+2025-03-30 21:38:40,022 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190575630?_l=pt_BR (Attempt 1) - Waiting 3.53 seconds
+2025-03-30 21:38:44,992 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184459939?_l=pt_BR (Attempt 1) - Waiting 3.55 seconds
+2025-03-30 21:38:52,787 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196815019?_l=pt_BR (Attempt 1) - Waiting 4.21 seconds
+2025-03-30 21:39:07,685 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192788093?_l=pt_BR (Attempt 1) - Waiting 3.41 seconds
+2025-03-30 21:39:20,017 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178059930?_l=pt_BR (Attempt 1) - Waiting 4.93 seconds
+2025-03-30 21:39:25,234 - src.scraping.linkedin_scraper - WARNING - Status code 429 (too many requests): Changing User-Agent and retrying...
+2025-03-30 21:39:25,234 - src.scraping.linkedin_scraper - INFO - 509 jobs remaining...
+2025-03-30 21:39:25,234 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178059930?_l=pt_BR (Attempt 2) - Waiting 6.30 seconds
+2025-03-30 21:39:41,522 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181483618?_l=pt_BR (Attempt 1) - Waiting 4.34 seconds
+2025-03-30 21:39:57,061 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187548428?_l=pt_BR (Attempt 1) - Waiting 3.98 seconds
+2025-03-30 21:40:11,691 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186503540?_l=pt_BR (Attempt 1) - Waiting 3.38 seconds
+2025-03-30 21:40:18,034 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4175717202?_l=pt_BR (Attempt 1) - Waiting 4.76 seconds
+2025-03-30 21:40:28,326 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194309991?_l=pt_BR (Attempt 1) - Waiting 4.40 seconds
+2025-03-30 21:40:33,955 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4120136954?_l=pt_BR (Attempt 1) - Waiting 4.24 seconds
+2025-03-30 21:40:51,822 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185495592?_l=pt_BR (Attempt 1) - Waiting 4.88 seconds
+2025-03-30 21:41:06,312 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188849639?_l=pt_BR (Attempt 1) - Waiting 3.97 seconds
+2025-03-30 21:41:10,605 - src.scraping.linkedin_scraper - WARNING - Status code 429 (too many requests): Changing User-Agent and retrying...
+2025-03-30 21:41:10,606 - src.scraping.linkedin_scraper - INFO - 363 jobs remaining...
+2025-03-30 21:41:10,606 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188849639?_l=pt_BR (Attempt 2) - Waiting 6.00 seconds

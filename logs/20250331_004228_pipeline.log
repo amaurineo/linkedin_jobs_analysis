@@ -1,0 +1,37 @@
+2025-03-31 00:42:30,144 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 100 job IDs
+2025-03-31 00:42:30,144 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=0
+2025-03-31 00:42:30,837 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 10 entries
+2025-03-31 00:42:30,837 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=10
+2025-03-31 00:42:31,473 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 20 entries
+2025-03-31 00:42:31,473 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=20
+2025-03-31 00:42:32,097 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 30 entries
+2025-03-31 00:42:32,097 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=30
+2025-03-31 00:42:32,659 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 40 entries
+2025-03-31 00:42:32,659 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=40
+2025-03-31 00:42:33,217 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 50 entries
+2025-03-31 00:42:33,217 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=50
+2025-03-31 00:42:33,912 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 60 entries
+2025-03-31 00:42:33,912 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=60
+2025-03-31 00:42:34,461 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 70 entries
+2025-03-31 00:42:34,461 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=70
+2025-03-31 00:42:35,056 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 80 entries
+2025-03-31 00:42:35,056 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=80
+2025-03-31 00:42:35,687 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 90 entries
+2025-03-31 00:42:35,687 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=90
+2025-03-31 00:42:36,345 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 100 entries
+2025-03-31 00:42:36,345 - src.scraping.linkedin_scraper_v2 - SUCCESS - Successfully scraped 100 new IDs. 100 scraped in total.
+2025-03-31 00:42:36,345 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 100 entries
+2025-03-31 00:42:36,345 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 100 cached job IDs
+2025-03-31 00:42:36,392 - src.scraping.linkedin_scraper_v2 - INFO - Found 1136 already processed jobs in data\raw\jobs_data.csv
+2025-03-31 00:42:36,392 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4187060561 - already in CSV file (1136 total)
+2025-03-31 00:42:36,392 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195409240?_l=pt_BR
+2025-03-31 00:42:36,543 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.97s before retry...
+2025-03-31 00:42:39,514 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195409240?_l=pt_BR
+2025-03-31 00:42:39,514 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-31 00:42:39,668 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.87s before retry...
+2025-03-31 00:42:44,545 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195409240?_l=pt_BR
+2025-03-31 00:42:44,545 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-31 00:42:44,806 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error during job scraping: name 'safe_find' is not defined
+2025-03-31 00:42:44,806 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 958 entries
+2025-03-31 00:42:44,865 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 958 entries
+2025-03-31 00:42:44,866 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 100 entries

@@ -1,0 +1,9 @@
+2025-03-31 00:29:14,390 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 100 job IDs
+2025-03-31 00:29:14,392 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=0
+2025-03-31 00:29:15,218 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:29:15,218 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=10
+2025-03-31 00:29:15,855 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries
+2025-03-31 00:29:15,855 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=20
+2025-03-31 00:29:16,529 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries
+2025-03-31 00:29:16,529 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=30
+2025-03-31 00:29:17,176 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries

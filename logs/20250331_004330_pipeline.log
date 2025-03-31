@@ -1,0 +1,13 @@
+2025-03-31 00:43:32,359 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 10 job IDs
+2025-03-31 00:43:32,359 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=0
+2025-03-31 00:43:33,110 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 110 entries
+2025-03-31 00:43:33,110 - src.scraping.linkedin_scraper_v2 - SUCCESS - Successfully scraped 10 new IDs. 110 scraped in total.
+2025-03-31 00:43:33,110 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 110 entries
+2025-03-31 00:43:33,110 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 110 cached job IDs
+2025-03-31 00:43:33,171 - src.scraping.linkedin_scraper_v2 - INFO - Found 1136 already processed jobs in data\raw\jobs_data.csv
+2025-03-31 00:43:33,171 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4187060561 - already in CSV file (1136 total)
+2025-03-31 00:43:33,171 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195409240?_l=pt_BR
+2025-03-31 00:43:33,493 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error during job scraping: name 'safe_find' is not defined
+2025-03-31 00:43:33,501 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 958 entries
+2025-03-31 00:43:33,549 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 958 entries
+2025-03-31 00:43:33,550 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 110 entries

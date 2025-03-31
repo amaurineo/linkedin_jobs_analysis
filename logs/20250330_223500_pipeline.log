@@ -1,0 +1,1409 @@
+2025-03-30 22:35:02,276 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 1000 job IDs
+2025-03-30 22:35:02,276 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=0
+2025-03-30 22:35:03,096 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=10
+2025-03-30 22:35:03,686 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=20
+2025-03-30 22:35:04,291 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=30
+2025-03-30 22:35:04,920 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=40
+2025-03-30 22:35:05,528 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=50
+2025-03-30 22:35:06,314 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=60
+2025-03-30 22:35:06,919 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=70
+2025-03-30 22:35:07,516 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=80
+2025-03-30 22:35:08,150 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=90
+2025-03-30 22:35:08,882 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=100
+2025-03-30 22:35:09,068 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.02s before retry...
+2025-03-30 22:35:11,090 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=100
+2025-03-30 22:35:11,090 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:35:11,277 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.42s before retry...
+2025-03-30 22:35:15,695 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=100
+2025-03-30 22:35:15,695 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:35:16,346 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=110
+2025-03-30 22:35:16,953 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=120
+2025-03-30 22:35:17,578 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=130
+2025-03-30 22:35:18,286 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=140
+2025-03-30 22:35:18,975 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=150
+2025-03-30 22:35:19,617 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=160
+2025-03-30 22:35:20,332 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=170
+2025-03-30 22:35:21,045 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=180
+2025-03-30 22:35:21,662 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=190
+2025-03-30 22:35:22,252 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=200
+2025-03-30 22:35:22,443 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.25s before retry...
+2025-03-30 22:35:24,694 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=200
+2025-03-30 22:35:24,694 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:35:24,877 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.03s before retry...
+2025-03-30 22:35:28,912 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=200
+2025-03-30 22:35:28,912 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:35:29,560 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=210
+2025-03-30 22:35:30,162 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=220
+2025-03-30 22:35:30,750 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=230
+2025-03-30 22:35:31,338 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=240
+2025-03-30 22:35:31,982 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=250
+2025-03-30 22:35:32,638 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=260
+2025-03-30 22:35:33,256 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=270
+2025-03-30 22:35:33,857 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=280
+2025-03-30 22:35:34,473 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=290
+2025-03-30 22:35:35,069 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=300
+2025-03-30 22:35:35,256 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.98s before retry...
+2025-03-30 22:35:39,235 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=300
+2025-03-30 22:35:39,235 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:35:39,422 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.96s before retry...
+2025-03-30 22:35:44,381 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=300
+2025-03-30 22:35:44,381 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:35:44,967 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=310
+2025-03-30 22:35:45,674 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=320
+2025-03-30 22:35:46,269 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=330
+2025-03-30 22:35:46,886 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=340
+2025-03-30 22:35:47,487 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=350
+2025-03-30 22:35:48,381 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=360
+2025-03-30 22:35:49,006 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=370
+2025-03-30 22:35:49,618 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=380
+2025-03-30 22:35:50,300 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=390
+2025-03-30 22:35:50,974 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=400
+2025-03-30 22:35:51,163 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.30s before retry...
+2025-03-30 22:35:53,461 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=400
+2025-03-30 22:35:53,461 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:35:53,646 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.80s before retry...
+2025-03-30 22:35:58,449 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=400
+2025-03-30 22:35:58,449 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:35:59,214 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=410
+2025-03-30 22:35:59,929 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=420
+2025-03-30 22:36:00,854 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=430
+2025-03-30 22:36:01,489 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=440
+2025-03-30 22:36:02,234 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=450
+2025-03-30 22:36:02,928 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=460
+2025-03-30 22:36:03,664 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=470
+2025-03-30 22:36:04,314 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=480
+2025-03-30 22:36:05,147 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=490
+2025-03-30 22:36:05,775 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=500
+2025-03-30 22:36:05,964 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.34s before retry...
+2025-03-30 22:36:09,302 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=500
+2025-03-30 22:36:09,302 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:36:09,485 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.29s before retry...
+2025-03-30 22:36:12,781 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=500
+2025-03-30 22:36:12,781 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:36:13,417 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=510
+2025-03-30 22:36:14,013 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=520
+2025-03-30 22:36:14,614 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=530
+2025-03-30 22:36:15,239 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=540
+2025-03-30 22:36:15,889 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=550
+2025-03-30 22:36:16,545 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=560
+2025-03-30 22:36:17,194 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=570
+2025-03-30 22:36:17,865 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=580
+2025-03-30 22:36:18,467 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=590
+2025-03-30 22:36:19,183 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=600
+2025-03-30 22:36:19,372 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.95s before retry...
+2025-03-30 22:36:23,325 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=600
+2025-03-30 22:36:23,325 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:36:23,510 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.49s before retry...
+2025-03-30 22:36:27,999 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=600
+2025-03-30 22:36:27,999 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:36:28,717 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=610
+2025-03-30 22:36:29,451 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=620
+2025-03-30 22:36:30,105 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=630
+2025-03-30 22:36:30,748 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=640
+2025-03-30 22:36:31,611 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=650
+2025-03-30 22:36:32,283 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=660
+2025-03-30 22:36:33,002 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=670
+2025-03-30 22:36:33,747 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=680
+2025-03-30 22:36:34,483 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=690
+2025-03-30 22:36:35,109 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=700
+2025-03-30 22:36:35,293 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.28s before retry...
+2025-03-30 22:36:37,576 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=700
+2025-03-30 22:36:37,576 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:36:37,760 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.82s before retry...
+2025-03-30 22:36:41,583 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=700
+2025-03-30 22:36:41,583 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:36:42,333 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=710
+2025-03-30 22:36:43,094 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=720
+2025-03-30 22:36:43,708 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=730
+2025-03-30 22:36:44,349 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=740
+2025-03-30 22:36:44,966 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=750
+2025-03-30 22:36:45,677 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=760
+2025-03-30 22:36:46,403 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=770
+2025-03-30 22:36:47,051 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=780
+2025-03-30 22:36:47,696 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=790
+2025-03-30 22:36:48,435 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=800
+2025-03-30 22:36:48,620 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.38s before retry...
+2025-03-30 22:36:51,002 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=800
+2025-03-30 22:36:51,002 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:36:51,192 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.60s before retry...
+2025-03-30 22:36:55,796 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=800
+2025-03-30 22:36:55,796 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:36:56,395 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=810
+2025-03-30 22:36:56,989 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=820
+2025-03-30 22:36:57,714 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=830
+2025-03-30 22:36:58,403 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=840
+2025-03-30 22:36:59,121 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=850
+2025-03-30 22:36:59,889 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=860
+2025-03-30 22:37:00,483 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=870
+2025-03-30 22:37:01,145 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=880
+2025-03-30 22:37:01,832 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=890
+2025-03-30 22:37:02,470 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=900
+2025-03-30 22:37:02,664 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.89s before retry...
+2025-03-30 22:37:05,555 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=900
+2025-03-30 22:37:05,555 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:37:05,745 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.36s before retry...
+2025-03-30 22:37:09,103 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=900
+2025-03-30 22:37:09,103 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:37:09,707 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=910
+2025-03-30 22:37:10,453 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=920
+2025-03-30 22:37:11,129 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=930
+2025-03-30 22:37:11,724 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=940
+2025-03-30 22:37:12,499 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=950
+2025-03-30 22:37:13,280 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=960
+2025-03-30 22:37:14,040 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=970
+2025-03-30 22:37:14,821 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=980
+2025-03-30 22:37:15,495 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=990
+2025-03-30 22:37:16,154 - src.scraping.linkedin_scraper_v2 - SUCCESS - Successfully scraped 991 IDs
+2025-03-30 22:37:16,154 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 991 job postings
+2025-03-30 22:37:16,155 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185677926?_l=pt_BR
+2025-03-30 22:37:16,342 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.68s before retry...
+2025-03-30 22:37:20,024 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185677926?_l=pt_BR
+2025-03-30 22:37:20,024 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:37:20,216 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.51s before retry...
+2025-03-30 22:37:23,729 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185677926?_l=pt_BR
+2025-03-30 22:37:23,729 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:37:24,025 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185677926, 990 remaining
+2025-03-30 22:37:24,025 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4146772081?_l=pt_BR
+2025-03-30 22:37:24,340 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4146772081, 989 remaining
+2025-03-30 22:37:24,340 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4152258042?_l=pt_BR
+2025-03-30 22:37:24,639 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4152258042, 988 remaining
+2025-03-30 22:37:24,639 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189220057?_l=pt_BR
+2025-03-30 22:37:24,938 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189220057, 987 remaining
+2025-03-30 22:37:24,939 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186563017?_l=pt_BR
+2025-03-30 22:37:25,223 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4186563017, 986 remaining
+2025-03-30 22:37:25,223 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182151010?_l=pt_BR
+2025-03-30 22:37:25,502 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4182151010, 985 remaining
+2025-03-30 22:37:25,502 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184402161?_l=pt_BR
+2025-03-30 22:37:25,815 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184402161, 984 remaining
+2025-03-30 22:37:25,815 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187001121?_l=pt_BR
+2025-03-30 22:37:26,126 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187001121, 983 remaining
+2025-03-30 22:37:26,127 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185696461?_l=pt_BR
+2025-03-30 22:37:26,558 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185696461, 982 remaining
+2025-03-30 22:37:26,558 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190799837?_l=pt_BR
+2025-03-30 22:37:26,749 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.52s before retry...
+2025-03-30 22:37:29,267 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190799837?_l=pt_BR
+2025-03-30 22:37:29,267 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:37:29,457 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.66s before retry...
+2025-03-30 22:37:33,123 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190799837?_l=pt_BR
+2025-03-30 22:37:33,123 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:37:33,307 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.49s before retry...
+2025-03-30 22:37:38,803 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190799837?_l=pt_BR
+2025-03-30 22:37:38,803 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:37:39,106 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 149 entries
+2025-03-30 22:37:39,106 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190799837, 981 remaining
+2025-03-30 22:37:39,106 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4029841580
+2025-03-30 22:37:39,106 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4194527561
+2025-03-30 22:37:39,106 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4185992419
+2025-03-30 22:37:39,106 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190573867
+2025-03-30 22:37:39,106 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4178552426
+2025-03-30 22:37:39,107 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4125167326
+2025-03-30 22:37:39,107 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4193033273
+2025-03-30 22:37:39,107 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4170317437
+2025-03-30 22:37:39,107 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187114207?_l=pt_BR
+2025-03-30 22:37:39,399 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187114207, 972 remaining
+2025-03-30 22:37:39,399 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4194791242
+2025-03-30 22:37:39,399 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4165783312
+2025-03-30 22:37:39,399 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4153234376
+2025-03-30 22:37:39,399 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4168625766
+2025-03-30 22:37:39,399 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4191443648
+2025-03-30 22:37:39,400 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 3959194920
+2025-03-30 22:37:39,400 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4144988923
+2025-03-30 22:37:39,400 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4124164977
+2025-03-30 22:37:39,400 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4185246723
+2025-03-30 22:37:39,400 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4177582012
+2025-03-30 22:37:39,400 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4176806800
+2025-03-30 22:37:39,401 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4142098937?_l=pt_BR
+2025-03-30 22:37:39,696 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4142098937, 960 remaining
+2025-03-30 22:37:39,696 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4153856219?_l=pt_BR
+2025-03-30 22:37:39,980 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4153856219, 959 remaining
+2025-03-30 22:37:39,981 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4159081209?_l=pt_BR
+2025-03-30 22:37:40,277 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4159081209, 958 remaining
+2025-03-30 22:37:40,277 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184711760?_l=pt_BR
+2025-03-30 22:37:40,563 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184711760, 957 remaining
+2025-03-30 22:37:40,563 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4157561866?_l=pt_BR
+2025-03-30 22:37:40,853 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4157561866, 956 remaining
+2025-03-30 22:37:40,853 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188377974?_l=pt_BR
+2025-03-30 22:37:41,149 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188377974, 955 remaining
+2025-03-30 22:37:41,149 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4137716438?_l=pt_BR
+2025-03-30 22:37:41,433 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4137716438, 954 remaining
+2025-03-30 22:37:41,433 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195975934?_l=pt_BR
+2025-03-30 22:37:41,615 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.47s before retry...
+2025-03-30 22:37:45,085 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195975934?_l=pt_BR
+2025-03-30 22:37:45,085 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:37:45,271 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.18s before retry...
+2025-03-30 22:37:48,451 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195975934?_l=pt_BR
+2025-03-30 22:37:48,451 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:37:48,636 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.92s before retry...
+2025-03-30 22:37:55,555 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195975934?_l=pt_BR
+2025-03-30 22:37:55,555 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:37:55,841 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195975934, 953 remaining
+2025-03-30 22:37:55,841 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183436527?_l=pt_BR
+2025-03-30 22:37:56,129 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183436527, 952 remaining
+2025-03-30 22:37:56,129 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196168578?_l=pt_BR
+2025-03-30 22:37:56,409 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 160 entries
+2025-03-30 22:37:56,410 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196168578, 951 remaining
+2025-03-30 22:37:56,410 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4150639806?_l=pt_BR
+2025-03-30 22:37:56,722 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4150639806, 950 remaining
+2025-03-30 22:37:56,722 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193845782?_l=pt_BR
+2025-03-30 22:37:57,009 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193845782, 949 remaining
+2025-03-30 22:37:57,009 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190573851?_l=pt_BR
+2025-03-30 22:37:57,297 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190573851, 948 remaining
+2025-03-30 22:37:57,297 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4192723124
+2025-03-30 22:37:57,297 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180220639?_l=pt_BR
+2025-03-30 22:37:57,591 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180220639, 946 remaining
+2025-03-30 22:37:57,591 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4151397196?_l=pt_BR
+2025-03-30 22:37:57,876 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4151397196, 945 remaining
+2025-03-30 22:37:57,876 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181337868?_l=pt_BR
+2025-03-30 22:37:58,162 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181337868, 944 remaining
+2025-03-30 22:37:58,163 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187087618?_l=pt_BR
+2025-03-30 22:37:58,447 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187087618, 943 remaining
+2025-03-30 22:37:58,447 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181229923?_l=pt_BR
+2025-03-30 22:37:58,633 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.76s before retry...
+2025-03-30 22:38:01,396 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181229923?_l=pt_BR
+2025-03-30 22:38:01,396 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:38:01,580 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.97s before retry...
+2025-03-30 22:38:05,545 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181229923?_l=pt_BR
+2025-03-30 22:38:05,545 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:38:05,738 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.02s before retry...
+2025-03-30 22:38:10,758 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181229923?_l=pt_BR
+2025-03-30 22:38:10,758 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:38:11,053 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181229923, 942 remaining
+2025-03-30 22:38:11,054 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188378920?_l=pt_BR
+2025-03-30 22:38:11,338 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 169 entries
+2025-03-30 22:38:11,338 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188378920, 941 remaining
+2025-03-30 22:38:11,338 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188476630
+2025-03-30 22:38:11,338 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188354307
+2025-03-30 22:38:11,338 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190191646
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188476625
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188462699
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188473835
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188300334
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4184286787
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188476620
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188479247
+2025-03-30 22:38:11,339 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186538629?_l=pt_BR
+2025-03-30 22:38:11,615 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4186538629, 930 remaining
+2025-03-30 22:38:11,616 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188221872?_l=pt_BR
+2025-03-30 22:38:11,917 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188221872, 929 remaining
+2025-03-30 22:38:11,917 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184989844?_l=pt_BR
+2025-03-30 22:38:12,208 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184989844, 928 remaining
+2025-03-30 22:38:12,209 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184996116?_l=pt_BR
+2025-03-30 22:38:12,501 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184996116, 927 remaining
+2025-03-30 22:38:12,501 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3820426486?_l=pt_BR
+2025-03-30 22:38:12,791 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3820426486, 926 remaining
+2025-03-30 22:38:12,791 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4142848851?_l=pt_BR
+2025-03-30 22:38:13,074 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4142848851, 925 remaining
+2025-03-30 22:38:13,074 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191453549?_l=pt_BR
+2025-03-30 22:38:13,362 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191453549, 924 remaining
+2025-03-30 22:38:13,364 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191199602?_l=pt_BR
+2025-03-30 22:38:13,656 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191199602, 923 remaining
+2025-03-30 22:38:13,656 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190878815?_l=pt_BR
+2025-03-30 22:38:13,841 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.28s before retry...
+2025-03-30 22:38:16,117 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190878815?_l=pt_BR
+2025-03-30 22:38:16,117 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:38:16,310 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.67s before retry...
+2025-03-30 22:38:20,981 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190878815?_l=pt_BR
+2025-03-30 22:38:20,981 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:38:21,172 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.59s before retry...
+2025-03-30 22:38:27,763 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190878815?_l=pt_BR
+2025-03-30 22:38:27,763 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:38:28,183 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190878815, 922 remaining
+2025-03-30 22:38:28,183 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190161232
+2025-03-30 22:38:28,184 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4132218968
+2025-03-30 22:38:28,184 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190273351
+2025-03-30 22:38:28,184 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4191831718
+2025-03-30 22:38:28,184 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4183109869
+2025-03-30 22:38:28,184 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4184487989
+2025-03-30 22:38:28,184 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4178527099
+2025-03-30 22:38:28,184 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4091540620
+2025-03-30 22:38:28,185 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4196357014
+2025-03-30 22:38:28,185 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4115065481
+2025-03-30 22:38:28,185 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192785584?_l=pt_BR
+2025-03-30 22:38:28,478 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 179 entries
+2025-03-30 22:38:28,478 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192785584, 911 remaining
+2025-03-30 22:38:28,479 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4130738936?_l=pt_BR
+2025-03-30 22:38:28,770 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4130738936, 910 remaining
+2025-03-30 22:38:28,770 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4176819312?_l=pt_BR
+2025-03-30 22:38:29,055 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4176819312, 909 remaining
+2025-03-30 22:38:29,056 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4179907588?_l=pt_BR
+2025-03-30 22:38:29,344 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4179907588, 908 remaining
+2025-03-30 22:38:29,344 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178509915?_l=pt_BR
+2025-03-30 22:38:29,634 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178509915, 907 remaining
+2025-03-30 22:38:29,634 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196110511?_l=pt_BR
+2025-03-30 22:38:29,902 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196110511, 906 remaining
+2025-03-30 22:38:29,902 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194499443?_l=pt_BR
+2025-03-30 22:38:30,195 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194499443, 905 remaining
+2025-03-30 22:38:30,195 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193970097?_l=pt_BR
+2025-03-30 22:38:30,466 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193970097, 904 remaining
+2025-03-30 22:38:30,468 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4101279070?_l=pt_BR
+2025-03-30 22:38:30,786 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4101279070, 903 remaining
+2025-03-30 22:38:30,786 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4157059576?_l=pt_BR
+2025-03-30 22:38:30,968 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.59s before retry...
+2025-03-30 22:38:34,557 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4157059576?_l=pt_BR
+2025-03-30 22:38:34,557 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:38:34,743 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.87s before retry...
+2025-03-30 22:38:38,614 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4157059576?_l=pt_BR
+2025-03-30 22:38:38,614 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:38:38,806 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.70s before retry...
+2025-03-30 22:38:45,504 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4157059576?_l=pt_BR
+2025-03-30 22:38:45,504 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:38:45,784 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4157059576, 902 remaining
+2025-03-30 22:38:45,784 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193409964?_l=pt_BR
+2025-03-30 22:38:46,072 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 189 entries
+2025-03-30 22:38:46,072 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193409964, 901 remaining
+2025-03-30 22:38:46,072 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192363859?_l=pt_BR
+2025-03-30 22:38:46,362 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192363859, 900 remaining
+2025-03-30 22:38:46,362 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190009327?_l=pt_BR
+2025-03-30 22:38:46,652 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190009327, 899 remaining
+2025-03-30 22:38:46,652 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184918031?_l=pt_BR
+2025-03-30 22:38:47,074 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184918031, 898 remaining
+2025-03-30 22:38:47,074 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4094546542?_l=pt_BR
+2025-03-30 22:38:47,367 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4094546542, 897 remaining
+2025-03-30 22:38:47,367 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186439817?_l=pt_BR
+2025-03-30 22:38:47,674 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4186439817, 896 remaining
+2025-03-30 22:38:47,674 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187046059?_l=pt_BR
+2025-03-30 22:38:47,974 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187046059, 895 remaining
+2025-03-30 22:38:47,974 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195502687?_l=pt_BR
+2025-03-30 22:38:48,268 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195502687, 894 remaining
+2025-03-30 22:38:48,268 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188417255?_l=pt_BR
+2025-03-30 22:38:48,462 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.92s before retry...
+2025-03-30 22:38:52,380 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188417255?_l=pt_BR
+2025-03-30 22:38:52,380 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:38:52,568 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.57s before retry...
+2025-03-30 22:38:57,137 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188417255?_l=pt_BR
+2025-03-30 22:38:57,137 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:38:57,432 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188417255, 893 remaining
+2025-03-30 22:38:57,432 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190876801?_l=pt_BR
+2025-03-30 22:38:57,723 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190876801, 892 remaining
+2025-03-30 22:38:57,723 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193956672?_l=pt_BR
+2025-03-30 22:38:58,078 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 199 entries
+2025-03-30 22:38:58,078 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193956672, 891 remaining
+2025-03-30 22:38:58,078 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180648993?_l=pt_BR
+2025-03-30 22:38:58,372 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180648993, 890 remaining
+2025-03-30 22:38:58,372 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178674605?_l=pt_BR
+2025-03-30 22:38:58,668 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178674605, 889 remaining
+2025-03-30 22:38:58,668 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194316136?_l=pt_BR
+2025-03-30 22:38:58,968 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194316136, 888 remaining
+2025-03-30 22:38:58,968 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178749178?_l=pt_BR
+2025-03-30 22:38:59,262 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178749178, 887 remaining
+2025-03-30 22:38:59,263 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3820423694?_l=pt_BR
+2025-03-30 22:38:59,551 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3820423694, 886 remaining
+2025-03-30 22:38:59,551 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4175895652?_l=pt_BR
+2025-03-30 22:38:59,844 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4175895652, 885 remaining
+2025-03-30 22:38:59,845 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187643459?_l=pt_BR
+2025-03-30 22:39:00,030 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.46s before retry...
+2025-03-30 22:39:03,488 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187643459?_l=pt_BR
+2025-03-30 22:39:03,488 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:39:03,676 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.22s before retry...
+2025-03-30 22:39:07,899 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187643459?_l=pt_BR
+2025-03-30 22:39:07,899 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:39:08,185 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187643459, 884 remaining
+2025-03-30 22:39:08,187 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182948166?_l=pt_BR
+2025-03-30 22:39:08,472 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4182948166, 883 remaining
+2025-03-30 22:39:08,472 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190850182?_l=pt_BR
+2025-03-30 22:39:08,778 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190850182, 882 remaining
+2025-03-30 22:39:08,778 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190578075?_l=pt_BR
+2025-03-30 22:39:09,083 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 209 entries
+2025-03-30 22:39:09,084 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190578075, 881 remaining
+2025-03-30 22:39:09,084 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194372503?_l=pt_BR
+2025-03-30 22:39:09,369 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194372503, 880 remaining
+2025-03-30 22:39:09,369 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4071916080?_l=pt_BR
+2025-03-30 22:39:09,677 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4071916080, 879 remaining
+2025-03-30 22:39:09,677 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4119845660?_l=pt_BR
+2025-03-30 22:39:09,972 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4119845660, 878 remaining
+2025-03-30 22:39:09,973 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189944235?_l=pt_BR
+2025-03-30 22:39:10,270 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189944235, 877 remaining
+2025-03-30 22:39:10,270 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180222339?_l=pt_BR
+2025-03-30 22:39:10,557 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180222339, 876 remaining
+2025-03-30 22:39:10,558 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165627397?_l=pt_BR
+2025-03-30 22:39:10,844 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4165627397, 875 remaining
+2025-03-30 22:39:10,844 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160425944?_l=pt_BR
+2025-03-30 22:39:11,033 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.68s before retry...
+2025-03-30 22:39:14,711 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160425944?_l=pt_BR
+2025-03-30 22:39:14,711 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:39:14,898 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.07s before retry...
+2025-03-30 22:39:18,965 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160425944?_l=pt_BR
+2025-03-30 22:39:18,965 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:39:19,269 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4160425944, 874 remaining
+2025-03-30 22:39:19,269 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4127131841?_l=pt_BR
+2025-03-30 22:39:19,568 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4127131841, 873 remaining
+2025-03-30 22:39:19,568 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195143423?_l=pt_BR
+2025-03-30 22:39:19,889 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195143423, 872 remaining
+2025-03-30 22:39:19,889 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184995177?_l=pt_BR
+2025-03-30 22:39:20,184 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 219 entries
+2025-03-30 22:39:20,184 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184995177, 871 remaining
+2025-03-30 22:39:20,185 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192367508?_l=pt_BR
+2025-03-30 22:39:20,469 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192367508, 870 remaining
+2025-03-30 22:39:20,470 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4149451865?_l=pt_BR
+2025-03-30 22:39:20,767 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4149451865, 869 remaining
+2025-03-30 22:39:20,767 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4134071321?_l=pt_BR
+2025-03-30 22:39:21,054 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4134071321, 868 remaining
+2025-03-30 22:39:21,054 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4175192954?_l=pt_BR
+2025-03-30 22:39:21,349 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4175192954, 867 remaining
+2025-03-30 22:39:21,350 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187053558?_l=pt_BR
+2025-03-30 22:39:21,640 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187053558, 866 remaining
+2025-03-30 22:39:21,641 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4176609141?_l=pt_BR
+2025-03-30 22:39:21,943 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4176609141, 865 remaining
+2025-03-30 22:39:21,943 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191014038?_l=pt_BR
+2025-03-30 22:39:22,128 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.50s before retry...
+2025-03-30 22:39:24,625 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191014038?_l=pt_BR
+2025-03-30 22:39:24,625 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:39:24,811 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.97s before retry...
+2025-03-30 22:39:28,782 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191014038?_l=pt_BR
+2025-03-30 22:39:28,782 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:39:28,969 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.45s before retry...
+2025-03-30 22:39:34,416 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191014038?_l=pt_BR
+2025-03-30 22:39:34,416 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:39:34,737 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191014038, 864 remaining
+2025-03-30 22:39:34,738 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192722217?_l=pt_BR
+2025-03-30 22:39:35,040 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192722217, 863 remaining
+2025-03-30 22:39:35,040 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184499259?_l=pt_BR
+2025-03-30 22:39:35,325 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184499259, 862 remaining
+2025-03-30 22:39:35,325 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188379800?_l=pt_BR
+2025-03-30 22:39:35,620 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 229 entries
+2025-03-30 22:39:35,621 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188379800, 861 remaining
+2025-03-30 22:39:35,621 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195182470?_l=pt_BR
+2025-03-30 22:39:35,938 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195182470, 860 remaining
+2025-03-30 22:39:35,940 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191827635?_l=pt_BR
+2025-03-30 22:39:36,232 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191827635, 859 remaining
+2025-03-30 22:39:36,232 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4127660354?_l=pt_BR
+2025-03-30 22:39:36,528 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4127660354, 858 remaining
+2025-03-30 22:39:36,528 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196814070?_l=pt_BR
+2025-03-30 22:39:36,814 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196814070, 857 remaining
+2025-03-30 22:39:36,814 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193987712?_l=pt_BR
+2025-03-30 22:39:37,125 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193987712, 856 remaining
+2025-03-30 22:39:37,125 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194498960?_l=pt_BR
+2025-03-30 22:39:37,416 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194498960, 855 remaining
+2025-03-30 22:39:37,416 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190837467?_l=pt_BR
+2025-03-30 22:39:37,600 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.83s before retry...
+2025-03-30 22:39:41,430 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190837467?_l=pt_BR
+2025-03-30 22:39:41,430 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:39:41,612 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.31s before retry...
+2025-03-30 22:39:44,922 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190837467?_l=pt_BR
+2025-03-30 22:39:44,922 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:39:45,108 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.87s before retry...
+2025-03-30 22:39:50,983 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190837467?_l=pt_BR
+2025-03-30 22:39:50,983 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:39:51,280 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190837467, 854 remaining
+2025-03-30 22:39:51,281 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188675551?_l=pt_BR
+2025-03-30 22:39:51,578 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188675551, 853 remaining
+2025-03-30 22:39:51,579 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185690779?_l=pt_BR
+2025-03-30 22:39:51,870 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185690779, 852 remaining
+2025-03-30 22:39:51,870 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4154534668?_l=pt_BR
+2025-03-30 22:39:52,172 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 239 entries
+2025-03-30 22:39:52,172 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4154534668, 851 remaining
+2025-03-30 22:39:52,172 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190131930?_l=pt_BR
+2025-03-30 22:39:52,477 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190131930, 850 remaining
+2025-03-30 22:39:52,477 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185692028?_l=pt_BR
+2025-03-30 22:39:52,754 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185692028, 849 remaining
+2025-03-30 22:39:52,754 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185693578?_l=pt_BR
+2025-03-30 22:39:53,063 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185693578, 848 remaining
+2025-03-30 22:39:53,063 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185694452?_l=pt_BR
+2025-03-30 22:39:53,345 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185694452, 847 remaining
+2025-03-30 22:39:53,345 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4091160916?_l=pt_BR
+2025-03-30 22:39:53,648 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4091160916, 846 remaining
+2025-03-30 22:39:53,648 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3913451738?_l=pt_BR
+2025-03-30 22:39:53,935 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3913451738, 845 remaining
+2025-03-30 22:39:53,935 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184492300?_l=pt_BR
+2025-03-30 22:39:54,118 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.36s before retry...
+2025-03-30 22:39:57,478 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184492300?_l=pt_BR
+2025-03-30 22:39:57,478 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:39:57,661 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.22s before retry...
+2025-03-30 22:40:01,886 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184492300?_l=pt_BR
+2025-03-30 22:40:01,886 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:40:02,187 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184492300, 844 remaining
+2025-03-30 22:40:02,188 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4153236256?_l=pt_BR
+2025-03-30 22:40:02,480 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4153236256, 843 remaining
+2025-03-30 22:40:02,480 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189828925?_l=pt_BR
+2025-03-30 22:40:02,763 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189828925, 842 remaining
+2025-03-30 22:40:02,763 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4022906120?_l=pt_BR
+2025-03-30 22:40:03,075 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 249 entries
+2025-03-30 22:40:03,075 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4022906120, 841 remaining
+2025-03-30 22:40:03,075 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4100961022?_l=pt_BR
+2025-03-30 22:40:03,358 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4100961022, 840 remaining
+2025-03-30 22:40:03,359 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4153861430?_l=pt_BR
+2025-03-30 22:40:03,640 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4153861430, 839 remaining
+2025-03-30 22:40:03,641 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4146773071?_l=pt_BR
+2025-03-30 22:40:03,936 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4146773071, 838 remaining
+2025-03-30 22:40:03,936 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188770455?_l=pt_BR
+2025-03-30 22:40:04,224 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188770455, 837 remaining
+2025-03-30 22:40:04,224 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185245979?_l=pt_BR
+2025-03-30 22:40:04,509 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185245979, 836 remaining
+2025-03-30 22:40:04,510 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190348910?_l=pt_BR
+2025-03-30 22:40:04,813 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190348910, 835 remaining
+2025-03-30 22:40:04,814 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4004922706?_l=pt_BR
+2025-03-30 22:40:04,996 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.34s before retry...
+2025-03-30 22:40:08,342 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4004922706?_l=pt_BR
+2025-03-30 22:40:08,342 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:40:08,531 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.53s before retry...
+2025-03-30 22:40:13,058 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4004922706?_l=pt_BR
+2025-03-30 22:40:13,058 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:40:13,344 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4004922706, 834 remaining
+2025-03-30 22:40:13,344 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180225075?_l=pt_BR
+2025-03-30 22:40:13,632 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180225075, 833 remaining
+2025-03-30 22:40:13,633 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4170152555?_l=pt_BR
+2025-03-30 22:40:13,948 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4170152555, 832 remaining
+2025-03-30 22:40:13,948 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188205356?_l=pt_BR
+2025-03-30 22:40:14,243 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 259 entries
+2025-03-30 22:40:14,243 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188205356, 831 remaining
+2025-03-30 22:40:14,243 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191851076?_l=pt_BR
+2025-03-30 22:40:14,523 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191851076, 830 remaining
+2025-03-30 22:40:14,523 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4179695108?_l=pt_BR
+2025-03-30 22:40:14,809 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4179695108, 829 remaining
+2025-03-30 22:40:14,809 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182297531?_l=pt_BR
+2025-03-30 22:40:15,111 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4182297531, 828 remaining
+2025-03-30 22:40:15,112 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194334838?_l=pt_BR
+2025-03-30 22:40:15,401 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194334838, 827 remaining
+2025-03-30 22:40:15,401 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187974197?_l=pt_BR
+2025-03-30 22:40:15,726 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187974197, 826 remaining
+2025-03-30 22:40:15,726 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4117229907?_l=pt_BR
+2025-03-30 22:40:16,013 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4117229907, 825 remaining
+2025-03-30 22:40:16,013 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184465213?_l=pt_BR
+2025-03-30 22:40:16,199 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.67s before retry...
+2025-03-30 22:40:19,873 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184465213?_l=pt_BR
+2025-03-30 22:40:19,873 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:40:20,060 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.00s before retry...
+2025-03-30 22:40:24,065 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184465213?_l=pt_BR
+2025-03-30 22:40:24,065 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:40:24,379 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184465213, 824 remaining
+2025-03-30 22:40:24,380 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193857935?_l=pt_BR
+2025-03-30 22:40:24,678 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193857935, 823 remaining
+2025-03-30 22:40:24,678 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188374741?_l=pt_BR
+2025-03-30 22:40:24,969 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188374741, 822 remaining
+2025-03-30 22:40:24,969 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190575553?_l=pt_BR
+2025-03-30 22:40:25,255 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 269 entries
+2025-03-30 22:40:25,255 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190575553, 821 remaining
+2025-03-30 22:40:25,255 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191197735?_l=pt_BR
+2025-03-30 22:40:25,546 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191197735, 820 remaining
+2025-03-30 22:40:25,546 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192142942?_l=pt_BR
+2025-03-30 22:40:25,827 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192142942, 819 remaining
+2025-03-30 22:40:25,827 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193368942?_l=pt_BR
+2025-03-30 22:40:26,105 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193368942, 818 remaining
+2025-03-30 22:40:26,105 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194331125?_l=pt_BR
+2025-03-30 22:40:26,404 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194331125, 817 remaining
+2025-03-30 22:40:26,405 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192180667?_l=pt_BR
+2025-03-30 22:40:26,693 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192180667, 816 remaining
+2025-03-30 22:40:26,693 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4121952170?_l=pt_BR
+2025-03-30 22:40:26,983 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4121952170, 815 remaining
+2025-03-30 22:40:26,983 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184156909?_l=pt_BR
+2025-03-30 22:40:27,171 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.83s before retry...
+2025-03-30 22:40:31,005 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184156909?_l=pt_BR
+2025-03-30 22:40:31,005 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:40:31,192 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.86s before retry...
+2025-03-30 22:40:36,053 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184156909?_l=pt_BR
+2025-03-30 22:40:36,053 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:40:36,344 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184156909, 814 remaining
+2025-03-30 22:40:36,344 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196808850?_l=pt_BR
+2025-03-30 22:40:36,640 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196808850, 813 remaining
+2025-03-30 22:40:36,640 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190579114?_l=pt_BR
+2025-03-30 22:40:36,940 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190579114, 812 remaining
+2025-03-30 22:40:36,941 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160494841?_l=pt_BR
+2025-03-30 22:40:37,227 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 279 entries
+2025-03-30 22:40:37,227 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4160494841, 811 remaining
+2025-03-30 22:40:37,227 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188600863?_l=pt_BR
+2025-03-30 22:40:37,521 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188600863, 810 remaining
+2025-03-30 22:40:37,521 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191510639?_l=pt_BR
+2025-03-30 22:40:37,814 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191510639, 809 remaining
+2025-03-30 22:40:37,814 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195981376?_l=pt_BR
+2025-03-30 22:40:38,096 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195981376, 808 remaining
+2025-03-30 22:40:38,097 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191493637?_l=pt_BR
+2025-03-30 22:40:38,394 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191493637, 807 remaining
+2025-03-30 22:40:38,394 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4164535377?_l=pt_BR
+2025-03-30 22:40:38,714 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4164535377, 806 remaining
+2025-03-30 22:40:38,714 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190577522?_l=pt_BR
+2025-03-30 22:40:38,999 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190577522, 805 remaining
+2025-03-30 22:40:38,999 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4075019778?_l=pt_BR
+2025-03-30 22:40:39,186 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.48s before retry...
+2025-03-30 22:40:42,665 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4075019778?_l=pt_BR
+2025-03-30 22:40:42,665 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:40:42,846 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.49s before retry...
+2025-03-30 22:40:47,338 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4075019778?_l=pt_BR
+2025-03-30 22:40:47,339 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:40:47,763 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4075019778, 804 remaining
+2025-03-30 22:40:47,763 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181444139?_l=pt_BR
+2025-03-30 22:40:48,055 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181444139, 803 remaining
+2025-03-30 22:40:48,055 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183200289?_l=pt_BR
+2025-03-30 22:40:48,364 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183200289, 802 remaining
+2025-03-30 22:40:48,364 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4179694176?_l=pt_BR
+2025-03-30 22:40:48,642 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 289 entries
+2025-03-30 22:40:48,642 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4179694176, 801 remaining
+2025-03-30 22:40:48,643 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195024835?_l=pt_BR
+2025-03-30 22:40:48,949 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195024835, 800 remaining
+2025-03-30 22:40:48,949 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4133648535?_l=pt_BR
+2025-03-30 22:40:49,238 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4133648535, 799 remaining
+2025-03-30 22:40:49,238 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190873951?_l=pt_BR
+2025-03-30 22:40:49,525 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190873951, 798 remaining
+2025-03-30 22:40:49,525 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4089553283?_l=pt_BR
+2025-03-30 22:40:49,817 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4089553283, 797 remaining
+2025-03-30 22:40:49,817 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184710716?_l=pt_BR
+2025-03-30 22:40:50,111 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184710716, 796 remaining
+2025-03-30 22:40:50,111 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189698725?_l=pt_BR
+2025-03-30 22:40:50,405 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189698725, 795 remaining
+2025-03-30 22:40:50,405 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187544941?_l=pt_BR
+2025-03-30 22:40:50,590 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.99s before retry...
+2025-03-30 22:40:53,581 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187544941?_l=pt_BR
+2025-03-30 22:40:53,581 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:40:53,768 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.50s before retry...
+2025-03-30 22:40:57,273 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187544941?_l=pt_BR
+2025-03-30 22:40:57,273 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:40:57,468 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.13s before retry...
+2025-03-30 22:41:03,596 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187544941?_l=pt_BR
+2025-03-30 22:41:03,596 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:41:03,914 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187544941, 794 remaining
+2025-03-30 22:41:03,914 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190156136?_l=pt_BR
+2025-03-30 22:41:04,209 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190156136, 793 remaining
+2025-03-30 22:41:04,209 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188246335?_l=pt_BR
+2025-03-30 22:41:04,499 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188246335, 792 remaining
+2025-03-30 22:41:04,499 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4173935860?_l=pt_BR
+2025-03-30 22:41:04,794 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 299 entries
+2025-03-30 22:41:04,794 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4173935860, 791 remaining
+2025-03-30 22:41:04,794 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187797503?_l=pt_BR
+2025-03-30 22:41:05,098 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187797503, 790 remaining
+2025-03-30 22:41:05,098 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184065375?_l=pt_BR
+2025-03-30 22:41:05,413 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184065375, 789 remaining
+2025-03-30 22:41:05,413 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187181568?_l=pt_BR
+2025-03-30 22:41:05,716 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187181568, 788 remaining
+2025-03-30 22:41:05,717 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190879326?_l=pt_BR
+2025-03-30 22:41:06,004 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190879326, 787 remaining
+2025-03-30 22:41:06,004 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181136968?_l=pt_BR
+2025-03-30 22:41:06,316 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181136968, 786 remaining
+2025-03-30 22:41:06,316 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4120703711?_l=pt_BR
+2025-03-30 22:41:06,649 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4120703711, 785 remaining
+2025-03-30 22:41:06,650 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160495720?_l=pt_BR
+2025-03-30 22:41:06,832 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.40s before retry...
+2025-03-30 22:41:09,233 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160495720?_l=pt_BR
+2025-03-30 22:41:09,233 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:41:09,418 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.85s before retry...
+2025-03-30 22:41:14,272 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160495720?_l=pt_BR
+2025-03-30 22:41:14,272 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:41:14,458 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.22s before retry...
+2025-03-30 22:41:19,680 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160495720?_l=pt_BR
+2025-03-30 22:41:19,680 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:41:19,973 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4160495720, 784 remaining
+2025-03-30 22:41:19,973 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185495560?_l=pt_BR
+2025-03-30 22:41:20,259 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185495560, 783 remaining
+2025-03-30 22:41:20,260 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168207685?_l=pt_BR
+2025-03-30 22:41:20,551 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4168207685, 782 remaining
+2025-03-30 22:41:20,551 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189814535?_l=pt_BR
+2025-03-30 22:41:20,839 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 309 entries
+2025-03-30 22:41:20,839 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189814535, 781 remaining
+2025-03-30 22:41:20,839 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4157705775?_l=pt_BR
+2025-03-30 22:41:21,123 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4157705775, 780 remaining
+2025-03-30 22:41:21,123 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184994533?_l=pt_BR
+2025-03-30 22:41:21,414 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184994533, 779 remaining
+2025-03-30 22:41:21,414 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180217823?_l=pt_BR
+2025-03-30 22:41:21,712 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180217823, 778 remaining
+2025-03-30 22:41:21,713 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182997107?_l=pt_BR
+2025-03-30 22:41:21,994 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4182997107, 777 remaining
+2025-03-30 22:41:21,994 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184969226?_l=pt_BR
+2025-03-30 22:41:22,294 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184969226, 776 remaining
+2025-03-30 22:41:22,294 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192475269?_l=pt_BR
+2025-03-30 22:41:22,590 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192475269, 775 remaining
+2025-03-30 22:41:22,591 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194307673?_l=pt_BR
+2025-03-30 22:41:22,776 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.91s before retry...
+2025-03-30 22:41:26,691 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194307673?_l=pt_BR
+2025-03-30 22:41:26,691 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:41:26,884 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.89s before retry...
+2025-03-30 22:41:30,773 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194307673?_l=pt_BR
+2025-03-30 22:41:30,773 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:41:31,051 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194307673, 774 remaining
+2025-03-30 22:41:31,051 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185692600?_l=pt_BR
+2025-03-30 22:41:31,334 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185692600, 773 remaining
+2025-03-30 22:41:31,334 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188380475?_l=pt_BR
+2025-03-30 22:41:31,630 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188380475, 772 remaining
+2025-03-30 22:41:31,630 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187650074?_l=pt_BR
+2025-03-30 22:41:31,942 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 319 entries
+2025-03-30 22:41:31,943 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187650074, 771 remaining
+2025-03-30 22:41:31,943 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180047293?_l=pt_BR
+2025-03-30 22:41:32,246 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180047293, 770 remaining
+2025-03-30 22:41:32,246 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187051907?_l=pt_BR
+2025-03-30 22:41:32,534 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187051907, 769 remaining
+2025-03-30 22:41:32,534 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4124675798?_l=pt_BR
+2025-03-30 22:41:32,833 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4124675798, 768 remaining
+2025-03-30 22:41:32,833 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180221624?_l=pt_BR
+2025-03-30 22:41:33,148 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180221624, 767 remaining
+2025-03-30 22:41:33,149 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192634773?_l=pt_BR
+2025-03-30 22:41:33,442 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192634773, 766 remaining
+2025-03-30 22:41:33,443 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3943074908?_l=pt_BR
+2025-03-30 22:41:33,727 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3943074908, 765 remaining
+2025-03-30 22:41:33,727 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4153682785?_l=pt_BR
+2025-03-30 22:41:33,917 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.84s before retry...
+2025-03-30 22:41:37,754 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4153682785?_l=pt_BR
+2025-03-30 22:41:37,754 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:41:37,938 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.01s before retry...
+2025-03-30 22:41:40,950 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4153682785?_l=pt_BR
+2025-03-30 22:41:40,950 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:41:41,134 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.01s before retry...
+2025-03-30 22:41:47,143 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4153682785?_l=pt_BR
+2025-03-30 22:41:47,143 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:41:47,449 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4153682785, 764 remaining
+2025-03-30 22:41:47,450 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168212261?_l=pt_BR
+2025-03-30 22:41:47,740 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4168212261, 763 remaining
+2025-03-30 22:41:47,740 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4152469939?_l=pt_BR
+2025-03-30 22:41:48,037 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4152469939, 762 remaining
+2025-03-30 22:41:48,038 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183787916?_l=pt_BR
+2025-03-30 22:41:48,321 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 329 entries
+2025-03-30 22:41:48,322 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183787916, 761 remaining
+2025-03-30 22:41:48,322 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4161238739?_l=pt_BR
+2025-03-30 22:41:48,614 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4161238739, 760 remaining
+2025-03-30 22:41:48,615 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191639118?_l=pt_BR
+2025-03-30 22:41:48,900 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191639118, 759 remaining
+2025-03-30 22:41:48,901 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180048096?_l=pt_BR
+2025-03-30 22:41:49,205 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180048096, 758 remaining
+2025-03-30 22:41:49,205 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180224168?_l=pt_BR
+2025-03-30 22:41:49,489 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180224168, 757 remaining
+2025-03-30 22:41:49,489 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4146934561?_l=pt_BR
+2025-03-30 22:41:49,772 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4146934561, 756 remaining
+2025-03-30 22:41:49,773 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4175591557?_l=pt_BR
+2025-03-30 22:41:50,090 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4175591557, 755 remaining
+2025-03-30 22:41:50,091 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191402328?_l=pt_BR
+2025-03-30 22:41:50,275 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.19s before retry...
+2025-03-30 22:41:53,470 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191402328?_l=pt_BR
+2025-03-30 22:41:53,470 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:41:53,662 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.28s before retry...
+2025-03-30 22:41:56,944 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191402328?_l=pt_BR
+2025-03-30 22:41:56,944 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:41:57,133 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.38s before retry...
+2025-03-30 22:42:02,511 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191402328?_l=pt_BR
+2025-03-30 22:42:02,511 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:42:02,815 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191402328, 754 remaining
+2025-03-30 22:42:02,815 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192365629?_l=pt_BR
+2025-03-30 22:42:03,105 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192365629, 753 remaining
+2025-03-30 22:42:03,105 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187105928?_l=pt_BR
+2025-03-30 22:42:03,400 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187105928, 752 remaining
+2025-03-30 22:42:03,400 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188385034?_l=pt_BR
+2025-03-30 22:42:03,715 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 339 entries
+2025-03-30 22:42:03,715 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188385034, 751 remaining
+2025-03-30 22:42:03,715 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193368647?_l=pt_BR
+2025-03-30 22:42:04,010 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193368647, 750 remaining
+2025-03-30 22:42:04,010 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188384133?_l=pt_BR
+2025-03-30 22:42:04,377 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188384133, 749 remaining
+2025-03-30 22:42:04,377 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187569237?_l=pt_BR
+2025-03-30 22:42:04,660 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187569237, 748 remaining
+2025-03-30 22:42:04,661 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4174104339?_l=pt_BR
+2025-03-30 22:42:04,980 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4174104339, 747 remaining
+2025-03-30 22:42:04,980 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191403180?_l=pt_BR
+2025-03-30 22:42:05,273 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191403180, 746 remaining
+2025-03-30 22:42:05,273 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183181579?_l=pt_BR
+2025-03-30 22:42:05,585 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183181579, 745 remaining
+2025-03-30 22:42:05,585 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189710251?_l=pt_BR
+2025-03-30 22:42:05,773 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.37s before retry...
+2025-03-30 22:42:09,144 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189710251?_l=pt_BR
+2025-03-30 22:42:09,144 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:42:09,334 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.89s before retry...
+2025-03-30 22:42:14,223 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189710251?_l=pt_BR
+2025-03-30 22:42:14,223 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:42:14,525 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189710251, 744 remaining
+2025-03-30 22:42:14,525 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4162255831?_l=pt_BR
+2025-03-30 22:42:14,821 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4162255831, 743 remaining
+2025-03-30 22:42:14,821 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192123154?_l=pt_BR
+2025-03-30 22:42:15,109 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192123154, 742 remaining
+2025-03-30 22:42:15,109 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3791113697?_l=pt_BR
+2025-03-30 22:42:15,398 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 349 entries
+2025-03-30 22:42:15,398 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3791113697, 741 remaining
+2025-03-30 22:42:15,399 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188354874?_l=pt_BR
+2025-03-30 22:42:15,698 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188354874, 740 remaining
+2025-03-30 22:42:15,699 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196165300?_l=pt_BR
+2025-03-30 22:42:15,996 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196165300, 739 remaining
+2025-03-30 22:42:15,996 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178519493?_l=pt_BR
+2025-03-30 22:42:16,323 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178519493, 738 remaining
+2025-03-30 22:42:16,325 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190569704?_l=pt_BR
+2025-03-30 22:42:16,626 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190569704, 737 remaining
+2025-03-30 22:42:16,626 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182696673?_l=pt_BR
+2025-03-30 22:42:16,938 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4182696673, 736 remaining
+2025-03-30 22:42:16,938 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191843634?_l=pt_BR
+2025-03-30 22:42:17,232 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191843634, 735 remaining
+2025-03-30 22:42:17,232 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188510996?_l=pt_BR
+2025-03-30 22:42:17,419 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.35s before retry...
+2025-03-30 22:42:20,773 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188510996?_l=pt_BR
+2025-03-30 22:42:20,773 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:42:20,960 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.55s before retry...
+2025-03-30 22:42:24,514 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188510996?_l=pt_BR
+2025-03-30 22:42:24,514 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:42:24,727 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.46s before retry...
+2025-03-30 22:42:30,190 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188510996?_l=pt_BR
+2025-03-30 22:42:30,190 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:42:30,545 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188510996, 734 remaining
+2025-03-30 22:42:30,545 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191440022?_l=pt_BR
+2025-03-30 22:42:30,842 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191440022, 733 remaining
+2025-03-30 22:42:30,842 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168132816?_l=pt_BR
+2025-03-30 22:42:31,138 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4168132816, 732 remaining
+2025-03-30 22:42:31,138 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191624313?_l=pt_BR
+2025-03-30 22:42:31,426 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 359 entries
+2025-03-30 22:42:31,426 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191624313, 731 remaining
+2025-03-30 22:42:31,426 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4167947866?_l=pt_BR
+2025-03-30 22:42:31,855 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4167947866, 730 remaining
+2025-03-30 22:42:31,855 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190949897?_l=pt_BR
+2025-03-30 22:42:32,141 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190949897, 729 remaining
+2025-03-30 22:42:32,141 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4145975757?_l=pt_BR
+2025-03-30 22:42:32,440 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4145975757, 728 remaining
+2025-03-30 22:42:32,440 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4171022237?_l=pt_BR
+2025-03-30 22:42:32,731 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4171022237, 727 remaining
+2025-03-30 22:42:32,731 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190950779?_l=pt_BR
+2025-03-30 22:42:33,033 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190950779, 726 remaining
+2025-03-30 22:42:33,033 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191404085?_l=pt_BR
+2025-03-30 22:42:33,222 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.31s before retry...
+2025-03-30 22:42:35,535 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191404085?_l=pt_BR
+2025-03-30 22:42:35,535 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:42:35,716 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.08s before retry...
+2025-03-30 22:42:38,796 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191404085?_l=pt_BR
+2025-03-30 22:42:38,796 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:42:38,980 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.79s before retry...
+2025-03-30 22:42:44,770 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191404085?_l=pt_BR
+2025-03-30 22:42:44,770 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:42:45,087 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191404085, 725 remaining
+2025-03-30 22:42:45,087 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192454416?_l=pt_BR
+2025-03-30 22:42:45,382 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192454416, 724 remaining
+2025-03-30 22:42:45,382 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190952578?_l=pt_BR
+2025-03-30 22:42:45,673 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190952578, 723 remaining
+2025-03-30 22:42:45,673 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189758916?_l=pt_BR
+2025-03-30 22:42:45,961 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189758916, 722 remaining
+2025-03-30 22:42:45,961 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193928666?_l=pt_BR
+2025-03-30 22:42:46,258 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 369 entries
+2025-03-30 22:42:46,259 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193928666, 721 remaining
+2025-03-30 22:42:46,259 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184565331?_l=pt_BR
+2025-03-30 22:42:46,564 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184565331, 720 remaining
+2025-03-30 22:42:46,564 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186482669?_l=pt_BR
+2025-03-30 22:42:46,861 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4186482669, 719 remaining
+2025-03-30 22:42:46,861 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185674903?_l=pt_BR
+2025-03-30 22:42:47,144 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185674903, 718 remaining
+2025-03-30 22:42:47,145 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193030014?_l=pt_BR
+2025-03-30 22:42:47,432 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193030014, 717 remaining
+2025-03-30 22:42:47,432 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181928577?_l=pt_BR
+2025-03-30 22:42:47,760 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181928577, 716 remaining
+2025-03-30 22:42:47,760 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190954370?_l=pt_BR
+2025-03-30 22:42:47,944 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.47s before retry...
+2025-03-30 22:42:51,412 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190954370?_l=pt_BR
+2025-03-30 22:42:51,412 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:42:51,600 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.43s before retry...
+2025-03-30 22:42:56,032 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190954370?_l=pt_BR
+2025-03-30 22:42:56,032 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:42:56,324 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190954370, 715 remaining
+2025-03-30 22:42:56,324 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189703793?_l=pt_BR
+2025-03-30 22:42:56,626 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189703793, 714 remaining
+2025-03-30 22:42:56,626 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4169394773?_l=pt_BR
+2025-03-30 22:42:56,928 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4169394773, 713 remaining
+2025-03-30 22:42:56,928 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181437967?_l=pt_BR
+2025-03-30 22:42:57,220 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181437967, 712 remaining
+2025-03-30 22:42:57,221 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160547098?_l=pt_BR
+2025-03-30 22:42:57,406 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.98s before retry...
+2025-03-30 22:43:01,383 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4160547098?_l=pt_BR
+2025-03-30 22:43:01,383 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:01,679 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 379 entries
+2025-03-30 22:43:01,679 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4160547098, 711 remaining
+2025-03-30 22:43:01,680 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4139479627?_l=pt_BR
+2025-03-30 22:43:01,977 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4139479627, 710 remaining
+2025-03-30 22:43:01,977 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185691659?_l=pt_BR
+2025-03-30 22:43:02,273 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185691659, 709 remaining
+2025-03-30 22:43:02,273 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193931956?_l=pt_BR
+2025-03-30 22:43:02,559 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193931956, 708 remaining
+2025-03-30 22:43:02,559 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4159639422?_l=pt_BR
+2025-03-30 22:43:02,851 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4159639422, 707 remaining
+2025-03-30 22:43:02,852 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186403664?_l=pt_BR
+2025-03-30 22:43:03,050 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.20s before retry...
+2025-03-30 22:43:05,255 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186403664?_l=pt_BR
+2025-03-30 22:43:05,255 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:05,439 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.29s before retry...
+2025-03-30 22:43:09,733 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4186403664?_l=pt_BR
+2025-03-30 22:43:09,733 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:43:10,050 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4186403664, 706 remaining
+2025-03-30 22:43:10,050 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4150687729?_l=pt_BR
+2025-03-30 22:43:10,444 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4150687729, 705 remaining
+2025-03-30 22:43:10,444 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4164170400?_l=pt_BR
+2025-03-30 22:43:10,748 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4164170400, 704 remaining
+2025-03-30 22:43:10,748 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185496445?_l=pt_BR
+2025-03-30 22:43:10,935 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.43s before retry...
+2025-03-30 22:43:14,368 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185496445?_l=pt_BR
+2025-03-30 22:43:14,368 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:14,648 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185496445, 703 remaining
+2025-03-30 22:43:14,649 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4179689124?_l=pt_BR
+2025-03-30 22:43:14,944 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4179689124, 702 remaining
+2025-03-30 22:43:14,944 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178514697?_l=pt_BR
+2025-03-30 22:43:15,227 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 389 entries
+2025-03-30 22:43:15,227 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178514697, 701 remaining
+2025-03-30 22:43:15,228 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183365241?_l=pt_BR
+2025-03-30 22:43:15,523 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183365241, 700 remaining
+2025-03-30 22:43:15,523 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3943074909?_l=pt_BR
+2025-03-30 22:43:15,805 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3943074909, 699 remaining
+2025-03-30 22:43:15,805 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4146772079?_l=pt_BR
+2025-03-30 22:43:16,099 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4146772079, 698 remaining
+2025-03-30 22:43:16,099 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187755258?_l=pt_BR
+2025-03-30 22:43:16,286 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.31s before retry...
+2025-03-30 22:43:18,599 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187755258?_l=pt_BR
+2025-03-30 22:43:18,599 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:18,786 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.24s before retry...
+2025-03-30 22:43:22,031 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187755258?_l=pt_BR
+2025-03-30 22:43:22,031 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:43:22,318 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187755258, 697 remaining
+2025-03-30 22:43:22,319 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184062680?_l=pt_BR
+2025-03-30 22:43:22,609 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184062680, 696 remaining
+2025-03-30 22:43:22,610 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180652294?_l=pt_BR
+2025-03-30 22:43:22,799 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.24s before retry...
+2025-03-30 22:43:25,043 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180652294?_l=pt_BR
+2025-03-30 22:43:25,043 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:25,234 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.59s before retry...
+2025-03-30 22:43:28,823 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180652294?_l=pt_BR
+2025-03-30 22:43:28,823 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:43:29,100 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180652294, 695 remaining
+2025-03-30 22:43:29,100 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4164170413?_l=pt_BR
+2025-03-30 22:43:29,390 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4164170413, 694 remaining
+2025-03-30 22:43:29,390 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192787179?_l=pt_BR
+2025-03-30 22:43:29,688 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192787179, 693 remaining
+2025-03-30 22:43:29,688 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190575651?_l=pt_BR
+2025-03-30 22:43:29,975 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190575651, 692 remaining
+2025-03-30 22:43:29,975 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187542873?_l=pt_BR
+2025-03-30 22:43:30,329 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 399 entries
+2025-03-30 22:43:30,329 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187542873, 691 remaining
+2025-03-30 22:43:30,329 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4177363178?_l=pt_BR
+2025-03-30 22:43:30,691 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4177363178, 690 remaining
+2025-03-30 22:43:30,691 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192448945?_l=pt_BR
+2025-03-30 22:43:30,878 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.30s before retry...
+2025-03-30 22:43:33,174 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192448945?_l=pt_BR
+2025-03-30 22:43:33,174 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:33,481 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192448945, 689 remaining
+2025-03-30 22:43:33,481 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181947577?_l=pt_BR
+2025-03-30 22:43:33,778 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181947577, 688 remaining
+2025-03-30 22:43:33,779 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189810109?_l=pt_BR
+2025-03-30 22:43:34,071 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189810109, 687 remaining
+2025-03-30 22:43:34,071 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4161163820?_l=pt_BR
+2025-03-30 22:43:34,268 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.65s before retry...
+2025-03-30 22:43:36,917 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4161163820?_l=pt_BR
+2025-03-30 22:43:36,917 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:37,110 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.48s before retry...
+2025-03-30 22:43:41,595 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4161163820?_l=pt_BR
+2025-03-30 22:43:41,595 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:43:41,887 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4161163820, 686 remaining
+2025-03-30 22:43:41,887 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4169591814?_l=pt_BR
+2025-03-30 22:43:42,173 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4169591814, 685 remaining
+2025-03-30 22:43:42,173 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4176814861?_l=pt_BR
+2025-03-30 22:43:42,464 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4176814861, 684 remaining
+2025-03-30 22:43:42,464 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195407129?_l=pt_BR
+2025-03-30 22:43:42,755 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195407129, 683 remaining
+2025-03-30 22:43:42,755 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191833847?_l=pt_BR
+2025-03-30 22:43:43,048 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191833847, 682 remaining
+2025-03-30 22:43:43,048 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195316096?_l=pt_BR
+2025-03-30 22:43:43,239 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.93s before retry...
+2025-03-30 22:43:47,174 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195316096?_l=pt_BR
+2025-03-30 22:43:47,174 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:47,482 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 409 entries
+2025-03-30 22:43:47,482 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195316096, 681 remaining
+2025-03-30 22:43:47,482 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187129635?_l=pt_BR
+2025-03-30 22:43:47,775 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187129635, 680 remaining
+2025-03-30 22:43:47,775 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190881097?_l=pt_BR
+2025-03-30 22:43:48,064 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190881097, 679 remaining
+2025-03-30 22:43:48,065 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189147298?_l=pt_BR
+2025-03-30 22:43:48,364 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189147298, 678 remaining
+2025-03-30 22:43:48,364 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185245967?_l=pt_BR
+2025-03-30 22:43:48,547 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.63s before retry...
+2025-03-30 22:43:52,177 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185245967?_l=pt_BR
+2025-03-30 22:43:52,177 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:43:52,384 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.89s before retry...
+2025-03-30 22:43:56,276 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185245967?_l=pt_BR
+2025-03-30 22:43:56,276 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:43:56,572 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185245967, 677 remaining
+2025-03-30 22:43:56,572 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194334515?_l=pt_BR
+2025-03-30 22:43:56,871 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194334515, 676 remaining
+2025-03-30 22:43:56,872 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194340327?_l=pt_BR
+2025-03-30 22:43:57,177 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194340327, 675 remaining
+2025-03-30 22:43:57,177 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183949551?_l=pt_BR
+2025-03-30 22:43:57,463 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183949551, 674 remaining
+2025-03-30 22:43:57,463 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190879386?_l=pt_BR
+2025-03-30 22:43:57,652 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.36s before retry...
+2025-03-30 22:44:00,015 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190879386?_l=pt_BR
+2025-03-30 22:44:00,015 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:44:00,308 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190879386, 673 remaining
+2025-03-30 22:44:00,308 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4138629475?_l=pt_BR
+2025-03-30 22:44:00,608 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4138629475, 672 remaining
+2025-03-30 22:44:00,609 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180667837?_l=pt_BR
+2025-03-30 22:44:00,893 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 419 entries
+2025-03-30 22:44:00,894 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180667837, 671 remaining
+2025-03-30 22:44:00,894 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190573920?_l=pt_BR
+2025-03-30 22:44:01,189 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190573920, 670 remaining
+2025-03-30 22:44:01,189 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181296783?_l=pt_BR
+2025-03-30 22:44:01,484 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181296783, 669 remaining
+2025-03-30 22:44:01,485 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165613291?_l=pt_BR
+2025-03-30 22:44:01,672 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.98s before retry...
+2025-03-30 22:44:05,656 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165613291?_l=pt_BR
+2025-03-30 22:44:05,656 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:44:05,842 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.26s before retry...
+2025-03-30 22:44:09,108 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165613291?_l=pt_BR
+2025-03-30 22:44:09,108 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:44:09,394 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4165613291, 668 remaining
+2025-03-30 22:44:09,394 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4039248840?_l=pt_BR
+2025-03-30 22:44:09,719 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4039248840, 667 remaining
+2025-03-30 22:44:09,719 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192776955?_l=pt_BR
+2025-03-30 22:44:10,015 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192776955, 666 remaining
+2025-03-30 22:44:10,015 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165779998?_l=pt_BR
+2025-03-30 22:44:10,201 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.03s before retry...
+2025-03-30 22:44:13,235 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165779998?_l=pt_BR
+2025-03-30 22:44:13,235 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:44:13,524 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4165779998, 665 remaining
+2025-03-30 22:44:13,524 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183789721?_l=pt_BR
+2025-03-30 22:44:13,804 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183789721, 664 remaining
+2025-03-30 22:44:13,804 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178555443?_l=pt_BR
+2025-03-30 22:44:14,090 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178555443, 663 remaining
+2025-03-30 22:44:14,090 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3820428161?_l=pt_BR
+2025-03-30 22:44:14,374 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3820428161, 662 remaining
+2025-03-30 22:44:14,375 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190966601?_l=pt_BR
+2025-03-30 22:44:14,682 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 429 entries
+2025-03-30 22:44:14,683 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190966601, 661 remaining
+2025-03-30 22:44:14,683 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4118844545?_l=pt_BR
+2025-03-30 22:44:14,972 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4118844545, 660 remaining
+2025-03-30 22:44:14,972 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194307857?_l=pt_BR
+2025-03-30 22:44:15,155 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.86s before retry...
+2025-03-30 22:44:19,018 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194307857?_l=pt_BR
+2025-03-30 22:44:19,018 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:44:19,214 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.78s before retry...
+2025-03-30 22:44:23,996 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194307857?_l=pt_BR
+2025-03-30 22:44:23,996 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:44:24,294 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194307857, 659 remaining
+2025-03-30 22:44:24,294 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181162858?_l=pt_BR
+2025-03-30 22:44:24,694 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181162858, 658 remaining
+2025-03-30 22:44:24,694 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4110071106?_l=pt_BR
+2025-03-30 22:44:24,984 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4110071106, 657 remaining
+2025-03-30 22:44:24,984 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4169590983?_l=pt_BR
+2025-03-30 22:44:25,292 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4169590983, 656 remaining
+2025-03-30 22:44:25,293 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168610500?_l=pt_BR
+2025-03-30 22:44:25,579 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4168610500, 655 remaining
+2025-03-30 22:44:25,579 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4142765558?_l=pt_BR
+2025-03-30 22:44:25,866 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4142765558, 654 remaining
+2025-03-30 22:44:25,866 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178795710?_l=pt_BR
+2025-03-30 22:44:26,154 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178795710, 653 remaining
+2025-03-30 22:44:26,154 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188485856?_l=pt_BR
+2025-03-30 22:44:26,439 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188485856, 652 remaining
+2025-03-30 22:44:26,439 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4174147038?_l=pt_BR
+2025-03-30 22:44:26,729 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 439 entries
+2025-03-30 22:44:26,729 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4174147038, 651 remaining
+2025-03-30 22:44:26,729 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184993657?_l=pt_BR
+2025-03-30 22:44:27,023 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184993657, 650 remaining
+2025-03-30 22:44:27,023 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168136226?_l=pt_BR
+2025-03-30 22:44:27,208 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.31s before retry...
+2025-03-30 22:44:30,519 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168136226?_l=pt_BR
+2025-03-30 22:44:30,519 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:44:30,710 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.53s before retry...
+2025-03-30 22:44:35,238 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168136226?_l=pt_BR
+2025-03-30 22:44:35,238 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:44:35,430 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.80s before retry...
+2025-03-30 22:44:42,228 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4168136226?_l=pt_BR
+2025-03-30 22:44:42,228 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:44:42,522 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4168136226, 649 remaining
+2025-03-30 22:44:42,523 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196617066?_l=pt_BR
+2025-03-30 22:44:42,816 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196617066, 648 remaining
+2025-03-30 22:44:42,816 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190167195?_l=pt_BR
+2025-03-30 22:44:43,120 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190167195, 647 remaining
+2025-03-30 22:44:43,120 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4147164119?_l=pt_BR
+2025-03-30 22:44:43,423 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4147164119, 646 remaining
+2025-03-30 22:44:43,423 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187972355?_l=pt_BR
+2025-03-30 22:44:43,717 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187972355, 645 remaining
+2025-03-30 22:44:43,717 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4175544654?_l=pt_BR
+2025-03-30 22:44:44,010 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4175544654, 644 remaining
+2025-03-30 22:44:44,010 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193373168?_l=pt_BR
+2025-03-30 22:44:44,300 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193373168, 643 remaining
+2025-03-30 22:44:44,300 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4177587255?_l=pt_BR
+2025-03-30 22:44:44,586 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4177587255, 642 remaining
+2025-03-30 22:44:44,586 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192364584?_l=pt_BR
+2025-03-30 22:44:44,885 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 449 entries
+2025-03-30 22:44:44,885 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192364584, 641 remaining
+2025-03-30 22:44:44,885 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184959929?_l=pt_BR
+2025-03-30 22:44:45,073 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.31s before retry...
+2025-03-30 22:44:48,379 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184959929?_l=pt_BR
+2025-03-30 22:44:48,379 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:44:48,567 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.41s before retry...
+2025-03-30 22:44:52,979 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184959929?_l=pt_BR
+2025-03-30 22:44:52,979 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:44:53,164 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.55s before retry...
+2025-03-30 22:44:58,711 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184959929?_l=pt_BR
+2025-03-30 22:44:58,711 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:44:58,999 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184959929, 640 remaining
+2025-03-30 22:44:58,999 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184088969?_l=pt_BR
+2025-03-30 22:44:59,303 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184088969, 639 remaining
+2025-03-30 22:44:59,304 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190696634?_l=pt_BR
+2025-03-30 22:44:59,598 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190696634, 638 remaining
+2025-03-30 22:44:59,598 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188379818?_l=pt_BR
+2025-03-30 22:44:59,903 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188379818, 637 remaining
+2025-03-30 22:44:59,903 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187733169?_l=pt_BR
+2025-03-30 22:45:00,205 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187733169, 636 remaining
+2025-03-30 22:45:00,205 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185527121?_l=pt_BR
+2025-03-30 22:45:00,506 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185527121, 635 remaining
+2025-03-30 22:45:00,506 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190984365?_l=pt_BR
+2025-03-30 22:45:00,805 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190984365, 634 remaining
+2025-03-30 22:45:00,805 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188522008?_l=pt_BR
+2025-03-30 22:45:01,091 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188522008, 633 remaining
+2025-03-30 22:45:01,091 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4179128795?_l=pt_BR
+2025-03-30 22:45:01,392 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4179128795, 632 remaining
+2025-03-30 22:45:01,393 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193952378?_l=pt_BR
+2025-03-30 22:45:01,727 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 459 entries
+2025-03-30 22:45:01,728 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193952378, 631 remaining
+2025-03-30 22:45:01,728 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193451892?_l=pt_BR
+2025-03-30 22:45:01,917 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.62s before retry...
+2025-03-30 22:45:04,538 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193451892?_l=pt_BR
+2025-03-30 22:45:04,538 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:45:04,724 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.67s before retry...
+2025-03-30 22:45:09,396 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193451892?_l=pt_BR
+2025-03-30 22:45:09,396 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:45:09,583 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.44s before retry...
+2025-03-30 22:45:16,027 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193451892?_l=pt_BR
+2025-03-30 22:45:16,027 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:45:16,456 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193451892, 630 remaining
+2025-03-30 22:45:16,456 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181482584?_l=pt_BR
+2025-03-30 22:45:16,743 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181482584, 629 remaining
+2025-03-30 22:45:16,744 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188384745?_l=pt_BR
+2025-03-30 22:45:17,060 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188384745, 628 remaining
+2025-03-30 22:45:17,060 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187179644?_l=pt_BR
+2025-03-30 22:45:17,343 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187179644, 627 remaining
+2025-03-30 22:45:17,344 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4062223977?_l=pt_BR
+2025-03-30 22:45:17,631 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4062223977, 626 remaining
+2025-03-30 22:45:17,631 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185691648?_l=pt_BR
+2025-03-30 22:45:17,922 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185691648, 625 remaining
+2025-03-30 22:45:17,922 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188380467?_l=pt_BR
+2025-03-30 22:45:18,214 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188380467, 624 remaining
+2025-03-30 22:45:18,214 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180653220?_l=pt_BR
+2025-03-30 22:45:18,493 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180653220, 623 remaining
+2025-03-30 22:45:18,493 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181590062?_l=pt_BR
+2025-03-30 22:45:18,791 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181590062, 622 remaining
+2025-03-30 22:45:18,792 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181233198?_l=pt_BR
+2025-03-30 22:45:19,079 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 469 entries
+2025-03-30 22:45:19,079 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181233198, 621 remaining
+2025-03-30 22:45:19,080 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188600113?_l=pt_BR
+2025-03-30 22:45:19,266 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.69s before retry...
+2025-03-30 22:45:21,955 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188600113?_l=pt_BR
+2025-03-30 22:45:21,955 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:45:22,142 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.15s before retry...
+2025-03-30 22:45:26,295 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188600113?_l=pt_BR
+2025-03-30 22:45:26,295 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:45:26,490 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.14s before retry...
+2025-03-30 22:45:32,626 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188600113?_l=pt_BR
+2025-03-30 22:45:32,626 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:45:32,959 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188600113, 620 remaining
+2025-03-30 22:45:32,960 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4164535325?_l=pt_BR
+2025-03-30 22:45:33,244 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4164535325, 619 remaining
+2025-03-30 22:45:33,244 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190886468?_l=pt_BR
+2025-03-30 22:45:33,539 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190886468, 618 remaining
+2025-03-30 22:45:33,539 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192430358?_l=pt_BR
+2025-03-30 22:45:33,846 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192430358, 617 remaining
+2025-03-30 22:45:33,847 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4019494208?_l=pt_BR
+2025-03-30 22:45:34,170 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4019494208, 616 remaining
+2025-03-30 22:45:34,170 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191625238?_l=pt_BR
+2025-03-30 22:45:34,472 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191625238, 615 remaining
+2025-03-30 22:45:34,472 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183192121?_l=pt_BR
+2025-03-30 22:45:34,907 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183192121, 614 remaining
+2025-03-30 22:45:34,907 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4167856270?_l=pt_BR
+2025-03-30 22:45:35,194 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4167856270, 613 remaining
+2025-03-30 22:45:35,194 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4127654892?_l=pt_BR
+2025-03-30 22:45:35,515 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4127654892, 612 remaining
+2025-03-30 22:45:35,516 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188376067?_l=pt_BR
+2025-03-30 22:45:35,824 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 479 entries
+2025-03-30 22:45:35,824 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188376067, 611 remaining
+2025-03-30 22:45:35,824 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192611515?_l=pt_BR
+2025-03-30 22:45:36,007 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.58s before retry...
+2025-03-30 22:45:38,586 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192611515?_l=pt_BR
+2025-03-30 22:45:38,586 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:45:38,773 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.23s before retry...
+2025-03-30 22:45:41,999 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192611515?_l=pt_BR
+2025-03-30 22:45:41,999 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:45:42,184 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.84s before retry...
+2025-03-30 22:45:48,025 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192611515?_l=pt_BR
+2025-03-30 22:45:48,025 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:45:48,303 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192611515, 610 remaining
+2025-03-30 22:45:48,303 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193988618?_l=pt_BR
+2025-03-30 22:45:48,605 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193988618, 609 remaining
+2025-03-30 22:45:48,605 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4132645072?_l=pt_BR
+2025-03-30 22:45:48,901 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4132645072, 608 remaining
+2025-03-30 22:45:48,901 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187178545?_l=pt_BR
+2025-03-30 22:45:49,198 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187178545, 607 remaining
+2025-03-30 22:45:49,198 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192724964?_l=pt_BR
+2025-03-30 22:45:49,514 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192724964, 606 remaining
+2025-03-30 22:45:49,515 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4171053952?_l=pt_BR
+2025-03-30 22:45:49,806 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4171053952, 605 remaining
+2025-03-30 22:45:49,806 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185253082?_l=pt_BR
+2025-03-30 22:45:50,086 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185253082, 604 remaining
+2025-03-30 22:45:50,087 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4151539127?_l=pt_BR
+2025-03-30 22:45:50,375 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4151539127, 603 remaining
+2025-03-30 22:45:50,375 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196361075?_l=pt_BR
+2025-03-30 22:45:50,667 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196361075, 602 remaining
+2025-03-30 22:45:50,667 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185031469?_l=pt_BR
+2025-03-30 22:45:50,966 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 489 entries
+2025-03-30 22:45:50,966 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185031469, 601 remaining
+2025-03-30 22:45:50,966 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196346231?_l=pt_BR
+2025-03-30 22:45:51,154 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.70s before retry...
+2025-03-30 22:45:54,850 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196346231?_l=pt_BR
+2025-03-30 22:45:54,850 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:45:55,040 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.93s before retry...
+2025-03-30 22:45:58,973 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196346231?_l=pt_BR
+2025-03-30 22:45:58,973 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:45:59,160 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.37s before retry...
+2025-03-30 22:46:04,532 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4196346231?_l=pt_BR
+2025-03-30 22:46:04,532 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:46:04,832 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4196346231, 600 remaining
+2025-03-30 22:46:04,832 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4152257327?_l=pt_BR
+2025-03-30 22:46:05,183 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4152257327, 599 remaining
+2025-03-30 22:46:05,183 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191610417?_l=pt_BR
+2025-03-30 22:46:05,469 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191610417, 598 remaining
+2025-03-30 22:46:05,469 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192469724?_l=pt_BR
+2025-03-30 22:46:05,756 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192469724, 597 remaining
+2025-03-30 22:46:05,756 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188778503?_l=pt_BR
+2025-03-30 22:46:06,046 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188778503, 596 remaining
+2025-03-30 22:46:06,047 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187549180?_l=pt_BR
+2025-03-30 22:46:06,336 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187549180, 595 remaining
+2025-03-30 22:46:06,336 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184494099?_l=pt_BR
+2025-03-30 22:46:06,648 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184494099, 594 remaining
+2025-03-30 22:46:06,648 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190883056?_l=pt_BR
+2025-03-30 22:46:06,950 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190883056, 593 remaining
+2025-03-30 22:46:06,950 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188319067?_l=pt_BR
+2025-03-30 22:46:07,236 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188319067, 592 remaining
+2025-03-30 22:46:07,236 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183708646?_l=pt_BR
+2025-03-30 22:46:07,422 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.05s before retry...
+2025-03-30 22:46:09,468 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183708646?_l=pt_BR
+2025-03-30 22:46:09,468 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:46:09,655 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.66s before retry...
+2025-03-30 22:46:13,313 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183708646?_l=pt_BR
+2025-03-30 22:46:13,313 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:46:13,518 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.95s before retry...
+2025-03-30 22:46:19,468 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183708646?_l=pt_BR
+2025-03-30 22:46:19,468 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:46:19,769 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 499 entries
+2025-03-30 22:46:19,770 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183708646, 591 remaining
+2025-03-30 22:46:19,770 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4015511838?_l=pt_BR
+2025-03-30 22:46:20,105 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4015511838, 590 remaining
+2025-03-30 22:46:20,105 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195178909?_l=pt_BR
+2025-03-30 22:46:20,395 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195178909, 589 remaining
+2025-03-30 22:46:20,395 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190597967?_l=pt_BR
+2025-03-30 22:46:20,697 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190597967, 588 remaining
+2025-03-30 22:46:20,697 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193926801?_l=pt_BR
+2025-03-30 22:46:20,988 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193926801, 587 remaining
+2025-03-30 22:46:20,988 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185692079?_l=pt_BR
+2025-03-30 22:46:21,288 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185692079, 586 remaining
+2025-03-30 22:46:21,288 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194700510?_l=pt_BR
+2025-03-30 22:46:21,572 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194700510, 585 remaining
+2025-03-30 22:46:21,572 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195313658?_l=pt_BR
+2025-03-30 22:46:21,882 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195313658, 584 remaining
+2025-03-30 22:46:21,882 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189404547?_l=pt_BR
+2025-03-30 22:46:22,172 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189404547, 583 remaining
+2025-03-30 22:46:22,173 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180652277?_l=pt_BR
+2025-03-30 22:46:22,366 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.93s before retry...
+2025-03-30 22:46:26,294 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180652277?_l=pt_BR
+2025-03-30 22:46:26,294 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:46:26,482 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.06s before retry...
+2025-03-30 22:46:30,542 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180652277?_l=pt_BR
+2025-03-30 22:46:30,542 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:46:30,727 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.94s before retry...
+2025-03-30 22:46:36,664 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4180652277?_l=pt_BR
+2025-03-30 22:46:36,664 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:46:36,957 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4180652277, 582 remaining
+2025-03-30 22:46:36,958 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4170711285?_l=pt_BR
+2025-03-30 22:46:37,266 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 509 entries
+2025-03-30 22:46:37,266 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4170711285, 581 remaining
+2025-03-30 22:46:37,266 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189404560?_l=pt_BR
+2025-03-30 22:46:37,571 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189404560, 580 remaining
+2025-03-30 22:46:37,571 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193937070?_l=pt_BR
+2025-03-30 22:46:37,866 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193937070, 579 remaining
+2025-03-30 22:46:37,866 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4189857447?_l=pt_BR
+2025-03-30 22:46:38,150 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4189857447, 578 remaining
+2025-03-30 22:46:38,150 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194318209?_l=pt_BR
+2025-03-30 22:46:38,452 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194318209, 577 remaining
+2025-03-30 22:46:38,453 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178664785?_l=pt_BR
+2025-03-30 22:46:38,742 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178664785, 576 remaining
+2025-03-30 22:46:38,742 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4182296658?_l=pt_BR
+2025-03-30 22:46:39,043 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4182296658, 575 remaining
+2025-03-30 22:46:39,043 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190105369?_l=pt_BR
+2025-03-30 22:46:39,335 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190105369, 574 remaining
+2025-03-30 22:46:39,336 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4175719608?_l=pt_BR
+2025-03-30 22:46:39,626 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4175719608, 573 remaining
+2025-03-30 22:46:39,626 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4132643587?_l=pt_BR
+2025-03-30 22:46:39,813 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.37s before retry...
+2025-03-30 22:46:42,181 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4132643587?_l=pt_BR
+2025-03-30 22:46:42,181 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:46:42,370 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.01s before retry...
+2025-03-30 22:46:45,381 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4132643587?_l=pt_BR
+2025-03-30 22:46:45,381 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:46:45,569 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.30s before retry...
+2025-03-30 22:46:51,870 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4132643587?_l=pt_BR
+2025-03-30 22:46:51,870 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:46:52,172 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4132643587, 572 remaining
+2025-03-30 22:46:52,172 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4143812670?_l=pt_BR
+2025-03-30 22:46:52,460 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 519 entries
+2025-03-30 22:46:52,460 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4143812670, 571 remaining
+2025-03-30 22:46:52,460 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4158837756?_l=pt_BR
+2025-03-30 22:46:52,741 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4158837756, 570 remaining
+2025-03-30 22:46:52,741 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192473246?_l=pt_BR
+2025-03-30 22:46:53,038 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192473246, 569 remaining
+2025-03-30 22:46:53,039 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165617268?_l=pt_BR
+2025-03-30 22:46:53,334 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4165617268, 568 remaining
+2025-03-30 22:46:53,334 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191196990?_l=pt_BR
+2025-03-30 22:46:53,623 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191196990, 567 remaining
+2025-03-30 22:46:53,623 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4112687768?_l=pt_BR
+2025-03-30 22:46:53,920 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4112687768, 566 remaining
+2025-03-30 22:46:53,921 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165444277?_l=pt_BR
+2025-03-30 22:46:54,212 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4165444277, 565 remaining
+2025-03-30 22:46:54,212 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4159644080?_l=pt_BR
+2025-03-30 22:46:54,492 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4159644080, 564 remaining
+2025-03-30 22:46:54,492 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191625220?_l=pt_BR
+2025-03-30 22:46:54,783 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191625220, 563 remaining
+2025-03-30 22:46:54,783 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194311263?_l=pt_BR
+2025-03-30 22:46:54,970 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.20s before retry...
+2025-03-30 22:46:57,173 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194311263?_l=pt_BR
+2025-03-30 22:46:57,173 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:46:57,367 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.20s before retry...
+2025-03-30 22:47:01,570 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194311263?_l=pt_BR
+2025-03-30 22:47:01,570 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:47:01,754 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.00s before retry...
+2025-03-30 22:47:07,752 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194311263?_l=pt_BR
+2025-03-30 22:47:07,752 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:47:08,035 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194311263, 562 remaining
+2025-03-30 22:47:08,035 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192856767?_l=pt_BR
+2025-03-30 22:47:08,335 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 529 entries
+2025-03-30 22:47:08,335 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192856767, 561 remaining
+2025-03-30 22:47:08,335 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/3884959972?_l=pt_BR
+2025-03-30 22:47:08,622 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 3884959972, 560 remaining
+2025-03-30 22:47:08,623 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4117095157?_l=pt_BR
+2025-03-30 22:47:08,908 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4117095157, 559 remaining
+2025-03-30 22:47:08,909 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4178677237?_l=pt_BR
+2025-03-30 22:47:09,197 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4178677237, 558 remaining
+2025-03-30 22:47:09,197 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183366204?_l=pt_BR
+2025-03-30 22:47:09,489 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183366204, 557 remaining
+2025-03-30 22:47:09,489 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4181185984?_l=pt_BR
+2025-03-30 22:47:09,792 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4181185984, 556 remaining
+2025-03-30 22:47:09,792 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188119083?_l=pt_BR
+2025-03-30 22:47:10,078 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188119083, 555 remaining
+2025-03-30 22:47:10,078 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190351770?_l=pt_BR
+2025-03-30 22:47:10,372 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190351770, 554 remaining
+2025-03-30 22:47:10,372 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192369046?_l=pt_BR
+2025-03-30 22:47:10,662 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192369046, 553 remaining
+2025-03-30 22:47:10,663 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191845622?_l=pt_BR
+2025-03-30 22:47:10,855 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.99s before retry...
+2025-03-30 22:47:13,850 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191845622?_l=pt_BR
+2025-03-30 22:47:13,850 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:47:14,040 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 4.79s before retry...
+2025-03-30 22:47:18,827 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191845622?_l=pt_BR
+2025-03-30 22:47:18,827 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:47:19,018 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.38s before retry...
+2025-03-30 22:47:25,401 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4191845622?_l=pt_BR
+2025-03-30 22:47:25,401 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 22:47:25,695 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4191845622, 552 remaining
+2025-03-30 22:47:25,695 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192445541?_l=pt_BR
+2025-03-30 22:47:25,986 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 539 entries
+2025-03-30 22:47:25,986 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192445541, 551 remaining
+2025-03-30 22:47:25,986 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4050442368?_l=pt_BR
+2025-03-30 22:47:26,325 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4050442368, 550 remaining
+2025-03-30 22:47:26,325 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4188977869?_l=pt_BR
+2025-03-30 22:47:26,617 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4188977869, 549 remaining
+2025-03-30 22:47:26,617 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193847617?_l=pt_BR
+2025-03-30 22:47:26,919 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193847617, 548 remaining
+2025-03-30 22:47:26,919 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187527212?_l=pt_BR
+2025-03-30 22:47:27,239 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187527212, 547 remaining
+2025-03-30 22:47:27,239 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192633281?_l=pt_BR
+2025-03-30 22:47:27,527 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192633281, 546 remaining
+2025-03-30 22:47:27,528 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194315555?_l=pt_BR
+2025-03-30 22:47:27,819 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194315555, 545 remaining
+2025-03-30 22:47:27,819 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4167894283?_l=pt_BR
+2025-03-30 22:47:28,102 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4167894283, 544 remaining
+2025-03-30 22:47:28,102 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4039457469?_l=pt_BR
+2025-03-30 22:47:28,406 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4039457469, 543 remaining
+2025-03-30 22:47:28,406 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4001910281?_l=pt_BR
+2025-03-30 22:47:28,589 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.66s before retry...
+2025-03-30 22:47:31,255 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4001910281?_l=pt_BR
+2025-03-30 22:47:31,255 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 22:47:31,449 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.10s before retry...
+2025-03-30 22:47:34,550 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4001910281?_l=pt_BR
+2025-03-30 22:47:34,550 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 22:47:34,744 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 6.66s before retry...

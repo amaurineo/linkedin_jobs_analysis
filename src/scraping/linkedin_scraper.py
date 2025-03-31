@@ -3,6 +3,7 @@ import random
 import logging
 import time
 import pandas as pd
+import pickle
 from bs4 import BeautifulSoup
 from pathlib import Path
 from .config import JOB_KEYWORD, WORK_MODEL
@@ -13,7 +14,19 @@ class JobScraper():
     def __init__(self):
         pass
 
+    def save_job_cache(self, job_cache):
+        with open('data/processed/job_cache.pkl', 'wb') as f:
+            pickle.dump(job_cache, f)
+
+    def load_job_cache(self):
+        cache_file = Path('data/processed/job_cache.pkl')
+        if cache_file.exists():
+            with open(cache_file, 'rb') as f:
+                return pickle.load(f)
+        return {}
+
     def get_job_ids(self, n_ids, keyword=JOB_KEYWORD, work_model_id='random'):
+
         logger.info(f'Initializing scraping of {n_ids} job IDs')
         
         if work_model_id not in ['1', '2', '3', 'random']:
@@ -23,22 +36,29 @@ class JobScraper():
 
         try:
             for n_results in range(0, n_ids, 10):
-                current_work_model = random.choice(list(WORK_MODEL.keys())) if work_model_id == 'random' else work_model_id
-                
-                list_url = f'https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={keyword}&location=Brasil&geoId=106057199&f_WT={\
-                    current_work_model}&position=1&start={n_results}'
+                try:
+                    current_work_model = random.choice(list(WORK_MODEL.keys())) if work_model_id == 'random' else work_model_id
+                    
+                    list_url = f'https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={keyword}&location=Brasil&geoId=106057199&f_WT={\
+                        current_work_model}&position=1&start={n_results}'
 
-                response = requests.get(list_url)
-                response.raise_for_status()
-                list_soup = BeautifulSoup(response.text, 'html.parser')
-                job_cards = list_soup.find_all('div', class_='base-card')
+                    response = requests.get(list_url)
+                    response.raise_for_status()
+                    list_soup = BeautifulSoup(response.text, 'html.parser')
+                    job_cards = list_soup.find_all('div', class_='base-card')
 
-                for card in job_cards:
-                    job_id = card.get('data-entity-urn', '').split(':')[-1]
-                    if job_id and job_id not in job_data:
-                        job_data[job_id] = WORK_MODEL[current_work_model]
+                    for card in job_cards:
+                        job_id = card.get('data-entity-urn', '').split(':')[-1]
+                        if job_id and job_id not in job_data:
+                            job_data[job_id] = WORK_MODEL[current_work_model]
+                except Exception as e:
+                    logger.error(f"Unexpected error while fetching a specific page: {e}")
 
             logger.success(f'Successfully scraped {len(job_data)} IDs')
+
+            self.save_job_cache(job_data)
+            logger.info(f"Stored IDs cache in 'data/processed/job_cache.pkl'")
+
             return job_data
         
         except Exception as e:
@@ -56,25 +76,27 @@ class JobScraper():
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
         ]
 
-        def fetch_with_retry(url, max_retries=5, base_delay=2):
+        def fetch_with_retry(url, max_retries=5):
             headers = {'User-Agent': USER_AGENTS[0]}  # Start with a fixed User-Agent
             
             for attempt in range(max_retries):
-                wait_time = base_delay * (2 ** attempt) + random.uniform(1, 3)
-                logger.info(f"Requesting {url} (Attempt {attempt + 1}) - Waiting {wait_time:.2f} seconds")
-                time.sleep(wait_time)
-
+                # wait_time = base_delay * (2 ** attempt) + random.uniform(1, 3)
+                logger.info(f"Requesting {url} (Attempt {attempt + 1})")
                 try:
                     response = requests.get(url, headers=headers)
-                    
-                    if response.status_code == 429:
+
+                    if response.status_code == 200:
+                        return response
+                    elif response.status_code == 429:
+                        wait_time = random.uniform(1, 5)
+                        time.sleep(wait_time)
                         headers['User-Agent'] = random.choice(USER_AGENTS)  # Rotate User-Agent
                         logger.warning(f"Status code 429 (too many requests): Changing User-Agent and retrying...")
                         logger.info(f"{remaining_jobs} jobs remaining...")
                         continue
+                    else:
+                        response.raise_for_status()
                     
-                    response.raise_for_status()
-                    return response
                 except requests.exceptions.RequestException as e:
                     logger.error(f"Request failed: {e}")
             return None
@@ -100,11 +122,6 @@ class JobScraper():
 
                 if job_response.status_code != 200:
                     continue
-                # job_response = fetch_with_retry(job_url)
-                
-                # if not job_response:
-                #     logger.error(f"Failed to fetch data from job ID {job_id} after multiple attempts")
-                #     continue
 
                 job_post = {'job_id': job_id, 'work_model': job_work_model}
                 job_soup = BeautifulSoup(job_response.text, 'html.parser')

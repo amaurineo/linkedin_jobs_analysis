@@ -1,0 +1,13 @@
+2025-03-30 23:41:29,560 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 1000 job IDs
+2025-03-30 23:41:42,911 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=0
+2025-03-30 23:41:49,346 - src.scraping.linkedin_scraper_v2 - ERROR - Failed to save cache: expected str, bytes or os.PathLike object, not set
+2025-03-30 23:41:58,537 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=10
+2025-03-30 23:41:59,343 - src.scraping.linkedin_scraper_v2 - ERROR - Failed to save cache: expected str, bytes or os.PathLike object, not set
+2025-03-30 23:41:59,343 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=20
+2025-03-30 23:42:00,173 - src.scraping.linkedin_scraper_v2 - ERROR - Failed to save cache: expected str, bytes or os.PathLike object, not set
+2025-03-30 23:42:00,173 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=30
+2025-03-30 23:42:00,932 - src.scraping.linkedin_scraper_v2 - ERROR - Failed to save cache: expected str, bytes or os.PathLike object, not set
+2025-03-30 23:42:00,932 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=40
+2025-03-30 23:42:01,774 - src.scraping.linkedin_scraper_v2 - ERROR - Failed to save cache: expected str, bytes or os.PathLike object, not set
+2025-03-30 23:42:01,774 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=50
+2025-03-30 23:43:13,448 - src.scraping.linkedin_scraper_v2 - ERROR - Failed to save cache: expected str, bytes or os.PathLike object, not set

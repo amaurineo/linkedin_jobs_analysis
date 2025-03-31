@@ -1,0 +1,25 @@
+2025-03-31 00:19:53,818 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 1000 job IDs
+2025-03-31 00:19:53,818 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=0
+2025-03-31 00:19:54,642 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:19:54,643 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=10
+2025-03-31 00:19:55,311 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries
+2025-03-31 00:19:55,311 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=20
+2025-03-31 00:19:55,929 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:19:55,929 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=30
+2025-03-31 00:19:56,667 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:19:56,667 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=40
+2025-03-31 00:19:57,288 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries
+2025-03-31 00:19:57,288 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=50
+2025-03-31 00:19:57,942 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:19:57,943 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=60
+2025-03-31 00:19:58,599 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:19:58,599 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=70
+2025-03-31 00:19:58,821 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.69s before retry...
+2025-03-31 00:20:01,510 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=70
+2025-03-31 00:20:01,510 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-31 00:20:02,193 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:20:02,193 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=80
+2025-03-31 00:20:02,842 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries
+2025-03-31 00:20:02,842 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=90
+2025-03-31 00:20:03,068 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.35s before retry...
+2025-03-31 00:20:03,343 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries

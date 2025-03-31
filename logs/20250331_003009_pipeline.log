@@ -1,0 +1,7 @@
+2025-03-31 00:30:16,827 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 100 job IDs
+2025-03-31 00:30:22,193 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=0
+2025-03-31 00:30:26,291 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment
+2025-03-31 00:30:50,064 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=10
+2025-03-31 00:31:28,866 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 1680 entries
+2025-03-31 00:31:38,015 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=20
+2025-03-31 00:32:06,212 - src.scraping.linkedin_scraper_v2 - ERROR - Unexpected error while fetching a specific page: 'set' object does not support item assignment

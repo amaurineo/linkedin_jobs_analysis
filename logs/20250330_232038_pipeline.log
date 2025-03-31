@@ -1,0 +1,431 @@
+2025-03-30 23:20:40,206 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 1000 job IDs
+2025-03-30 23:20:40,206 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=0
+2025-03-30 23:20:40,987 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=10
+2025-03-30 23:20:41,662 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=20
+2025-03-30 23:20:42,278 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=30
+2025-03-30 23:20:42,910 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=40
+2025-03-30 23:20:43,532 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=50
+2025-03-30 23:20:44,142 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=60
+2025-03-30 23:20:44,768 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=70
+2025-03-30 23:20:45,353 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=80
+2025-03-30 23:20:45,969 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=90
+2025-03-30 23:20:46,652 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=100
+2025-03-30 23:20:46,837 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=100
+2025-03-30 23:20:46,837 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 100, skipping...
+2025-03-30 23:20:46,837 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=110
+2025-03-30 23:20:47,026 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=110
+2025-03-30 23:20:47,026 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 110, skipping...
+2025-03-30 23:20:47,026 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=120
+2025-03-30 23:20:47,213 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=120
+2025-03-30 23:20:47,213 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 120, skipping...
+2025-03-30 23:20:47,213 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=130
+2025-03-30 23:20:47,394 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=130
+2025-03-30 23:20:47,394 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 130, skipping...
+2025-03-30 23:20:47,394 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=140
+2025-03-30 23:20:47,579 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=140
+2025-03-30 23:20:47,579 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 140, skipping...
+2025-03-30 23:20:47,579 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=150
+2025-03-30 23:20:47,762 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=150
+2025-03-30 23:20:47,762 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 150, skipping...
+2025-03-30 23:20:47,762 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=160
+2025-03-30 23:20:47,956 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=160
+2025-03-30 23:20:47,956 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 160, skipping...
+2025-03-30 23:20:47,956 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=170
+2025-03-30 23:20:48,137 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=170
+2025-03-30 23:20:48,137 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 170, skipping...
+2025-03-30 23:20:48,137 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=180
+2025-03-30 23:20:48,326 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=180
+2025-03-30 23:20:48,326 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 180, skipping...
+2025-03-30 23:20:48,326 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=190
+2025-03-30 23:20:48,515 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=190
+2025-03-30 23:20:48,515 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 190, skipping...
+2025-03-30 23:20:48,515 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=200
+2025-03-30 23:20:48,703 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=200
+2025-03-30 23:20:48,703 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 200, skipping...
+2025-03-30 23:20:48,703 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=210
+2025-03-30 23:20:48,897 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=210
+2025-03-30 23:20:48,897 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 210, skipping...
+2025-03-30 23:20:48,897 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=220
+2025-03-30 23:20:49,076 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=220
+2025-03-30 23:20:49,076 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 220, skipping...
+2025-03-30 23:20:49,076 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=230
+2025-03-30 23:20:49,260 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=230
+2025-03-30 23:20:49,260 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 230, skipping...
+2025-03-30 23:20:49,260 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=240
+2025-03-30 23:20:49,453 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=240
+2025-03-30 23:20:49,453 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 240, skipping...
+2025-03-30 23:20:49,453 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=250
+2025-03-30 23:20:49,626 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=250
+2025-03-30 23:20:49,626 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 250, skipping...
+2025-03-30 23:20:49,626 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=260
+2025-03-30 23:20:49,826 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=260
+2025-03-30 23:20:49,826 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 260, skipping...
+2025-03-30 23:20:49,826 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=270
+2025-03-30 23:20:50,007 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=270
+2025-03-30 23:20:50,007 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 270, skipping...
+2025-03-30 23:20:50,007 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=280
+2025-03-30 23:20:50,191 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=280
+2025-03-30 23:20:50,191 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 280, skipping...
+2025-03-30 23:20:50,191 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=290
+2025-03-30 23:20:50,375 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=290
+2025-03-30 23:20:50,375 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 290, skipping...
+2025-03-30 23:20:50,375 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=300
+2025-03-30 23:20:50,581 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=300
+2025-03-30 23:20:50,581 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 300, skipping...
+2025-03-30 23:20:50,581 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=310
+2025-03-30 23:20:51,055 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=310
+2025-03-30 23:20:51,055 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 310, skipping...
+2025-03-30 23:20:51,055 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=320
+2025-03-30 23:20:51,520 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=320
+2025-03-30 23:20:51,520 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 320, skipping...
+2025-03-30 23:20:51,520 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=330
+2025-03-30 23:20:51,698 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=330
+2025-03-30 23:20:51,698 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 330, skipping...
+2025-03-30 23:20:51,698 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=340
+2025-03-30 23:20:52,171 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=340
+2025-03-30 23:20:52,171 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 340, skipping...
+2025-03-30 23:20:52,171 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=350
+2025-03-30 23:20:52,362 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=350
+2025-03-30 23:20:52,362 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 350, skipping...
+2025-03-30 23:20:52,362 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=360
+2025-03-30 23:20:52,552 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=360
+2025-03-30 23:20:52,552 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 360, skipping...
+2025-03-30 23:20:52,552 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=370
+2025-03-30 23:20:52,739 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=370
+2025-03-30 23:20:52,739 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 370, skipping...
+2025-03-30 23:20:52,739 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=380
+2025-03-30 23:20:53,216 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=380
+2025-03-30 23:20:53,216 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 380, skipping...
+2025-03-30 23:20:53,216 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=390
+2025-03-30 23:20:53,400 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=390
+2025-03-30 23:20:53,400 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 390, skipping...
+2025-03-30 23:20:53,400 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=400
+2025-03-30 23:20:53,880 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=400
+2025-03-30 23:20:53,880 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 400, skipping...
+2025-03-30 23:20:53,880 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=410
+2025-03-30 23:20:54,355 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=410
+2025-03-30 23:20:54,355 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 410, skipping...
+2025-03-30 23:20:54,355 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=420
+2025-03-30 23:20:54,831 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=420
+2025-03-30 23:20:54,831 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 420, skipping...
+2025-03-30 23:20:54,831 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=430
+2025-03-30 23:20:55,023 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=430
+2025-03-30 23:20:55,023 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 430, skipping...
+2025-03-30 23:20:55,023 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=440
+2025-03-30 23:20:55,198 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=440
+2025-03-30 23:20:55,198 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 440, skipping...
+2025-03-30 23:20:55,198 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=450
+2025-03-30 23:20:55,390 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=450
+2025-03-30 23:20:55,390 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 450, skipping...
+2025-03-30 23:20:55,390 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=460
+2025-03-30 23:20:55,595 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=460
+2025-03-30 23:20:55,595 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 460, skipping...
+2025-03-30 23:20:55,595 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=470
+2025-03-30 23:20:55,773 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=470
+2025-03-30 23:20:55,779 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 470, skipping...
+2025-03-30 23:20:55,779 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=480
+2025-03-30 23:20:55,953 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=480
+2025-03-30 23:20:55,953 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 480, skipping...
+2025-03-30 23:20:55,953 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=490
+2025-03-30 23:20:56,154 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=490
+2025-03-30 23:20:56,154 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 490, skipping...
+2025-03-30 23:20:56,154 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=500
+2025-03-30 23:20:56,342 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=500
+2025-03-30 23:20:56,342 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 500, skipping...
+2025-03-30 23:20:56,342 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=510
+2025-03-30 23:20:56,520 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=510
+2025-03-30 23:20:56,520 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 510, skipping...
+2025-03-30 23:20:56,520 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=520
+2025-03-30 23:20:56,996 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=520
+2025-03-30 23:20:56,996 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 520, skipping...
+2025-03-30 23:20:56,996 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=530
+2025-03-30 23:20:57,186 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=530
+2025-03-30 23:20:57,186 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 530, skipping...
+2025-03-30 23:20:57,186 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=540
+2025-03-30 23:20:57,659 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=540
+2025-03-30 23:20:57,659 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 540, skipping...
+2025-03-30 23:20:57,659 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=550
+2025-03-30 23:20:57,856 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=550
+2025-03-30 23:20:57,856 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 550, skipping...
+2025-03-30 23:20:57,856 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=560
+2025-03-30 23:20:58,333 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=560
+2025-03-30 23:20:58,333 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 560, skipping...
+2025-03-30 23:20:58,333 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=570
+2025-03-30 23:20:58,526 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=570
+2025-03-30 23:20:58,526 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 570, skipping...
+2025-03-30 23:20:58,526 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=580
+2025-03-30 23:20:59,003 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=580
+2025-03-30 23:20:59,003 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 580, skipping...
+2025-03-30 23:20:59,003 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=590
+2025-03-30 23:20:59,480 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=590
+2025-03-30 23:20:59,480 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 590, skipping...
+2025-03-30 23:20:59,480 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=600
+2025-03-30 23:20:59,966 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=600
+2025-03-30 23:20:59,966 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 600, skipping...
+2025-03-30 23:20:59,966 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=610
+2025-03-30 23:21:00,172 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=610
+2025-03-30 23:21:00,172 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 610, skipping...
+2025-03-30 23:21:00,172 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=620
+2025-03-30 23:21:00,647 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=620
+2025-03-30 23:21:00,647 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 620, skipping...
+2025-03-30 23:21:00,647 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=630
+2025-03-30 23:21:01,108 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=630
+2025-03-30 23:21:01,108 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 630, skipping...
+2025-03-30 23:21:01,108 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=640
+2025-03-30 23:21:01,589 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=640
+2025-03-30 23:21:01,589 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 640, skipping...
+2025-03-30 23:21:01,589 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=650
+2025-03-30 23:21:01,766 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=650
+2025-03-30 23:21:01,782 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 650, skipping...
+2025-03-30 23:21:01,782 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=660
+2025-03-30 23:21:02,241 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=660
+2025-03-30 23:21:02,241 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 660, skipping...
+2025-03-30 23:21:02,241 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=670
+2025-03-30 23:21:02,437 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=670
+2025-03-30 23:21:02,437 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 670, skipping...
+2025-03-30 23:21:02,437 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=680
+2025-03-30 23:21:02,624 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=680
+2025-03-30 23:21:02,624 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 680, skipping...
+2025-03-30 23:21:02,624 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=690
+2025-03-30 23:21:02,815 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=690
+2025-03-30 23:21:02,815 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 690, skipping...
+2025-03-30 23:21:02,815 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=700
+2025-03-30 23:21:03,007 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=700
+2025-03-30 23:21:03,007 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 700, skipping...
+2025-03-30 23:21:03,007 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=710
+2025-03-30 23:21:03,207 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=710
+2025-03-30 23:21:03,207 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 710, skipping...
+2025-03-30 23:21:03,207 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=720
+2025-03-30 23:21:03,382 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=720
+2025-03-30 23:21:03,382 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 720, skipping...
+2025-03-30 23:21:03,382 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=730
+2025-03-30 23:21:03,572 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=730
+2025-03-30 23:21:03,572 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 730, skipping...
+2025-03-30 23:21:03,572 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=740
+2025-03-30 23:21:03,765 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=740
+2025-03-30 23:21:03,765 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 740, skipping...
+2025-03-30 23:21:03,765 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=750
+2025-03-30 23:21:03,949 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=750
+2025-03-30 23:21:03,949 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 750, skipping...
+2025-03-30 23:21:03,949 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=760
+2025-03-30 23:21:04,435 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=760
+2025-03-30 23:21:04,435 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 760, skipping...
+2025-03-30 23:21:04,435 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=770
+2025-03-30 23:21:04,916 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=770
+2025-03-30 23:21:04,916 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 770, skipping...
+2025-03-30 23:21:04,916 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=780
+2025-03-30 23:21:05,383 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=780
+2025-03-30 23:21:05,383 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 780, skipping...
+2025-03-30 23:21:05,383 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=790
+2025-03-30 23:21:05,863 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=790
+2025-03-30 23:21:05,863 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 790, skipping...
+2025-03-30 23:21:05,863 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=800
+2025-03-30 23:21:06,045 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=800
+2025-03-30 23:21:06,045 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 800, skipping...
+2025-03-30 23:21:06,045 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=810
+2025-03-30 23:21:06,226 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=810
+2025-03-30 23:21:06,242 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 810, skipping...
+2025-03-30 23:21:06,242 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=820
+2025-03-30 23:21:06,421 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=820
+2025-03-30 23:21:06,421 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 820, skipping...
+2025-03-30 23:21:06,421 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=830
+2025-03-30 23:21:06,612 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=830
+2025-03-30 23:21:06,612 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 830, skipping...
+2025-03-30 23:21:06,612 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=840
+2025-03-30 23:21:06,801 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=840
+2025-03-30 23:21:06,801 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 840, skipping...
+2025-03-30 23:21:06,801 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=850
+2025-03-30 23:21:06,977 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=850
+2025-03-30 23:21:06,989 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 850, skipping...
+2025-03-30 23:21:06,989 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=860
+2025-03-30 23:21:07,167 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=860
+2025-03-30 23:21:07,167 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 860, skipping...
+2025-03-30 23:21:07,167 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=870
+2025-03-30 23:21:07,637 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=870
+2025-03-30 23:21:07,637 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 870, skipping...
+2025-03-30 23:21:07,637 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=880
+2025-03-30 23:21:08,099 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=880
+2025-03-30 23:21:08,099 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 880, skipping...
+2025-03-30 23:21:08,099 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=890
+2025-03-30 23:21:08,287 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=890
+2025-03-30 23:21:08,287 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 890, skipping...
+2025-03-30 23:21:08,287 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=900
+2025-03-30 23:21:08,481 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=900
+2025-03-30 23:21:08,481 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 900, skipping...
+2025-03-30 23:21:08,481 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=910
+2025-03-30 23:21:08,969 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=910
+2025-03-30 23:21:08,969 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 910, skipping...
+2025-03-30 23:21:08,969 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=920
+2025-03-30 23:21:09,159 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=920
+2025-03-30 23:21:09,159 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 920, skipping...
+2025-03-30 23:21:09,159 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=930
+2025-03-30 23:21:09,348 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=930
+2025-03-30 23:21:09,348 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 930, skipping...
+2025-03-30 23:21:09,348 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=940
+2025-03-30 23:21:09,536 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=940
+2025-03-30 23:21:09,536 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 940, skipping...
+2025-03-30 23:21:09,536 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=950
+2025-03-30 23:21:09,736 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=950
+2025-03-30 23:21:09,736 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 950, skipping...
+2025-03-30 23:21:09,736 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=960
+2025-03-30 23:21:09,916 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=3&position=1&start=960
+2025-03-30 23:21:09,916 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 960, skipping...
+2025-03-30 23:21:09,916 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=970
+2025-03-30 23:21:10,114 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=970
+2025-03-30 23:21:10,114 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 970, skipping...
+2025-03-30 23:21:10,114 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=980
+2025-03-30 23:21:10,308 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=980
+2025-03-30 23:21:10,308 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 980, skipping...
+2025-03-30 23:21:10,308 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=990
+2025-03-30 23:21:10,484 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=990
+2025-03-30 23:21:10,484 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch jobs at offset 990, skipping...
+2025-03-30 23:21:10,484 - src.scraping.linkedin_scraper_v2 - SUCCESS - Successfully scraped 99 IDs
+2025-03-30 23:21:10,484 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 99 job postings
+2025-03-30 23:21:10,510 - src.scraping.linkedin_scraper_v2 - INFO - Found 99 already processed jobs in data\raw\jobs_data.csv
+2025-03-30 23:21:10,510 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4185677926
+2025-03-30 23:21:10,510 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4146772081
+2025-03-30 23:21:10,510 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4152258042
+2025-03-30 23:21:10,510 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4189220057
+2025-03-30 23:21:10,510 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4186563017
+2025-03-30 23:21:10,514 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4182151010
+2025-03-30 23:21:10,514 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4184402161
+2025-03-30 23:21:10,514 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4187001121
+2025-03-30 23:21:10,514 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4185696461
+2025-03-30 23:21:10,515 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190799837
+2025-03-30 23:21:10,518 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 10 jobs to data\raw\jobs_data.csv
+2025-03-30 23:21:10,518 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4191861882 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4190698080 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4184706997 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4193937509 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4188511746 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4194339373 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4194334967 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4190599819 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4170747725 - already in CSV file
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4192368356
+2025-03-30 23:21:10,519 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183504583?_l=pt_BR
+2025-03-30 23:21:10,994 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 2.77s before retry...
+2025-03-30 23:21:13,776 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183504583?_l=pt_BR
+2025-03-30 23:21:13,776 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 23:21:13,957 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.80s before retry...
+2025-03-30 23:21:17,767 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183504583?_l=pt_BR
+2025-03-30 23:21:17,767 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 23:21:17,943 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 5.91s before retry...
+2025-03-30 23:21:23,866 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 4 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183504583?_l=pt_BR
+2025-03-30 23:21:23,866 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 4
+2025-03-30 23:21:24,047 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 10.76s before retry...
+2025-03-30 23:21:34,814 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 5 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183504583?_l=pt_BR
+2025-03-30 23:21:34,814 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 5
+2025-03-30 23:21:34,995 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 17.95s before retry...
+2025-03-30 23:21:52,956 - src.scraping.linkedin_scraper_v2 - ERROR - All 5 retries failed for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183504583?_l=pt_BR
+2025-03-30 23:21:52,956 - src.scraping.linkedin_scraper_v2 - WARNING - Failed to fetch job ID 4183504583 after multiple retries, skipping...
+2025-03-30 23:21:52,956 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4184709447?_l=pt_BR
+2025-03-30 23:21:53,396 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4184709447, 77 remaining
+2025-03-30 23:21:53,396 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192514074?_l=pt_BR
+2025-03-30 23:21:53,824 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192514074, 76 remaining
+2025-03-30 23:21:53,824 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4170063595?_l=pt_BR
+2025-03-30 23:21:54,127 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4170063595, 75 remaining
+2025-03-30 23:21:54,127 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4187579023?_l=pt_BR
+2025-03-30 23:21:54,555 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4187579023, 74 remaining
+2025-03-30 23:21:54,555 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194386903?_l=pt_BR
+2025-03-30 23:21:54,827 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194386903, 73 remaining
+2025-03-30 23:21:54,827 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4194392305?_l=pt_BR
+2025-03-30 23:21:55,258 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4194392305, 72 remaining
+2025-03-30 23:21:55,258 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195321662?_l=pt_BR
+2025-03-30 23:21:55,546 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4195321662, 71 remaining
+2025-03-30 23:21:55,546 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4167869097?_l=pt_BR
+2025-03-30 23:21:55,996 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4167869097, 70 remaining
+2025-03-30 23:21:55,996 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4142098937
+2025-03-30 23:21:55,999 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 10 jobs to data\raw\jobs_data.csv
+2025-03-30 23:21:55,999 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4153856219
+2025-03-30 23:21:55,999 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4159081209
+2025-03-30 23:21:55,999 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4184711760
+2025-03-30 23:21:55,999 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4157561866
+2025-03-30 23:21:55,999 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188377974
+2025-03-30 23:21:56,000 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4137716438
+2025-03-30 23:21:56,000 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4195975934
+2025-03-30 23:21:56,000 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4183436527
+2025-03-30 23:21:56,000 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4196168578
+2025-03-30 23:21:56,000 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4150639806
+2025-03-30 23:21:56,002 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 10 jobs to data\raw\jobs_data.csv
+2025-03-30 23:21:56,002 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4193845782
+2025-03-30 23:21:56,002 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190573851
+2025-03-30 23:21:56,002 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4192723124
+2025-03-30 23:21:56,002 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4180220639
+2025-03-30 23:21:56,003 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4151397196
+2025-03-30 23:21:56,003 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4181337868
+2025-03-30 23:21:56,003 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4187087618
+2025-03-30 23:21:56,003 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4181229923
+2025-03-30 23:21:56,003 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188378920
+2025-03-30 23:21:56,003 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4091145421 - already in CSV file
+2025-03-30 23:21:56,003 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4181932772 - already in CSV file
+2025-03-30 23:21:56,004 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4190467013 - already in CSV file
+2025-03-30 23:21:56,004 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4190966690 - already in CSV file
+2025-03-30 23:21:56,004 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4187545909 - already in CSV file
+2025-03-30 23:21:56,004 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4196124617 - already in CSV file
+2025-03-30 23:21:56,004 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4194523112 - already in CSV file
+2025-03-30 23:21:56,004 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4173173229 - already in CSV file
+2025-03-30 23:21:56,005 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4195192258 - already in CSV file
+2025-03-30 23:21:56,005 - src.scraping.linkedin_scraper_v2 - INFO - Skipping job ID 4195398600 - already in CSV file
+2025-03-30 23:21:56,005 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4192472491
+2025-03-30 23:21:56,006 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 10 jobs to data\raw\jobs_data.csv
+2025-03-30 23:21:56,006 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4175780853?_l=pt_BR
+2025-03-30 23:21:56,302 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4175780853, 38 remaining
+2025-03-30 23:21:56,302 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4177800808?_l=pt_BR
+2025-03-30 23:21:56,601 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4177800808, 37 remaining
+2025-03-30 23:21:56,603 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183468144?_l=pt_BR
+2025-03-30 23:21:56,781 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.68s before retry...
+2025-03-30 23:22:00,472 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183468144?_l=pt_BR
+2025-03-30 23:22:00,472 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 2
+2025-03-30 23:22:00,653 - src.scraping.linkedin_scraper_v2 - WARNING - Rate limited (429). Waiting 3.74s before retry...
+2025-03-30 23:22:04,402 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4183468144?_l=pt_BR
+2025-03-30 23:22:04,402 - src.scraping.linkedin_scraper_v2 - INFO - Changing headers for retry 3
+2025-03-30 23:22:04,686 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4183468144, 36 remaining
+2025-03-30 23:22:04,686 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4176818433?_l=pt_BR
+2025-03-30 23:22:05,110 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4176818433, 35 remaining
+2025-03-30 23:22:05,111 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4190880261?_l=pt_BR
+2025-03-30 23:22:05,407 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4190880261, 34 remaining
+2025-03-30 23:22:05,407 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4101208992?_l=pt_BR
+2025-03-30 23:22:05,866 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4101208992, 33 remaining
+2025-03-30 23:22:05,866 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185843545?_l=pt_BR
+2025-03-30 23:22:06,148 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4185843545, 32 remaining
+2025-03-30 23:22:06,148 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4192115660?_l=pt_BR
+2025-03-30 23:22:06,595 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4192115660, 31 remaining
+2025-03-30 23:22:06,595 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4193611130?_l=pt_BR
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Processed job 4193611130, 30 remaining
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190878815
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 10 jobs to data\raw\jobs_data.csv
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4193959837
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4185912148
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4194282899
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4169615687
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4191835318
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4192864292
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4189677273
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4175786097
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188380747
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4130738936
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 10 jobs to data\raw\jobs_data.csv
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4192785584
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4176819312
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4179907588
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4178509915
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4196110511
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4194499443
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4193970097
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4101279070
+2025-03-30 23:22:06,890 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4157059576
+2025-03-30 23:22:06,896 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4193409964
+2025-03-30 23:22:06,897 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 10 jobs to data\raw\jobs_data.csv
+2025-03-30 23:22:06,897 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4192363859
+2025-03-30 23:22:06,897 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190009327
+2025-03-30 23:22:06,897 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4184918031
+2025-03-30 23:22:06,898 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4094546542
+2025-03-30 23:22:06,898 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4186439817
+2025-03-30 23:22:06,898 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4187046059
+2025-03-30 23:22:06,898 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4195502687
+2025-03-30 23:22:06,898 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4188417255
+2025-03-30 23:22:06,898 - src.scraping.linkedin_scraper_v2 - INFO - Using cached data for job ID 4190876801
+2025-03-30 23:22:06,899 - src.scraping.linkedin_scraper_v2 - INFO - Checkpoint: Appended 9 jobs to data\raw\jobs_data.csv
+2025-03-30 23:22:06,900 - src.scraping.linkedin_scraper_v2 - SUCCESS - Scraped data from 79 job postings successfully
+2025-03-30 23:22:06,906 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 952 entries

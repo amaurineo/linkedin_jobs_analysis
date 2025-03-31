@@ -1,0 +1,2 @@
+2025-03-30 21:31:20,024 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 1000 job IDs
+2025-03-30 21:31:47,250 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching job IDs: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=250
