@@ -2,7 +2,7 @@ import logging
 from pathlib import Path
 from datetime import datetime
 
-_LOG_TIMESTAMP = datetime.now().strftime('%Y%m%d_%H%M%S')
+LOG_TIMESTAMP = datetime.now().strftime('%Y%m%d_%H%M%S')
 
 def setup_logging(log_dir: str = 'logs') -> None:
     '''
@@ -12,7 +12,7 @@ def setup_logging(log_dir: str = 'logs') -> None:
     if logging.getLogger().hasHandlers():
         return
     
-    log_file = f'{_LOG_TIMESTAMP}_pipeline.log'
+    log_file = f'{LOG_TIMESTAMP}_pipeline.log'
     log_path = Path(log_dir)
     log_path.mkdir(parents=True, exist_ok=True)
     

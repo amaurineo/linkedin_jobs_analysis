@@ -2,3 +2,4 @@
 .venv/
 tree.txt
 src/database/*
+data/raw/*

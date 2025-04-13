@@ -1,0 +1,7 @@
+2025-04-13 11:52:29,986 - src.scraping.linkedin_scraper_v2 - INFO - Initializing scraping of 20 job IDs
+2025-04-13 11:52:29,987 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Dados"&location=Brasil&geoId=106057199&f_WT=2&position=1&start=0
+2025-04-13 11:52:30,645 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 10 entries
+2025-04-13 11:52:30,645 - src.scraping.linkedin_scraper_v2 - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Dados"&location=Brasil&geoId=106057199&f_WT=3&position=1&start=10
+2025-04-13 11:52:31,251 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 20 entries
+2025-04-13 11:52:31,252 - src.scraping.linkedin_scraper_v2 - SUCCESS - Successfully scraped 20 new IDs. 20 scraped in total.
+2025-04-13 11:52:31,252 - src.scraping.linkedin_scraper_v2 - INFO - Cache saved with 20 entries

@@ -1,0 +1,113 @@
+,job_id,work_model,job_title,company_name,location,time_posted,num_applicants,xp_level,job_type,job_sectors,job_description
+1316,4181410565,Híbrido,Engenheiro de Dados Sênior - HÍBRIDO (São Paulo-SP),Cedro Technologies,São Paulo e Região,Há 1 mês,,Pleno-sênior,Tempo integral,Desenvolvimento de software,"SOBRE A CEDRO
+Nossa missão: desenvolver softwares de altíssima qualidade que escale o negócio do cliente
+Nossa visão: ser referência nacional em tecnologias de investimentos para o ecossistema financeiro
+Nosso propósito: transformar o complexo em simples para melhorar a vida das pessoas e organizações
+Buscamos, a cada dia, construir uma Cedro mais plural e inclusiva, com profissionais que estejam com um olhar sempre à frente e buscando novos desafios, pois acreditamos que o respeito à pluralidade e à individualidade é a base das nossas relações.
+VENHA SER CEDRENSE!
+Estamos buscando um
+Engenheiro de Dados Sênior para atuação de forma HÍBRIDA NA FARIA LIMA
+para integrar nosso time de Dados e nos ajudar a consolidar e escalar nossa arquitetura baseada no
+Databricks
+. O profissional atuará no desenvolvimento e otimização de
+pipelines de dados
+, garantindo eficiência, escalabilidade e governança. Além disso, terá um papel fundamental na organização da equipe, ajudando na estruturação de processos e na liderança técnica das entregas.
+Principais responsabilidades
+Projetar, desenvolver e otimizar pipelines de dados escaláveis usando Apache Spark, Python e Databricks.
+Atuar na arquitetura e governança de dados, garantindo qualidade, rastreabilidade e segurança.
+Liderar iniciativas técnicas, definindo boas práticas e padrões de desenvolvimento para a equipe.
+Implementar e otimizar modelos de dados no Data Lakehouse para atender às necessidades do negócio, com modelagem relacional e/ou dimensional.
+Garantir performance e eficiência de custos na manipulação de grandes volumes de dados.
+Trabalhar em estreita colaboração com times de Backoffice, TI, Governança e Comercial.
+Monitorar, depurar e otimizar jobs de ETL e consultas SQL para máxima performance.
+Mentorar engenheiros de dados mais juniores, compartilhando conhecimento e promovendo crescimento técnico na equipe.
+OS REQUISITOS QUE ESPERAMOS DE VOCÊ
+5+ anos de experiência em Engenharia de Dados.
+2+ anos com Apache Spark para processamento distribuído.
+Experiencias de liderança de projetos e atividades complexas em times.
+Experiência prática com Databricks e otimização de notebooks e jobs.
+Experiência sólida em SQL, incluindo modelagem de dados relacionais e dimensionais, e otimização de consultas.
+Experiência com Python para engenharia de dados (Pandas, PySpark, automação de ETLs).
+Conhecimento sobre arquitetura de Data Lakehouse e boas práticas de governança de dados.
+Experiência com CI/CD para pipelines de dados e versionamento de código (Git).
+DIFERENCIAIS
+Experiência com Google Cloud Platform (GCP), especialmente DataStream e Storage.
+Experiência com Spark Structured Streaming ou outras soluções de streaming de dados.
+Conhecimento sobre Power BI para facilitar a entrega de dados analíticos.
+Conhecimento em mercado financeiro e operações bancárias.
+Experiência com otimização de custos em ambientes cloud.
+Conhecimento de segurança e compliance em dados (LGPD, GDPR).
+NOSSOS BENEFÍCIOS PARA VOCÊ
+Benefícios flexíveis no Cartão Caju, sem desconto na folha de pagamento nas modalidades: alimentação, refeição, mobilidade, cultura, educação, saúde e home office;
+Assistência médica SulAmérica com cobertura nacional;
+Assistência odontológica Uniodonto;
+Gympass;
+Seguro de vida;
+Auxílio creche (para crianças até 02 anos);
+Day off de aniversário;
+Bônus por indicação Tech;
+Acesso à Cedro Academy, nossa universidade corporativa;
+Acesso ao Go Cedro com resgate de premiações;
+Crédito consignado e adiantamento salarial Creditas."
+287,4182119596,Presencial,Cientista de Dados,abler Vagas,"Vila Velha, ES",Há 1 mês,,Assistente,Tempo integral,"Tecnologia, Informação e Internet","Nível:
+Pleno
+Cursos de:
+Estatística,Engenharia,Ciência de Dados,Matemática,Ciência da Computação
+Escolaridade:
+Graduação - Ciência da Computação,Ciência de Dados,Engenharia,Estatística,Matemática - Indiferente
+Tipo de contrato:
+CLT
+Jornada de trabalho:
+Segunda-feira à sexta-feira.
+Benefícios:
+Plano de saúde, Plano odontológico , Licença maternidade estendida, Vale Alimentação ou Refeição, Cesta natal, Vale transporte, Café da Manhã, Café da Tarde
+Responsabilidades Da Posição
+Atuar na construção de modelos de inteligência artificial;
+Aplicar técnicas de Data Science gerando valor para o negócio;
+Participar de projetos estratégicos envolvendo outras áreas – apoiando na construção de modelos e na metodologia;
+Analisar dados: definir objetivos, estipular indicadores e métricas, coletar dados, interpretar e expor resultados;
+Aplicar conhecimentos técnicos em estudos pontuais;
+Criar insights e propor estudos diferenciados referente ao nosso setor.
+Requisitos Obrigatórios Para a Posição
+Superior completo ou em andamento em: Engenharias, Estatística, Atuária, Matemática, Computação e áreas correlatas;
+Conhecimento de SQL, Linguagem Python ou R;
+Excel Avançado;
+Experiência com análise e extração de dados.
+Diferencial
+Conhecimento em Tableau;
+Ferramentas de BI;
+Experiência com Big Data;
+Experiências em projetos avançados relacionados a dados."
+1519,4184975101,Remoto,Data Scientist | Senior,Compass UOL,Brasil,Há 3 semanas,,Não aplicável,Tempo integral,Atividades dos serviços de tecnologia da informação,"Responsabilidades e atribuições
+Realizar análise exploratória de dados;
+Criar pipeline de dados;
+Realizar testes de hipóteses estatísticas;
+Criar modelos supervisionados e não-supervisionados;
+Validar e comparar performances de modelos;
+Criar containers para implementação de modelos;
+Apresentar projetos, orientações de usos e explicação de performance.
+Entender as necessidades do negócio e as converter em insights de dados;
+Criar modelos estatísticos ou de IA;
+Explorar novas tecnologias e ferramentas para Data Science;
+Desenvolver algoritmos em Python ou R para Advanced Analytics e Machine/Deep Learning;
+Explorar e modelar os dados à necessidade dos modelos analíticos que criará;
+Implantar e suportar os modelos analíticos que criar.
+Requisitos e qualificações
+Formação e/ou especialização completa na área da tecnologia de informação (Ciência da Computação, Análise e Desenvolvimento de Sistemas ou correlatos);
+Conhecimento em Linguagens Python (Pandas e Numpy) e R;
+Conhecimento em SQL;
+Experiência com modelos de Machine Learning em ambiente GCP;
+Experiência com modelos de Machine Learning no BigQuery e Vertex AI;
+Habilidades de desenvolvimento de indicadores de negócio e insights com Power BI;
+Experiência com modelos de aprendizado supervisionado (Random Forest, GradientBoost, Regressão Logística, etc);
+Experiência com algoritmos de otimização, como algoritmo genético;
+Conhecimento sobre complexidade de algoritmos para desenvolver códigos otimizados;
+Capacidade de comunicação para realizar apresentações de resultados ao cliente;
+Testes estatísticos (Qui-quadrado, Fischer etc);
+Clusterização, classificação e regressão;
+Diferenciais: NLP, Bibliotecas para AI/Machine learning (Scikit-learn, Tensorflow, etc); Atuação prévia em ciência de dados no mercado financeiro.
+Não possui todos os requisitos para a vaga?
+Está tudo bem! Na Compass UOL, estimulamos o desenvolvimento contínuo de novos talentos e transformamos desafios em oportunidades.
+Informações adicionais
+#remote
+""remote"""

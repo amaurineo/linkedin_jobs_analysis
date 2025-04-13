@@ -5,6 +5,7 @@ import time
 import pandas as pd
 import pickle
 from bs4 import BeautifulSoup
+from urllib.parse import quote
 from pathlib import Path
 from .config import JOB_KEYWORD, WORK_MODEL
 
@@ -29,7 +30,17 @@ class JobScraper():
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
             'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.85 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0',
+            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1',
+            'Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36',
+            'Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1',
+            'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/537.36',
         ]
     
     def get_random_headers(self):
@@ -77,6 +88,9 @@ class JobScraper():
             logger.info(f"Cache saved with {len(job_cache)} entries")
         except Exception as e:
             logger.error(f"Failed to save cache: {e}")
+
+    def format_keyword(self, keyword):
+        return f'"{quote(str(keyword))}"'
     
     def fetch_with_smart_retry(self, url, max_retries=5):
         """Intelligent retry strategy for fetching URLs"""
@@ -109,9 +123,39 @@ class JobScraper():
         
         logger.error(f"All {max_retries} retries failed for {url}")
         return None
+    
+    def get_job_amount(self, keywords):
+        work_type_counts = {}
 
-    def get_job_ids(self, n_ids, keyword=JOB_KEYWORD, work_model_id='random'):
-        logger.info(f'Initializing scraping of {n_ids} job IDs')
+        for keyword_raw in keywords:
+            keyword = self.format_keyword(keyword_raw)
+
+            url = f'https://www.linkedin.com/jobs/search?keywords={keyword}&location=Brasil&geoId=106057199'
+
+            response = requests.get(url)
+            list_soup = BeautifulSoup(response.text, 'html.parser')
+            work_type_filters = list_soup.find_all('div', class_='filter-values-container__filter-value')
+
+            keyword_counts = {}
+            
+            for filter_div in work_type_filters:
+                label = filter_div.find('label')
+                # On-site means f_WT ID = 1, Remote = 2 and Hybrid = 3
+                if label:
+                    text = label.get_text(strip=True)
+                    if 'On-site' in text:
+                        keyword_counts[1] = int(text.split('(')[-1].split(')')[0])
+                    elif 'Remote' in text:
+                        keyword_counts[2] = int(text.split('(')[-1].split(')')[0])
+                    elif 'Hybrid' in text:
+                        keyword_counts[3] = int(text.split('(')[-1].split(')')[0])
+            
+            work_type_counts[keyword_raw] = keyword_counts
+        return work_type_counts
+
+    def get_job_ids(self, n_ids, keyword_raw=JOB_KEYWORD, work_model_id='random'):
+        keyword = self.format_keyword(keyword_raw)
+        logger.info(f'Initializing scraping of {n_ids} job IDs for {keyword_raw}')
         
         if work_model_id not in ['1', '2', '3', 'random']:
             raise ValueError("Set an appropriate value for work_model_id ('1', '2', '3', 'random')")
