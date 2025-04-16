@@ -1,0 +1,6 @@
+2025-04-13 18:07:51,413 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-04-13 18:07:51,417 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 94 skill patterns.
+2025-04-13 18:07:51,418 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 10 rows.
+2025-04-13 18:07:52,374 - src.analysis.extracting_skills_list - INFO - Converting skills to boolean columns.
+2025-04-13 18:07:52,391 - src.analysis.extracting_skills_list - SUCCESS - Skill extraction completed.
+2025-04-13 18:07:52,393 - src.analysis.extracting_skills_list - ERROR - Failed to export DataFrame to ../data/processed/jobs_with_skills.csv

@@ -7,13 +7,15 @@ import pickle
 from bs4 import BeautifulSoup
 from urllib.parse import quote
 from pathlib import Path
-from .config import JOB_KEYWORD, WORK_MODEL
+from datetime import datetime
+from config.scraping import USER_AGENTS, WORK_MODEL
 
 logger = logging.getLogger(__name__)
 
 class JobScraper():
     def __init__(self):
         self.session = requests.Session()
+        self.scrape_date = datetime.today().strftime('%d-%m-%Y')
         
         self.job_data_cache_file = Path('data/cache/job_data_cache.pkl')
         self.job_data_cache_file.parent.mkdir(parents=True, exist_ok=True)
@@ -24,28 +26,10 @@ class JobScraper():
         self.job_ids_cache = self.load_job_cache(type='job_id')
 
         self.checkpoint_frequency = 20
-        
-        # Enhanced browser headers
-        self.USER_AGENTS = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.85 Safari/537.36',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0',
-            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1',
-            'Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36',
-            'Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1',
-            'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/537.36',
-        ]
     
     def get_random_headers(self):
         """Generate random browser-like headers"""
-        user_agent = random.choice(self.USER_AGENTS)
+        user_agent = random.choice(USER_AGENTS)
         return {
             'User-Agent': user_agent,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -153,7 +137,7 @@ class JobScraper():
             work_type_counts[keyword_raw] = keyword_counts
         return work_type_counts
 
-    def get_job_ids(self, n_ids, keyword_raw=JOB_KEYWORD, work_model_id='random'):
+    def get_job_ids(self, n_ids, keyword_raw, work_model_id='random'):
         keyword = self.format_keyword(keyword_raw)
         logger.info(f'Initializing scraping of {n_ids} job IDs for {keyword_raw}')
         
@@ -181,7 +165,7 @@ class JobScraper():
                     for card in job_cards:
                         job_id = card.get('data-entity-urn', '').split(':')[-1]
                         if job_id and job_id not in self.job_ids_cache:
-                            self.job_ids_cache[job_id] = WORK_MODEL[current_work_model]
+                            self.job_ids_cache[job_id] = {'work_model': WORK_MODEL[current_work_model], 'keyword': keyword_raw}
                             counter_new_ids += 1
                     
                     self.save_job_cache(type='job_id')
@@ -244,7 +228,9 @@ class JobScraper():
                 logger.error(f"Error reading existing CSV: {e}")
         
         try:
-            for job_id, job_work_model in self.job_ids_cache.items():
+            for job_id, job_data in self.job_ids_cache.items():
+                job_work_model = job_data['work_model']
+                job_keyword = job_data['keyword']
                 # Skip if already in the CSV file
                 if job_id in processed_ids:
                     logger.info(f"Skipping job ID {job_id} - already in CSV file ({len(processed_ids)} total)")
@@ -274,8 +260,14 @@ class JobScraper():
                     logger.warning(f"Failed to fetch job ID {job_id} after multiple retries, skipping...")
                     remaining_jobs -= 1
                     continue
-
-                job_post = {'job_id': job_id, 'work_model': job_work_model}
+                
+                job_post = {
+                    'job_id': job_id,
+                    'work_model': job_work_model,
+                    'keyword': job_keyword,
+                    'scrape_date': self.scrape_date
+                }
+                
                 job_soup = BeautifulSoup(job_response.text, 'html.parser')
                     
                 job_post['job_title'] = self.safe_find(job_soup, 'h2', {'class': 'top-card-layout__title'})

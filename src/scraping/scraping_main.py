@@ -1,11 +1,12 @@
 import logging
 from ..utils.logger import setup_logging
-from .linkedin_scraper_v2 import JobScraper
-from .config import KEYWORDS
+from .linkedin_scraper import JobScraper
+from config.scraping import KEYWORDS
 
 logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
+    logger.info(f'Initializing main scraping pipeline.')
     setup_logging()
 
     try:
