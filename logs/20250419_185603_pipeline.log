@@ -1,0 +1,5 @@
+2025-04-19 18:56:04,147 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-04-19 18:56:04,151 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 84 skill patterns.
+2025-04-19 18:56:04,252 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 10 rows.
+2025-04-19 18:56:04,992 - src.analysis.extracting_skills_list - ERROR - An unexpected error occurred during processing: name 'multi_standard_skill_map' is not defined
+2025-04-19 18:56:04,992 - __main__ - ERROR - Pipeline failed: cannot unpack non-iterable NoneType object

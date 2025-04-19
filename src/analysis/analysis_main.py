@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 from .extracting_skills_list import SkillExtractor
 from .classification_utils import classify_job_titles 
-from config.analysis import SKILLS_LIST
+from config.analysis import STANDARD_SKILL_MAP
 from ..utils.logger import setup_logging
 
 logger = logging.getLogger(__name__)
@@ -12,7 +12,8 @@ def run_pipeline(classify_titles: bool = True):  # Add toggle parameter
     """Main pipeline with optional classification"""
     try:
         # Existing skill extraction logic
-        extractor = SkillExtractor(SKILLS_LIST)
+        skills_list = [skill for synonyms in STANDARD_SKILL_MAP.values() for skill in synonyms]
+        extractor = SkillExtractor(skills_list, STANDARD_SKILL_MAP)
         dataset_path = Path('data/raw/jobs_data.csv')
         jobs_data = pd.read_csv(dataset_path)
         df_jobs, df_skills = extractor.process_dataframe(jobs_data, text_column="job_description")
