@@ -21,6 +21,8 @@ dependencies = [
     "bitsandbytes (>=0.45.5,<0.46.0)",
     "sentence-transformers (>=4.0.2,<5.0.0)",
     "torchvision (>=0.21.0,<0.22.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
 ]
 
 

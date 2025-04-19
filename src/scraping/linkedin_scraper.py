@@ -127,12 +127,14 @@ class JobScraper():
                 # On-site means f_WT ID = 1, Remote = 2 and Hybrid = 3
                 if label:
                     text = label.get_text(strip=True)
+                    print(keyword)
+                    print(text)
                     if 'On-site' in text:
-                        keyword_counts[1] = int(text.split('(')[-1].split(')')[0])
+                        keyword_counts[1] = int(text.split('(')[-1].split(')')[0].replace(',', ''))
                     elif 'Remote' in text:
-                        keyword_counts[2] = int(text.split('(')[-1].split(')')[0])
+                        keyword_counts[2] = int(text.split('(')[-1].split(')')[0].replace(',', ''))
                     elif 'Hybrid' in text:
-                        keyword_counts[3] = int(text.split('(')[-1].split(')')[0])
+                        keyword_counts[3] = int(text.split('(')[-1].split(')')[0].replace(',', ''))
             
             work_type_counts[keyword_raw] = keyword_counts
         return work_type_counts

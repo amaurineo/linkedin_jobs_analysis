@@ -1,0 +1,95 @@
+2025-04-15 22:06:10,433 - __main__ - SUCCESS - Successfully initialized scraper.
+2025-04-15 22:06:28,940 - __main__ - SUCCESS - Successfully fetched job data for 12 keywords and 3712618 job postings.
+2025-04-15 22:06:28,941 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 288782 job IDs for Analista de Dados
+2025-04-15 22:06:28,941 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=0
+2025-04-15 22:06:29,926 - src.scraping.linkedin_scraper - INFO - Cache saved with 305 entries
+2025-04-15 22:06:29,926 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=10
+2025-04-15 22:06:30,746 - src.scraping.linkedin_scraper - INFO - Cache saved with 305 entries
+2025-04-15 22:06:30,746 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=20
+2025-04-15 22:06:31,511 - src.scraping.linkedin_scraper - INFO - Cache saved with 305 entries
+2025-04-15 22:06:31,511 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=30
+2025-04-15 22:06:32,278 - src.scraping.linkedin_scraper - INFO - Cache saved with 305 entries
+2025-04-15 22:06:32,278 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=40
+2025-04-15 22:06:33,040 - src.scraping.linkedin_scraper - INFO - Cache saved with 305 entries
+2025-04-15 22:06:33,040 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=50
+2025-04-15 22:06:33,913 - src.scraping.linkedin_scraper - INFO - Cache saved with 305 entries
+2025-04-15 22:06:33,913 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=60
+2025-04-15 22:06:34,696 - src.scraping.linkedin_scraper - INFO - Cache saved with 306 entries
+2025-04-15 22:06:34,696 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=70
+2025-04-15 22:06:35,481 - src.scraping.linkedin_scraper - INFO - Cache saved with 306 entries
+2025-04-15 22:06:35,481 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=80
+2025-04-15 22:06:36,230 - src.scraping.linkedin_scraper - INFO - Cache saved with 306 entries
+2025-04-15 22:06:36,230 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=90
+2025-04-15 22:06:36,964 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:36,964 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=100
+2025-04-15 22:06:37,137 - src.scraping.linkedin_scraper - WARNING - Rate limited (429). Waiting 2.96s before retry...
+2025-04-15 22:06:40,100 - src.scraping.linkedin_scraper - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=100
+2025-04-15 22:06:40,100 - src.scraping.linkedin_scraper - INFO - Changing headers for retry 2
+2025-04-15 22:06:40,278 - src.scraping.linkedin_scraper - WARNING - Rate limited (429). Waiting 4.86s before retry...
+2025-04-15 22:06:45,135 - src.scraping.linkedin_scraper - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=100
+2025-04-15 22:06:45,135 - src.scraping.linkedin_scraper - INFO - Changing headers for retry 3
+2025-04-15 22:06:45,901 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:45,902 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=110
+2025-04-15 22:06:46,686 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:46,686 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=120
+2025-04-15 22:06:47,458 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:47,458 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=130
+2025-04-15 22:06:48,239 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:48,239 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=140
+2025-04-15 22:06:48,997 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:48,997 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=150
+2025-04-15 22:06:49,731 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:49,732 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=160
+2025-04-15 22:06:50,485 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:50,486 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=170
+2025-04-15 22:06:51,205 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:51,205 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=180
+2025-04-15 22:06:51,956 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:51,956 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=190
+2025-04-15 22:06:52,697 - src.scraping.linkedin_scraper - INFO - Cache saved with 307 entries
+2025-04-15 22:06:52,697 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=200
+2025-04-15 22:06:52,876 - src.scraping.linkedin_scraper - WARNING - Rate limited (429). Waiting 2.08s before retry...
+2025-04-15 22:06:54,962 - src.scraping.linkedin_scraper - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=200
+2025-04-15 22:06:54,962 - src.scraping.linkedin_scraper - INFO - Changing headers for retry 2
+2025-04-15 22:06:55,142 - src.scraping.linkedin_scraper - WARNING - Rate limited (429). Waiting 4.79s before retry...
+2025-04-15 22:06:59,930 - src.scraping.linkedin_scraper - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=200
+2025-04-15 22:06:59,930 - src.scraping.linkedin_scraper - INFO - Changing headers for retry 3
+2025-04-15 22:07:00,695 - src.scraping.linkedin_scraper - INFO - Cache saved with 308 entries
+2025-04-15 22:07:00,695 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=210
+2025-04-15 22:07:01,452 - src.scraping.linkedin_scraper - INFO - Cache saved with 309 entries
+2025-04-15 22:07:01,452 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=220
+2025-04-15 22:07:02,229 - src.scraping.linkedin_scraper - INFO - Cache saved with 309 entries
+2025-04-15 22:07:02,229 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=230
+2025-04-15 22:07:03,004 - src.scraping.linkedin_scraper - INFO - Cache saved with 310 entries
+2025-04-15 22:07:03,005 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=240
+2025-04-15 22:07:03,811 - src.scraping.linkedin_scraper - INFO - Cache saved with 312 entries
+2025-04-15 22:07:03,812 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=250
+2025-04-15 22:07:04,578 - src.scraping.linkedin_scraper - INFO - Cache saved with 312 entries
+2025-04-15 22:07:04,579 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=260
+2025-04-15 22:07:05,313 - src.scraping.linkedin_scraper - INFO - Cache saved with 312 entries
+2025-04-15 22:07:05,313 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=270
+2025-04-15 22:07:06,057 - src.scraping.linkedin_scraper - INFO - Cache saved with 312 entries
+2025-04-15 22:07:06,057 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=280
+2025-04-15 22:07:06,797 - src.scraping.linkedin_scraper - INFO - Cache saved with 314 entries
+2025-04-15 22:07:06,797 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=290
+2025-04-15 22:07:07,520 - src.scraping.linkedin_scraper - INFO - Cache saved with 324 entries
+2025-04-15 22:07:07,520 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=300
+2025-04-15 22:07:07,699 - src.scraping.linkedin_scraper - WARNING - Rate limited (429). Waiting 3.54s before retry...
+2025-04-15 22:07:11,244 - src.scraping.linkedin_scraper - INFO - Request attempt 2 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=300
+2025-04-15 22:07:11,244 - src.scraping.linkedin_scraper - INFO - Changing headers for retry 2
+2025-04-15 22:07:11,430 - src.scraping.linkedin_scraper - WARNING - Rate limited (429). Waiting 4.02s before retry...
+2025-04-15 22:07:15,453 - src.scraping.linkedin_scraper - INFO - Request attempt 3 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=300
+2025-04-15 22:07:15,453 - src.scraping.linkedin_scraper - INFO - Changing headers for retry 3
+2025-04-15 22:07:16,266 - src.scraping.linkedin_scraper - INFO - Cache saved with 333 entries
+2025-04-15 22:07:16,266 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=310
+2025-04-15 22:07:17,033 - src.scraping.linkedin_scraper - INFO - Cache saved with 340 entries
+2025-04-15 22:07:17,034 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=320
+2025-04-15 22:07:17,856 - src.scraping.linkedin_scraper - INFO - Cache saved with 341 entries
+2025-04-15 22:07:17,856 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=330
+2025-04-15 22:07:18,587 - src.scraping.linkedin_scraper - INFO - Cache saved with 350 entries
+2025-04-15 22:07:18,587 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=340
+2025-04-15 22:07:19,324 - src.scraping.linkedin_scraper - INFO - Cache saved with 359 entries
+2025-04-15 22:07:19,324 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=350
+2025-04-15 22:07:20,076 - src.scraping.linkedin_scraper - INFO - Cache saved with 368 entries
+2025-04-15 22:07:20,077 - src.scraping.linkedin_scraper - INFO - Request attempt 1 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199&f_WT=1&position=1&start=360
+2025-04-15 22:07:20,833 - src.scraping.linkedin_scraper - INFO - Cache saved with 368 entries

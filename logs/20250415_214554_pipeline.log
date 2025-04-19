@@ -1,0 +1,9 @@
+2025-04-15 21:45:55,889 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-04-15 21:45:55,894 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 94 skill patterns.
+2025-04-15 21:45:55,894 - __main__ - SUCCESS - Successfully initialized scraper.
+2025-04-15 21:45:55,990 - __main__ - SUCCESS - Successfully loaded job dataset with 10 job postings.
+2025-04-15 21:45:55,990 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 10 rows.
+2025-04-15 21:45:57,001 - src.analysis.extracting_skills_list - ERROR - An unexpected error occurred during processing: name 'pd' is not defined
+2025-04-15 21:45:57,001 - __main__ - ERROR - Failed to extract skills from job descriptions: cannot unpack non-iterable NoneType object
+2025-04-15 21:45:57,001 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\jobs_with_skills.csv
+2025-04-15 21:45:57,001 - __main__ - ERROR - Failed exporting dataset: name 'df_skills' is not defined

@@ -1,0 +1,10 @@
+2025-04-16 18:49:12,028 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-04-16 18:49:12,032 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 94 skill patterns.
+2025-04-16 18:49:12,032 - __main__ - SUCCESS - Successfully initialized scraper.
+2025-04-16 18:49:12,136 - __main__ - SUCCESS - Successfully loaded job dataset with 2515 job postings.
+2025-04-16 18:49:12,136 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 2515 rows.
+2025-04-16 18:53:05,707 - src.analysis.extracting_skills_list - SUCCESS - Skill extraction completed.
+2025-04-16 18:53:05,708 - __main__ - SUCCESS - Successfully extracted skills list and inserted into 'df_with_skills' DataFrame.
+2025-04-16 18:53:05,827 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_jobs.csv
+2025-04-16 18:53:05,840 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_skills.csv
+2025-04-16 18:53:05,840 - __main__ - SUCCESS - Successfully exported DataFrames to data\processed

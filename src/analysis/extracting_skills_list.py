@@ -1,5 +1,6 @@
 import logging
 import spacy
+import pandas as pd
 from tqdm.auto import tqdm
 from spacy.matcher import PhraseMatcher
 
@@ -37,23 +38,44 @@ class SkillExtractor():
             logger.error(f"Failed to extract skills from text: {e}")
             return []
     
-    def process_dataframe(self, df, text_column, output_format="list"):
+    def process_dataframe(self, df, text_column):
         '''
-        Processes a DataFrame and appends skill info.
-        output_format: "list" for list column, "boolean" for one-hot encoded columns
+        Processes a DataFrame and returns two DataFrames:
+        1. Original DataFrame with job_id
+        2. Skills DataFrame with job_id-to-skill mapping
         '''
-        logger.info(f"Starting skill extraction for DataFrame with {len(df)} rows.")
-        tqdm.pandas(desc="Extracting skills")
-        df["skills_found"] = df[text_column].progress_apply(self.extract_skills)
+        try:
+            logger.info(f"Starting skill extraction for DataFrame with {len(df)} rows.")
+            tqdm.pandas(desc="Extracting skills")
 
-        if output_format == "boolean":
-            logger.info("Converting skills to boolean columns.")
-            for skill in self.skill_list:
-                df[skill] = df["skills_found"].apply(lambda x: skill in x)
-            df.drop(columns="skills_found", inplace=True)
-
-        logger.success("Skill extraction completed.")
-        return df
+            if text_column not in df.columns:
+                raise ValueError(f"Text column '{text_column}' not found in DataFrame.")
+            
+            # Extract skills
+            df["skills_found"] = df[text_column].progress_apply(self.extract_skills)
+            
+            skills_data = []
+            for job_id, skills in zip(df["job_id"], df["skills_found"]):
+                try:
+                    if not skills:
+                        continue
+                    for skill in skills:
+                        if skill:
+                            skills_data.append({"job_id": job_id, "skill": skill})
+                except Exception as e:
+                    logger.warning(f"Error processing skills for job_id {job_id}: {str(e)}")
+                    continue
+            
+            df_skills = pd.DataFrame(skills_data)
+            
+            # Remove the skills list from the original dataframe
+            df = df.drop(columns=["skills_found"])
+            
+            logger.success("Skill extraction completed.")
+            return df, df_skills
+        
+        except Exception as e:
+            logger.error(f"An unexpected error occurred during processing: {str(e)}")
 
     def export(self, df, path):
         try:

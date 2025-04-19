@@ -20,10 +20,16 @@ WORK_MODEL = {
     '3': 'Híbrido'
     }
 KEYWORDS = [
-    'Data Analyst', 
+    'Analista de Dados',
     'Cientista de Dados', 
     'Engenheiro de Dados', 
+    'Data Analyst', 
     'Data Scientist',
     'Data Engineer', 
-    'Analista de Dados'
+    'Analista de BI',
+    'Business Intelligence Analyst',
+    'Machine Learning Engineer',
+    'Engenheiro de Machine Learning',
+    'Engenheiro de IA',
+    'AI Engineer'
     ]
