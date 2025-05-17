@@ -127,8 +127,6 @@ class JobScraper():
                 # On-site means f_WT ID = 1, Remote = 2 and Hybrid = 3
                 if label:
                     text = label.get_text(strip=True)
-                    print(keyword)
-                    print(text)
                     if 'On-site' in text:
                         keyword_counts[1] = int(text.split('(')[-1].split(')')[0].replace(',', ''))
                     elif 'Remote' in text:
@@ -222,7 +220,7 @@ class JobScraper():
         processed_ids = set()
         if output_path.exists():
             try:
-                existing_df = pd.read_csv(output_path)
+                existing_df = pd.read_csv(output_path, on_bad_lines='skip')
                 if 'job_id' in existing_df.columns:
                     processed_ids = set(existing_df['job_id'].astype(str).values)
                     logger.info(f"Found {len(processed_ids)} already processed jobs in {output_path}")
@@ -327,7 +325,7 @@ class JobScraper():
             
             # Return dataframe of all jobs (including those from existing CSV)
             if output_path.exists():
-                return pd.concat([pd.read_csv(output_path), pd.DataFrame(job_list)]).drop_duplicates('job_id')
+                return pd.concat([pd.read_csv(output_path, on_bad_lines='skip'), pd.DataFrame(job_list)]).drop_duplicates('job_id')
             
             return pd.DataFrame(job_list)
 
@@ -344,7 +342,7 @@ class JobScraper():
             # Return whatever we have in the CSV
             if output_path.exists():
                 try:
-                    return pd.read_csv(output_path)
+                    return pd.read_csv(output_path, on_bad_lines='skip')
                 except:
                     pass
                 
@@ -357,5 +355,5 @@ class JobScraper():
 
 if __name__ == '__main__':
     scraper = JobScraper()
-    scraper.get_job_ids(100)
+    # scraper.get_job_ids(100)
     scraper.get_job_info()

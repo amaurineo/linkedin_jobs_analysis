@@ -2,33 +2,48 @@ import logging
 import pandas as pd
 from pathlib import Path
 from .extracting_skills_list import SkillExtractor
-from .classification_utils import classify_job_titles 
+from .analysis_utils import classify_job_titles, parse_posted_date
 from config.analysis import STANDARD_SKILL_MAP
 from ..utils.logger import setup_logging
 
 logger = logging.getLogger(__name__)
     
-def run_pipeline(classify_titles: bool = True):  # Add toggle parameter
+def run_pipeline(classify_titles: bool = True):
     """Main pipeline with optional classification"""
     try:
-        # Existing skill extraction logic
+        logger.info("Starting job skills extraction.")
         skills_list = [skill for synonyms in STANDARD_SKILL_MAP.values() for skill in synonyms]
         extractor = SkillExtractor(skills_list, STANDARD_SKILL_MAP)
         dataset_path = Path('data/raw/jobs_data.csv')
         jobs_data = pd.read_csv(dataset_path)
         df_jobs, df_skills = extractor.process_dataframe(jobs_data, text_column="job_description")
-        
-        # New classification step
+        logger.success(f'Successfully extracted skills from {len(jobs_data)} postings.')
+
         if classify_titles:
-            logger.info("Starting job title classification")
-            df_jobs = classify_job_titles(df=df_jobs, output_path=None)
-            output_path = Path('data/processed/df_jobs_classified.csv')
+            try:
+                logger.info("Starting job title classification")
+                df_jobs = classify_job_titles(df=df_jobs, output_path=None)
+                output_path = Path('data/processed/df_jobs_classified.csv')
+                logger.success(f'Successfully classified job titles.')
+            except Exception as e:
+                logger.error(f'Error while classifying job titles: {e}')
         else:
             output_path = Path('data/processed/df_jobs.csv')
-            
-        # Export results
+
+        try:
+            df_jobs['num_applicants'] = df_jobs['num_applicants'].str.extract(r'(\d+)')
+            df_jobs['num_applicants'] = pd.to_numeric(df_jobs['num_applicants'])
+
+            df_jobs['scrape_date'] = pd.to_datetime(df_jobs['scrape_date'], format='%d-%m-%Y')
+            df_jobs['post_date'] = df_jobs.apply(parse_posted_date, axis=1)
+            df_jobs['post_date'] = df_jobs['post_date'].dt.strftime('%d-%m-%Y')
+            df_jobs.drop(columns='time_posted', inplace=True)
+        except Exception as e:
+            logger.error(f'Error while treating df_jobs columns: {e}')
+
         extractor.export(df_jobs, output_path)
         extractor.export(df_skills, Path('data/processed/df_skills.csv'))
+        logger.success(f"Successfully exported CSV file with {len(df_jobs)} data jobs info and their skills required.")
         
     except Exception as e:
         logger.error(f"Pipeline failed: {e}")
