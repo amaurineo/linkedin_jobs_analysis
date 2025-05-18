@@ -65,69 +65,73 @@ STANDARD_SKILL_MAP = {
 
 ROLE_PATTERNS = {
     'Analista de BI': [
-        r'\b(business intelligence|bi|power bi)\b',
-        r'analista de (bi|business intelligence)',
-        r'(data analyst|analista de dados).*\b(bi|business intelligence)\b',
-        r'\bbi analyst\b'
+        r'\b(business intelligence|bi\b|power bi)\b',
+        r'\banalista de (bi\b|business intelligence)',
+        r'(data analyst|analista de dados).*\b(bi\b|business intelligence)\b',
+        r'\bbi\b analyst\b',
+        r'\b(bi |business intelligence )developer\b'
     ],
     'Analytics Engineer': [
         r'\b(analytics engineer|engenheiro de analytics)\b',
-        r'(engenheiro|engineer).*analytics',
-        r'analytics.*(engenheiro|engineer)',
-        r'engenh.*an[áa]l[ií]tica'
+        r'\b(engenheiro|engineer)\b.*\banalytics\b',
+        r'\banalytics\b.*\b(engenheiro|engineer)\b',
+        r'engenh.*an[áa]l[ií]tica\b'
     ],
     'Engenheiro de Machine Learning': [
-        r'\b(ml engineer|machine learning engineer|engenheiro de ml)\b',
+        r'\b(ml\b engineer|machine learning engineer|engenheiro de ml\b)\b',
         r'\bmlops\b',
-        r'engenheiro.*(machine learning|ml)',
-        r'(machine learning|ml).*engenheiro'
+        r'\bengenheiro\b.*\b(machine learning|ml\b)\b',
+        r'\b(machine learning|ml\b)\b.*\bengenheiro\b'
     ],
     'Cientista de Dados': [
-        r'\b(ml|machine learning|deep learning|llm|nlp)\b',
-        r'(pesquisador|research).*(dados|data)',
-        r'(cientista|scientist).*(dados|data)',
-        r'(dados|data).*(cientista|scientist)',
-        r'ci[êe]ncia de dados',
+        r'\b(ml\b|machine learning|deep learning|llm\b|nlp\b)\b',
+        r'\b(pesquisador|research)\b.*\b(dados|data)\b',
+        r'\b(cientista|scientist)\b.*\b(dados|data)\b',
+        r'\b(dados|data)\b.*\b(cientista|scientist)\b',
+        r'ci[êe]ncia de dados\b',
         r'\bgenai\b',
-        r'(computer vision|visão computacional)'
+        r'\b(computer vision|visão computacional)\b'
     ],
     'Engenheiro de Dados': [
-        r'\b(data engineer|engenheiro de dados)\b',
+        r'\b(data engineer|engenheiro(?:a|s)? de dados)\b',
         r'\b(etl|data pipeline|data platform)\b',
-        r'(engenheiro|engineer).*(dados|data)(?!.*(analyst|cientist|analytics))',
-        r'(big data|spark|hadoop|airflow).*engenheiro',
-        r'dataops',
-        r'engenharia de dados'
+        r'\b(engenheiro|engineer)\b.*\b(dados|data)\b(?!.*(analyst|cientist|analytics))',
+        r'\b(big data|spark|hadoop|airflow)\b.*\bengenheiro\b',
+        r'\bdataops\b',
+        r'engenharia de dados\b',
+        r'\bdados\b.*\b(engenheiro|engineer)\b'
     ],
     'Engenheiro de IA': [
-        r'\b(ai engineer|engenheiro de ia|artificial intelligence engineer)\b',
-        r'engenheiro.*(inteligência artificial| ia | ai )',
+        r'\b(ai\b engineer|engenheiro de (?:ia\b|intelig[êe]ncia artificial)|engenheiro ai\b)\b',
+        r'\bengenheiro\b(?:\W+\w+){0,3}?\W+(?:ia\b|ai\b|intelig[êe]ncia artificial)\b',
+        r'\b(?:ia\b|ai\b|intelig[êe]ncia artificial)\b(?:\W+\w+){0,3}?\W+\bengenheiro\b',
         r'\bprompt engineer\b',
-        r'automa[cç][ãa]o.*ia'
+        r'\bengenheiro de (?:chatbot|llm\b|modelos generativos)\b',
+        r'\bautoma[cç][ãa]o\b\W+(?:com|de)\W+(?:ia\b|ai\b)\b'
     ],
     'Analista de Dados': [
         r'\b(data analyst|analista de dados)\b',
-        r'anal[íi]se de dados',
-        r'reporting.*dados',
-        r'(analista|assistente).*dados',
-        r'\b(sql|powerbi|tableau|looker)\b.*analista'
+        r'\banal[íi]se de dados\b',
+        r'\breporting\b.*\bdados\b',
+        r'\b(analista|assistente)\b.*\bdados\b',
+        r'\b(sql\b|powerbi|tableau|looker)\b.*\banalista\b'
     ],
     'Arquiteto de Dados': [
         r'\b(data architect|arquiteto de dados)\b',
-        r'arquitetur(a|o).*dados'
+        r'\barquitetur(a|o)\b.*\bdados\b'
     ],
     'Engenheiro de DevOps': [
         r'\bdevops\b',
-        r'(sre|site reliability engineer)',
-        r'cloud engineer.*(aws|azure|gcp)'
+        r'\b(sre\b|site reliability engineer)\b',
+        r'\bcloud engineer\b.*\b(aws|azure|gcp)\b'
     ],
     'Engenheiro de Software': [
         r'\b(software engineer|engenheiro de software)\b',
-        r'engenheiro.*software',
-        r'\b(backend|frontend|full stack|java|python) engineer\b',
-        r'(desenvolvedor|developer).*(software|sistemas)',
-        r'(react|node\.js|angular|typescript).*engenheiro',
-        r'engenheiro.*(sistemas|aplicações)'
+        r'\bengenheiro\b.*\bsoftware\b',
+        r'\b(backend|frontend|full stack|java|python)\b engineer\b',
+        r'\b(desenvolvedor|developer)\b.*\b(software|sistemas)\b',
+        r'\b(react|node\.js|angular|typescript)\b.*\bengenheiro\b',
+        r'\bengenheiro\b.*\b(sistemas|aplicações)\b'
     ]
 }
 
@@ -138,5 +142,22 @@ SPECIAL_CASES = {
     ],
     'Engenheiro de Software': [
         (r'\b(data|dados)\b', None)
+    ],
+    'Engenheiro de IA': [
+        (r'analista.*(dados)', 'Analista de Dados'),
     ]
+}
+
+
+BRAZILIAN_STATES = {
+    'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas',
+    'BA': 'Bahia', 'CE': 'Ceará', 'DF': 'Distrito Federal',
+    'ES': 'Espírito Santo', 'GO': 'Goiás', 'MA': 'Maranhão',
+    'MT': 'Mato Grosso', 'MS': 'Mato Grosso do Sul',
+    'MG': 'Minas Gerais', 'PA': 'Pará', 'PB': 'Paraíba',
+    'PR': 'Paraná', 'PE': 'Pernambuco', 'PI': 'Piauí',
+    'RJ': 'Rio de Janeiro', 'RN': 'Rio Grande do Norte',
+    'RS': 'Rio Grande do Sul', 'RO': 'Rondônia',
+    'RR': 'Roraima', 'SC': 'Santa Catarina',
+    'SP': 'São Paulo', 'SE': 'Sergipe', 'TO': 'Tocantins'
 }

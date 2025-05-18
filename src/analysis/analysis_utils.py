@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 from datetime import timedelta
 from ..utils.logger import setup_logging
-from config.analysis import ROLE_PATTERNS, SPECIAL_CASES
+from config.analysis import ROLE_PATTERNS, SPECIAL_CASES, BRAZILIAN_STATES
 
 logger = logging.getLogger(__name__)
 
@@ -138,6 +138,59 @@ def parse_posted_date(row):
         return pd.NaT
     
     return scrape_date - delta
+
+def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> pd.DataFrame:
+    """
+    Standardizes location data into separate city, state, and country columns.
+    Handles cases like "São Paulo, Brasil" correctly.
+    """
+    
+    df['city'] = None
+    df['state'] = None
+    df['country'] = 'Brasil'
+
+    state_mapping = {**{v: k for k, v in BRAZILIAN_STATES.items()}, **BRAZILIAN_STATES}
+    
+    def extract_location(location):
+        if pd.isna(location):
+            return (None, None, None)
+            
+        location = str(location).strip()
+        
+        if re.search(r',\s*Brasil$', location, flags=re.IGNORECASE):
+            city = re.sub(r',\s*Brasil$', '', location, flags=re.IGNORECASE).strip()
+            state = None
+            for state_abbr, state_name in state_mapping.items():
+                if city.lower() == state_name.lower():
+                    state = state_abbr
+                    break
+            return (city.title(), state, 'Brasil')
+        
+        match = re.match(r'^(?P<city>[^,]+),\s*(?P<state>[A-Z]{2})$', location)
+        if match:
+            return (match.group('city').title(), match.group('state').upper(), 'Brasil')
+        
+        match = re.match(r'^(?P<city>[^,]+),\s*(?P<state>.+)$', location)
+        if match:
+            state = match.group('state')
+            if state.lower() in ['brasil', 'brazil']:
+                return (match.group('city').title(), None, 'Brasil')
+            state_abbr = state_mapping.get(state.title(), state)
+            return (match.group('city').title(), state_abbr, 'Brasil')
+        
+        match = re.match(r'^(?P<city>.+)\s+e\s+Região$', location)
+        if match:
+            city = match.group('city')
+            state = state_mapping.get(city.title(), None)
+            return (city.title(), state, 'Brasil')
+        
+        return (location.title(), state_mapping.get(location.title(), None), 'Brasil')
+    
+    df[['city', 'state', 'country']] = df[location_col].apply(
+        lambda x: pd.Series(extract_location(x))
+    )
+    
+    return df
 
 if __name__ == "__main__":
     setup_logging()

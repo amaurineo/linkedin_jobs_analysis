@@ -1,0 +1,2 @@
+2025-05-18 13:44:28,783 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 13:44:28,785 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 13 skill patterns.
