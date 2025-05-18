@@ -1,0 +1,14 @@
+2025-05-18 16:36:13,205 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:36:13,211 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 79 skill patterns.
+2025-05-18 16:43:36,236 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:43:36,242 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 79 skill patterns.
+2025-05-18 16:44:16,150 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:44:16,156 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 79 skill patterns.
+2025-05-18 16:44:26,800 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:44:26,806 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 79 skill patterns.
+2025-05-18 16:47:09,188 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:47:09,194 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 79 skill patterns.
+2025-05-18 16:47:17,927 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:47:17,933 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 79 skill patterns.
+2025-05-18 16:47:54,405 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:47:54,410 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 84 skill patterns.

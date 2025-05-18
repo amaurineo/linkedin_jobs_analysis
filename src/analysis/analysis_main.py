@@ -2,7 +2,7 @@ import logging
 import pandas as pd
 from pathlib import Path
 from .extracting_skills_list import SkillExtractor
-from .analysis_utils import classify_job_titles, parse_posted_date
+from .analysis_utils import classify_job_titles, parse_posted_date, standardize_locations
 from config.analysis import STANDARD_SKILL_MAP
 from ..utils.logger import setup_logging
 
@@ -12,8 +12,9 @@ def run_pipeline(classify_titles: bool = True):
     """Main pipeline with optional classification"""
     try:
         logger.info("Starting job skills extraction.")
-        skills_list = [skill for synonyms in STANDARD_SKILL_MAP.values() for skill in synonyms]
-        extractor = SkillExtractor(skills_list, STANDARD_SKILL_MAP)
+
+        extractor = SkillExtractor(STANDARD_SKILL_MAP)
+        
         dataset_path = Path('data/raw/jobs_data.csv')
         jobs_data = pd.read_csv(dataset_path)
         df_jobs, df_skills = extractor.process_dataframe(jobs_data, text_column="job_description")
@@ -37,7 +38,11 @@ def run_pipeline(classify_titles: bool = True):
             df_jobs['scrape_date'] = pd.to_datetime(df_jobs['scrape_date'], format='%d-%m-%Y')
             df_jobs['post_date'] = df_jobs.apply(parse_posted_date, axis=1)
             df_jobs['post_date'] = df_jobs['post_date'].dt.strftime('%d-%m-%Y')
-            df_jobs.drop(columns='time_posted', inplace=True)
+
+            df_jobs = standardize_locations(df_jobs, 'location')
+
+            df_jobs.drop(columns=['time_posted', 'location'], inplace=True)
+
         except Exception as e:
             logger.error(f'Error while treating df_jobs columns: {e}')
 

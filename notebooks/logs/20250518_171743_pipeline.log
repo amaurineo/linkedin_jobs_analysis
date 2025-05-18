@@ -1,0 +1,2 @@
+2025-05-18 17:17:47,635 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 17:17:47,639 - src.analysis.extracting_skills_list - INFO - Prepared regex patterns for 57 skills.

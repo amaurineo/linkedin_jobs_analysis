@@ -142,14 +142,41 @@ def parse_posted_date(row):
 def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> pd.DataFrame:
     """
     Standardizes location data into separate city, state, and country columns.
-    Handles cases like "São Paulo, Brasil" correctly.
+    Handles cases like "São Paulo, Brasil" and "Distrito Federal, Brasil" correctly.
+    Also handles "e Região" patterns for state capitals.
     """
     
     df['city'] = None
     df['state'] = None
     df['country'] = 'Brasil'
-
-    state_mapping = {**{v: k for k, v in BRAZILIAN_STATES.items()}, **BRAZILIAN_STATES}
+    
+    brazilian_states = {
+        'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas',
+        'BA': 'Bahia', 'CE': 'Ceará', 'DF': 'Distrito Federal',
+        'ES': 'Espírito Santo', 'GO': 'Goiás', 'MA': 'Maranhão',
+        'MT': 'Mato Grosso', 'MS': 'Mato Grosso do Sul',
+        'MG': 'Minas Gerais', 'PA': 'Pará', 'PB': 'Paraíba',
+        'PR': 'Paraná', 'PE': 'Pernambuco', 'PI': 'Piauí',
+        'RJ': 'Rio de Janeiro', 'RN': 'Rio Grande do Norte',
+        'RS': 'Rio Grande do Sul', 'RO': 'Rondônia',
+        'RR': 'Roraima', 'SC': 'Santa Catarina',
+        'SP': 'São Paulo', 'SE': 'Sergipe', 'TO': 'Tocantins'
+    }
+    
+    state_capitals = {
+        'Rio Branco': 'AC', 'Maceió': 'AL', 'Macapá': 'AP', 'Manaus': 'AM',
+        'Salvador': 'BA', 'Fortaleza': 'CE', 'Brasília': 'DF', 'Vitória': 'ES',
+        'Goiânia': 'GO', 'São Luís': 'MA', 'Cuiabá': 'MT', 'Campo Grande': 'MS',
+        'Belo Horizonte': 'MG', 'Belém': 'PA', 'João Pessoa': 'PB', 'Curitiba': 'PR',
+        'Recife': 'PE', 'Teresina': 'PI', 'Rio De Janeiro': 'RJ', 'Natal': 'RN',
+        'Porto Alegre': 'RS', 'Porto Velho': 'RO', 'Boa Vista': 'RR', 'Florianópolis': 'SC',
+        'São Paulo': 'SP', 'Aracaju': 'SE', 'Palmas': 'TO'
+    }
+    
+    state_mapping = {**{v: k for k, v in brazilian_states.items()}, **brazilian_states}
+    
+    state_names = set(brazilian_states.values())
+    state_abbrevs = set(brazilian_states.keys())
     
     def extract_location(location):
         if pd.isna(location):
@@ -157,14 +184,20 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
             
         location = str(location).strip()
         
-        if re.search(r',\s*Brasil$', location, flags=re.IGNORECASE):
-            city = re.sub(r',\s*Brasil$', '', location, flags=re.IGNORECASE).strip()
-            state = None
-            for state_abbr, state_name in state_mapping.items():
-                if city.lower() == state_name.lower():
-                    state = state_abbr
-                    break
-            return (city.title(), state, 'Brasil')
+        if location in state_names or location in state_abbrevs:
+            state_code = location if location in state_abbrevs else state_mapping.get(location)
+            return (None, state_code, 'Brasil')
+            
+        match = re.match(r'^(?P<state>[^,]+),\s*Brasil$', location, re.IGNORECASE)
+        if match and match.group('state') in state_names:
+            state_name = match.group('state')
+            return (None, state_mapping.get(state_name), 'Brasil')
+        
+        match = re.match(r'^(?P<city>.+)\s+e\s+Região$', location)
+        if match:
+            city = match.group('city').strip().title()
+            state = state_capitals.get(city)
+            return (city, state, 'Brasil')
         
         match = re.match(r'^(?P<city>[^,]+),\s*(?P<state>[A-Z]{2})$', location)
         if match:
@@ -172,19 +205,23 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
         
         match = re.match(r'^(?P<city>[^,]+),\s*(?P<state>.+)$', location)
         if match:
-            state = match.group('state')
+            state = match.group('state').strip()
+            
             if state.lower() in ['brasil', 'brazil']:
-                return (match.group('city').title(), None, 'Brasil')
-            state_abbr = state_mapping.get(state.title(), state)
-            return (match.group('city').title(), state_abbr, 'Brasil')
+                city_name = match.group('city').title()
+                return (city_name, state_capitals.get(city_name), 'Brasil')
+                
+            if state in state_names or state in state_abbrevs:
+                state_code = state if state in state_abbrevs else state_mapping.get(state)
+                return (match.group('city').title(), state_code, 'Brasil')
+            
+            return (match.group('city').title(), None, 'Brasil')
         
-        match = re.match(r'^(?P<city>.+)\s+e\s+Região$', location)
-        if match:
-            city = match.group('city')
-            state = state_mapping.get(city.title(), None)
-            return (city.title(), state, 'Brasil')
+        city_name = location.title()
+        if city_name in state_capitals:
+            return (city_name, state_capitals.get(city_name), 'Brasil')
         
-        return (location.title(), state_mapping.get(location.title(), None), 'Brasil')
+        return (city_name, None, 'Brasil')
     
     df[['city', 'state', 'country']] = df[location_col].apply(
         lambda x: pd.Series(extract_location(x))

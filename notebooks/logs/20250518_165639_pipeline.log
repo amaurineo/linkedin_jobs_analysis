@@ -1,0 +1,10 @@
+2025-05-18 16:57:13,264 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:57:13,269 - src.analysis.extracting_skills_list - INFO - Prepared regex patterns for 57 skills.
+2025-05-18 16:57:32,471 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:57:32,472 - src.analysis.extracting_skills_list - INFO - Prepared regex patterns for 57 skills.
+2025-05-18 16:59:14,476 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:59:14,477 - src.analysis.extracting_skills_list - INFO - Prepared regex patterns for 57 skills.
+2025-05-18 16:59:32,311 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:59:32,312 - src.analysis.extracting_skills_list - INFO - Prepared regex patterns for 57 skills.
+2025-05-18 16:59:39,158 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-18 16:59:39,159 - src.analysis.extracting_skills_list - INFO - Prepared regex patterns for 57 skills.
