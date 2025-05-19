@@ -1,6 +1,0 @@
-2025-03-30 21:59:28,636 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 1000 job IDs
-2025-03-30 21:59:33,640 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching a specific page: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=60
-2025-03-30 21:59:52,426 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching a specific page: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=320
-2025-03-30 22:00:40,974 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching a specific page: 429 Client Error: Request denied for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=1&position=1&start=950
-2025-03-30 22:00:44,095 - src.scraping.linkedin_scraper - SUCCESS - Successfully scraped 899 IDs
-2025-03-30 22:00:44,095 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching job IDs: [Errno 2] No such file or directory: 'data/processed/job_cache.pkl'

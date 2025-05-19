@@ -1,4 +1,0 @@
-2025-03-30 11:21:52,056 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job IDs
-2025-03-30 11:23:16,272 - src.scraping.linkedin_scraper - ERROR - Unexpected error while fetching job IDs: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=Dados&location=Brasil&geoId=106057199&f_WT=2&position=1&start=0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026827A99610>, 'Connection to www.linkedin.com timed out. (connect timeout=None)'))
-2025-03-30 11:23:16,272 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job information
-2025-03-30 11:23:16,272 - src.scraping.linkedin_scraper - SUCCESS - Scraped data from 0 job postings successfully

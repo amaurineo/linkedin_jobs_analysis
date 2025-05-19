@@ -2,7 +2,7 @@ import logging
 import re
 import pandas as pd
 from pathlib import Path
-from datetime import timedelta
+from datetime import timedelta, datetime
 from ..utils.logger import setup_logging
 from config.analysis import ROLE_PATTERNS, SPECIAL_CASES, BRAZILIAN_STATES
 
@@ -118,26 +118,40 @@ def classify_job_titles(
 def parse_posted_date(row):
     time_posted = row['time_posted']
     scrape_date = row['scrape_date']
-    
+
+    if isinstance(scrape_date, str):
+        scrape_date = datetime.strptime(scrape_date, '%d-%m-%Y %H:%M:%S')
+
     if pd.isna(time_posted):
         return pd.NaT
-    
-    parts = time_posted.split()
-    num = int(parts[1])
-    unit = parts[2]
-    
-    if 'hora' in unit:
-        delta = timedelta(hours=num)
-    elif 'dia' in unit:
-        delta = timedelta(days=num)
-    elif 'semana' in unit:
-        delta = timedelta(weeks=num)
-    elif 'mês' in unit or 'mes' in unit:  
-        delta = timedelta(days=30*num) 
-    else:
+
+    try:
+        parts = time_posted.strip().split()
+        if len(parts) < 3:
+            return pd.NaT
+
+        num = int(parts[1])
+        unit = parts[2].lower()
+
+        # Normalize unit
+        if 'minuto' in unit:
+            delta = timedelta(minutes=num)
+        elif 'hora' in unit:
+            delta = timedelta(hours=num)
+        elif 'dia' in unit:
+            delta = timedelta(days=num)
+        elif 'semana' in unit:
+            delta = timedelta(weeks=num)
+        elif 'mes' in unit or 'mês' in unit:
+            delta = timedelta(days=30 * num)
+        elif 'ano' in unit:
+            delta = timedelta(days=365 * num)
+        else:
+            return pd.NaT
+
+        return scrape_date - delta
+    except Exception:
         return pd.NaT
-    
-    return scrape_date - delta
 
 def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> pd.DataFrame:
     """

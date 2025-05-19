@@ -1,9 +1,0 @@
-2025-04-19 18:57:00,218 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
-2025-04-19 18:57:00,222 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 84 skill patterns.
-2025-04-19 18:57:00,317 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 2515 rows.
-2025-04-19 19:00:53,338 - src.analysis.extracting_skills_list - INFO - Skill extraction completed.
-2025-04-19 19:00:53,339 - __main__ - INFO - Starting job title classification
-2025-04-19 19:00:53,339 - src.analysis.classification_utils - SUCCESS - Initialized title classifier
-2025-04-19 19:00:53,339 - src.analysis.classification_utils - INFO - Using provided DataFrame for classification
-2025-04-19 19:00:53,480 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_jobs_classified.csv
-2025-04-19 19:00:53,488 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_skills.csv

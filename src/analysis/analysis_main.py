@@ -35,9 +35,9 @@ def run_pipeline(classify_titles: bool = True):
             df_jobs['num_applicants'] = df_jobs['num_applicants'].str.extract(r'(\d+)')
             df_jobs['num_applicants'] = pd.to_numeric(df_jobs['num_applicants'])
 
-            df_jobs['scrape_date'] = pd.to_datetime(df_jobs['scrape_date'], format='%d-%m-%Y')
+            df_jobs['scrape_date'] = pd.to_datetime(df_jobs['scrape_date'], format='%d-%m-%Y %H:%M:%S')
             df_jobs['post_date'] = df_jobs.apply(parse_posted_date, axis=1)
-            df_jobs['post_date'] = df_jobs['post_date'].dt.strftime('%d-%m-%Y')
+            df_jobs['post_date'] = df_jobs['post_date'].dt.strftime('%d-%m-%Y %H:%M:%S')
 
             df_jobs = standardize_locations(df_jobs, 'location')
 

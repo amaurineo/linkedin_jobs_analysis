@@ -1,3 +1,0 @@
-2025-04-13 18:06:49,764 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
-2025-04-13 18:06:49,769 - src.analysis.extracting_skills_list - INFO - Prepared matcher with 94 skill patterns.
-2025-04-13 18:06:49,769 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 10 rows.

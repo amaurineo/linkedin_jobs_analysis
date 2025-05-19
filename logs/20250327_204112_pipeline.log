@@ -1,5 +1,0 @@
-2025-03-27 20:41:14,128 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job IDs
-2025-03-27 20:41:15,087 - src.scraping.linkedin_scraper - SUCCESS - Scraped 10 IDs successfully
-2025-03-27 20:41:15,088 - src.scraping.linkedin_scraper - INFO - Initializing scraping of jobs information
-2025-03-27 20:41:19,235 - src.scraping.linkedin_scraper - SUCCESS - Scraped 10 IDs successfully
-2025-03-27 20:41:19,239 - src.scraping.linkedin_scraper - ERROR - Error while fetching job data: Cannot save file into a non-existent directory: 'data\raw'

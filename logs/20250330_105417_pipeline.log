@@ -1,4 +1,0 @@
-2025-03-30 10:54:19,087 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job IDs
-2025-03-30 10:55:34,272 - src.scraping.linkedin_scraper - SUCCESS - Scraped 926 IDs successfully
-2025-03-30 10:55:34,274 - src.scraping.linkedin_scraper - INFO - Initializing scraping of jobs information
-2025-03-30 10:58:44,446 - src.scraping.linkedin_scraper - ERROR - Error while fetching job data: list index out of range

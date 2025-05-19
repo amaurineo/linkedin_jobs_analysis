@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 class JobScraper():
     def __init__(self):
         self.session = requests.Session()
-        self.scrape_date = datetime.today().strftime('%d-%m-%Y')
+        self.scrape_date = datetime.today().strftime('%d-%m-%Y %H:%M:%S')
         
         self.job_data_cache_file = Path('data/cache/job_data_cache.pkl')
         self.job_data_cache_file.parent.mkdir(parents=True, exist_ok=True)

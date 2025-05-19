@@ -1,5 +1,0 @@
-2025-03-30 11:38:58,648 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job IDs
-2025-03-30 11:40:12,288 - src.scraping.linkedin_scraper - SUCCESS - Scraped 947 IDs successfully
-2025-03-30 11:40:12,288 - src.scraping.linkedin_scraper - INFO - Initializing scraping of job information
-2025-03-30 11:40:21,029 - src.scraping.linkedin_scraper - WARNING - 429 Too Many Requests - Retrying in 2.74 seconds...
-2025-03-30 11:40:21,030 - src.scraping.linkedin_scraper - ERROR - Error while fetching data from job ID 4187046059: name 'time' is not defined

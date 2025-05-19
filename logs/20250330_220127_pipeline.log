@@ -1,5 +1,0 @@
-2025-03-30 22:01:29,189 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 100 job IDs
-2025-03-30 22:01:36,668 - src.scraping.linkedin_scraper - SUCCESS - Successfully scraped 98 IDs
-2025-03-30 22:01:36,669 - src.scraping.linkedin_scraper - INFO - Stored IDs cache in 'data/processed/job_cache.pkl'
-2025-03-30 22:01:36,669 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 98 job postings
-2025-03-30 22:01:43,205 - src.scraping.linkedin_scraper - ERROR - Error while fetching data from job ID 4190966688: cannot access local variable 'wait_time' where it is not associated with a value

@@ -1,9 +1,0 @@
-2025-03-30 12:27:16,623 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 100 job IDs
-2025-03-30 12:27:23,482 - src.scraping.linkedin_scraper - SUCCESS - Successfully scraped 97 IDs
-2025-03-30 12:27:23,483 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 97 job postings
-2025-03-30 12:27:27,318 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185696461?_l=pt_BR (Attempt 1) - Waiting 4.39 seconds
-2025-03-30 12:27:39,444 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4170063595?_l=pt_BR (Attempt 1) - Waiting 4.01 seconds
-2025-03-30 12:27:48,835 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4195975934?_l=pt_BR (Attempt 1) - Waiting 4.97 seconds
-2025-03-30 12:28:03,163 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4185986202?_l=pt_BR (Attempt 1) - Waiting 4.27 seconds
-2025-03-30 12:28:18,310 - src.scraping.linkedin_scraper - INFO - Requesting https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4165401605?_l=pt_BR (Attempt 1) - Waiting 3.31 seconds
-2025-03-30 12:28:22,410 - src.scraping.linkedin_scraper - SUCCESS - Scraped data from 97 job postings successfully

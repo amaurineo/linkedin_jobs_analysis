@@ -1,6 +1,0 @@
-2025-04-15 22:01:16,614 - __main__ - SUCCESS - Successfully initialized scraper.
-2025-04-15 22:01:17,965 - __main__ - ERROR - Failed to fetch job data: invalid literal for int() with base 10: '246,745'
-2025-04-15 22:01:17,965 - src.scraping.linkedin_scraper - INFO - Initializing scraping of 0 cached job IDs
-2025-04-15 22:01:17,965 - src.scraping.linkedin_scraper - WARNING - No jobs found in cache - run get_job_ids() first
-2025-04-15 22:01:17,965 - __main__ - SUCCESS - Successfully fetched job info for 0 job postings.
-2025-04-15 22:01:17,965 - __main__ - SUCCESS - Scraping part completed.
