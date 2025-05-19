@@ -177,14 +177,14 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
         'SP': 'São Paulo', 'SE': 'Sergipe', 'TO': 'Tocantins'
     }
     
-    state_capitals = {
+    region_cities = {
         'Rio Branco': 'AC', 'Maceió': 'AL', 'Macapá': 'AP', 'Manaus': 'AM',
         'Salvador': 'BA', 'Fortaleza': 'CE', 'Brasília': 'DF', 'Vitória': 'ES',
         'Goiânia': 'GO', 'São Luís': 'MA', 'Cuiabá': 'MT', 'Campo Grande': 'MS',
         'Belo Horizonte': 'MG', 'Belém': 'PA', 'João Pessoa': 'PB', 'Curitiba': 'PR',
         'Recife': 'PE', 'Teresina': 'PI', 'Rio De Janeiro': 'RJ', 'Natal': 'RN',
         'Porto Alegre': 'RS', 'Porto Velho': 'RO', 'Boa Vista': 'RR', 'Florianópolis': 'SC',
-        'São Paulo': 'SP', 'Aracaju': 'SE', 'Palmas': 'TO'
+        'São Paulo': 'SP', 'Aracaju': 'SE', 'Palmas': 'TO', 'Campinas': 'SP'
     }
     
     state_mapping = {**{v: k for k, v in brazilian_states.items()}, **brazilian_states}
@@ -197,6 +197,9 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
             return (None, None, None)
             
         location = str(location).strip()
+
+        if location.lower() in ['brasil']:
+            return (None, None, 'Brasil')
         
         if location in state_names or location in state_abbrevs:
             state_code = location if location in state_abbrevs else state_mapping.get(location)
@@ -210,7 +213,7 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
         match = re.match(r'^(?P<city>.+)\s+e\s+Região$', location)
         if match:
             city = match.group('city').strip().title()
-            state = state_capitals.get(city)
+            state = region_cities.get(city)
             return (city, state, 'Brasil')
         
         match = re.match(r'^(?P<city>[^,]+),\s*(?P<state>[A-Z]{2})$', location)
@@ -223,7 +226,7 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
             
             if state.lower() in ['brasil', 'brazil']:
                 city_name = match.group('city').title()
-                return (city_name, state_capitals.get(city_name), 'Brasil')
+                return (city_name, region_cities.get(city_name), 'Brasil')
                 
             if state in state_names or state in state_abbrevs:
                 state_code = state if state in state_abbrevs else state_mapping.get(state)
@@ -232,8 +235,8 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
             return (match.group('city').title(), None, 'Brasil')
         
         city_name = location.title()
-        if city_name in state_capitals:
-            return (city_name, state_capitals.get(city_name), 'Brasil')
+        if city_name in region_cities:
+            return (city_name, region_cities.get(city_name), 'Brasil')
         
         return (city_name, None, 'Brasil')
     
