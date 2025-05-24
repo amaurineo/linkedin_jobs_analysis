@@ -32,8 +32,7 @@ STANDARD_SKILL_MAP = {
     ],
     'Visão computacional': [
         r'\bvis[ãa]o\s+computacional\b', 
-        r'\bcomputer\s+vision\b',
-        r'\bcv\b'
+        r'\bcomputer\s+vision\b'
     ],
     'Feature engineering': [
         r'\bfeature\s+engineering\b',
@@ -71,13 +70,12 @@ STANDARD_SKILL_MAP = {
     ],
     'Estatística': [
         r'\bestat[íi]stica\b', 
-        r'\bstatistics\b',
-        r'\bstats\b'
+        r'\bstatistics\b'
     ],
     'R': [
         r'\br\b',
         r'\br\s+language\b',
-        r'\br\s+programming\b'
+        r'\blinguagem\s+r\b',
     ],
     'Trabalho em equipe': [
         r'\btrabalho\s+em\s+equipe\b',
@@ -124,8 +122,7 @@ STANDARD_SKILL_MAP = {
     ],
     'Redes neurais': [
         r'\bredes\s+neurais\b',
-        r'\bneural\s+networks\b',
-        r'\bnn\b'
+        r'\bneural\s+networks\b'
     ],
     'NoSQL': [
         r'\bnosql\b',
@@ -149,8 +146,7 @@ STANDARD_SKILL_MAP = {
         r'\bdw\b'
     ],
     'Kubernetes': [
-        r'\bkubernetes\b',
-        r'\bk8s\b'
+        r'\bkubernetes\b'
     ],
     'Pipeline': [
         r'\bpipeline\b', 
@@ -166,7 +162,7 @@ STANDARD_SKILL_MAP = {
     ],
     'Manipulação de dados': [
         r'\bdata\s+wrangling\b', 
-        r'\bmanipu[çc]a[ãa]o\s+de\s+dados\b'
+        r'\bmanipula[çc]a[ãa]o\s+de\s+dados\b'
     ],
     'Qualidade dos dados': [
         r'\bdata\s+quality\b', 
@@ -185,8 +181,7 @@ STANDARD_SKILL_MAP = {
     ],
     'Deep Learning': [
         r'\bdeep\s+learning\b', 
-        r'\baprendizado\s+profundo\b',
-        r'\bdl\b'
+        r'\baprendizado\s+profundo\b'
     ],
     'Big Data': [
         r'\bbig\s+data\b'
@@ -222,8 +217,7 @@ STANDARD_SKILL_MAP = {
         r'\bsklearn\b'
     ],
     'Pandas': [
-        r'\bpandas\b',
-        r'\bpd\b'
+        r'\bpandas\b'
     ],
     'Docker': [
         r'\bdocker\b'
@@ -241,8 +235,7 @@ STANDARD_SKILL_MAP = {
         r'\bmicrosoft\s+sql\s+server\b'
     ],
     'NumPy': [
-        r'\bnumpy\b',
-        r'\bnp\b'
+        r'\bnumpy\b'
     ],
     'Git': [
         r'\bgit\b',
@@ -552,9 +545,7 @@ STANDARD_SKILL_MAP = {
     ],
     'Monitoramento': [
         r'\bmonitoramento\b',
-        r'\bmonitoring\b',
-        r'\balerting\b',
-        r'\balert\w+\b'
+        r'\bmonitoring\b'
     ]
 }
 
@@ -572,7 +563,7 @@ ROLE_PATTERNS = {
         r'\banalytics\b.*\b(engenheiro|engineer)\b',
         r'engenh.*an[áa]l[ií]tica\b'
     ],
-    'Engenheiro de Machine Learning': [
+    'Engenheiro de ML': [
         r'\b(ml\b engineer|machine learning engineer|engenheiro de ml\b)\b',
         r'\bmlops\b',
         r'\bengenheiro\b.*\b(machine learning|ml\b)\b',

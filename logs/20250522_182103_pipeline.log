@@ -1,0 +1,12 @@
+2025-05-22 18:21:03,306 - __main__ - INFO - Starting job skills extraction.
+2025-05-22 18:21:04,921 - src.analysis.extracting_skills_list - SUCCESS - Successfully loaded spaCy model: pt_core_news_lg
+2025-05-22 18:21:04,931 - src.analysis.extracting_skills_list - INFO - Prepared regex patterns for 126 skills.
+2025-05-22 18:21:05,125 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 4239 rows.
+2025-05-22 18:22:07,711 - src.analysis.extracting_skills_list - INFO - Skill extraction completed.
+2025-05-22 18:22:07,712 - __main__ - SUCCESS - Successfully extracted skills from 4239 postings.
+2025-05-22 18:22:07,713 - __main__ - INFO - Starting job title classification
+2025-05-22 18:22:07,713 - src.analysis.analysis_utils - INFO - Using provided DataFrame for classification
+2025-05-22 18:22:07,860 - __main__ - SUCCESS - Successfully classified job titles.
+2025-05-22 18:22:08,384 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_jobs_classified.csv
+2025-05-22 18:22:08,407 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_skills.csv
+2025-05-22 18:22:08,407 - __main__ - SUCCESS - Successfully exported CSV file with 4239 data jobs info and their skills required.
