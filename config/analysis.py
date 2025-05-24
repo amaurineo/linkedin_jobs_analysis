@@ -602,23 +602,23 @@ ROLE_PATTERNS = {
         r'\b(analista|assistente)\b.*\bdados\b',
         r'\b(sql\b|powerbi|tableau|looker)\b.*\banalista\b'
     ],
-    'Arquiteto de Dados': [
-        r'\b(data architect|arquiteto de dados)\b',
-        r'\barquitetur(a|o)\b.*\bdados\b'
-    ],
-    'Engenheiro de DevOps': [
-        r'\bdevops\b',
-        r'\b(sre\b|site reliability engineer)\b',
-        r'\bcloud engineer\b.*\b(aws|azure|gcp)\b'
-    ],
-    'Engenheiro de Software': [
-        r'\b(software engineer|engenheiro de software)\b',
-        r'\bengenheiro\b.*\bsoftware\b',
-        r'\b(backend|frontend|full stack|java|python)\b engineer\b',
-        r'\b(desenvolvedor|developer)\b.*\b(software|sistemas)\b',
-        r'\b(react|node\.js|angular|typescript)\b.*\bengenheiro\b',
-        r'\bengenheiro\b.*\b(sistemas|aplicações)\b'
-    ]
+    # 'Arquiteto de Dados': [
+    #     r'\b(data architect|arquiteto de dados)\b',
+    #     r'\barquitetur(a|o)\b.*\bdados\b'
+    # ],
+    # 'Engenheiro de DevOps': [
+    #     r'\bdevops\b',
+    #     r'\b(sre\b|site reliability engineer)\b',
+    #     r'\bcloud engineer\b.*\b(aws|azure|gcp)\b'
+    # ],
+    # 'Engenheiro de Software': [
+    #     r'\b(software engineer|engenheiro de software)\b',
+    #     r'\bengenheiro\b.*\bsoftware\b',
+    #     r'\b(backend|frontend|full stack|java|python)\b engineer\b',
+    #     r'\b(desenvolvedor|developer)\b.*\b(software|sistemas)\b',
+    #     r'\b(react|node\.js|angular|typescript)\b.*\bengenheiro\b',
+    #     r'\bengenheiro\b.*\b(sistemas|aplicações)\b'
+    # ]
 }
 
 SPECIAL_CASES = {
@@ -626,9 +626,9 @@ SPECIAL_CASES = {
         (r'\b(bi|business intelligence)\b', 'Analista de BI'),
         (r'\b(etl|data pipeline)\b', 'Engenheiro de Dados')
     ],
-    'Engenheiro de Software': [
-        (r'\b(data|dados)\b', None)
-    ],
+    # 'Engenheiro de Software': [
+    #     (r'\b(data|dados)\b', None)
+    # ],
     'Engenheiro de IA': [
         (r'analista.*(dados)', 'Analista de Dados'),
     ]
