@@ -41,7 +41,8 @@ STANDARD_SKILL_MAP = {
     'Visualização de dados': [
         r'\bdata\s+visualization\b', 
         r'\bvisualiza[çc][ãa]o\s+de\s+dados\b',
-        r'\bdata\s+viz\b'
+        r'\bdata\s+viz\b',
+        r'\bdataviz\b'
     ],
     'Programação': [
         r'\bprograma[çc][ãa]o\b',
@@ -186,7 +187,7 @@ STANDARD_SKILL_MAP = {
     'Big Data': [
         r'\bbig\s+data\b'
     ],
-    'Data storytelling': [
+    'Storytelling de dados': [
         r'\bstorytelling\b',
         r'\bdata\s+storytelling\b'
     ],
@@ -305,7 +306,7 @@ STANDARD_SKILL_MAP = {
         r'\bgoogle\s+bigquery\b',
         r'\bbq\b'
     ],
-    'Dimensional Modeling': [
+    'Modelagem dimensional': [
         r'\bdimensional\s+model\w*\b',
         r'\bmodela\w+\s+dimensional\b',
         r'\bstar\s+schema\b',
@@ -432,21 +433,21 @@ STANDARD_SKILL_MAP = {
         r'\bfeature\s+selection\b',
         r'\bsele[cç][aã]o\s+de\s+caracter[ií]sticas\b'
     ],
-    'A/B Testing': [
+    'Teste A/B': [
         r'\ba/b\s+testing\b',
         r'\bteste\s+a/b\b',
         r'\bexperiment\s+design\b',
         r'\bdesenho\s+de\s+experimentos\b'
     ],
-    'Hypothesis Testing': [
+    'Testes de hipóteses': [
         r'\bhypothesis\s+testing\b',
         r'\bteste\s+de\s+hip[óo]teses?\b'
     ],
-    'Linear Regression': [
+    'Regressão linear': [
         r'\blinear\s+regression\b',
         r'\bregressão\s+linear\b'
     ],
-    'Logistic Regression': [
+    'Regressão logística': [
         r'\blogistic\s+regression\b',
         r'\bregressão\s+log[ií]stica\b'
     ],
@@ -459,7 +460,7 @@ STANDARD_SKILL_MAP = {
         r'\bbayes\b',
         r'\bbay[ée]siano\b'
     ],
-    'Clustering': [
+    'Clusterização': [
         r'\bclustering\b',
         r'\bclusteriza[çc][ãa]o\b',
         r'\bagrupamento\b'
@@ -478,11 +479,7 @@ STANDARD_SKILL_MAP = {
     'CatBoost': [
         r'\bcatboost\b'
     ],
-    'Experiment Tracking': [
-        r'\bexperiment\s+tracking\b',
-        r'\brastreamento\s+de\s+experimentos\b'
-    ],
-    'Hyperparameter Tuning': [
+    'Tunagem de hiperparâmetros': [
         r'\bhyperparameter\s+tuning\b',
         r'\bhyperparameter\s+optimization\b',
         r'\botimiza[çc][ãa]o\s+de\s+hiperpar[âa]metros\b'
@@ -538,7 +535,7 @@ STANDARD_SKILL_MAP = {
         r'\bselenium\b',
         r'\bscrape\b'
     ],
-    'Modelagem de Dados': [
+    'Modelagem de dados': [
         r'\bmodelagem\s+de\s+dados\b',
         r'\bdata\s+modeling\b',
         r'\bmodelo\s+de\s+dados\b'
@@ -557,12 +554,6 @@ ROLE_PATTERNS = {
         r'\bbi\b analyst\b',
         r'\b(bi |business intelligence )developer\b'
     ],
-    'Analytics Engineer': [
-        r'\b(analytics engineer|engenheiro de analytics)\b',
-        r'\b(engenheiro|engineer)\b.*\banalytics\b',
-        r'\banalytics\b.*\b(engenheiro|engineer)\b',
-        r'engenh.*an[áa]l[ií]tica\b'
-    ],
     'Engenheiro de ML': [
         r'\b(ml\b engineer|machine learning engineer|engenheiro de ml\b)\b',
         r'\bmlops\b',
@@ -573,7 +564,7 @@ ROLE_PATTERNS = {
         r'\b(ml\b|machine learning|deep learning|llm\b|nlp\b)\b',
         r'\b(pesquisador|research)\b.*\b(dados|data)\b',
         r'\b(cientista|scientist)\b.*\b(dados|data)\b',
-        r'\b(dados|data)\b.*\b(cientista|scientist)\b',
+        r'\b(dados|data)\b.*\b(cientista|scientist|science)\b',
         r'ci[êe]ncia de dados\b',
         r'\bgenai\b',
         r'\b(computer vision|visão computacional)\b'
@@ -601,24 +592,7 @@ ROLE_PATTERNS = {
         r'\breporting\b.*\bdados\b',
         r'\b(analista|assistente)\b.*\bdados\b',
         r'\b(sql\b|powerbi|tableau|looker)\b.*\banalista\b'
-    ],
-    # 'Arquiteto de Dados': [
-    #     r'\b(data architect|arquiteto de dados)\b',
-    #     r'\barquitetur(a|o)\b.*\bdados\b'
-    # ],
-    # 'Engenheiro de DevOps': [
-    #     r'\bdevops\b',
-    #     r'\b(sre\b|site reliability engineer)\b',
-    #     r'\bcloud engineer\b.*\b(aws|azure|gcp)\b'
-    # ],
-    # 'Engenheiro de Software': [
-    #     r'\b(software engineer|engenheiro de software)\b',
-    #     r'\bengenheiro\b.*\bsoftware\b',
-    #     r'\b(backend|frontend|full stack|java|python)\b engineer\b',
-    #     r'\b(desenvolvedor|developer)\b.*\b(software|sistemas)\b',
-    #     r'\b(react|node\.js|angular|typescript)\b.*\bengenheiro\b',
-    #     r'\bengenheiro\b.*\b(sistemas|aplicações)\b'
-    # ]
+    ]
 }
 
 SPECIAL_CASES = {
@@ -634,7 +608,6 @@ SPECIAL_CASES = {
     ]
 }
 
-
 BRAZILIAN_STATES = {
     'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas',
     'BA': 'Bahia', 'CE': 'Ceará', 'DF': 'Distrito Federal',
@@ -646,4 +619,14 @@ BRAZILIAN_STATES = {
     'RS': 'Rio Grande do Sul', 'RO': 'Rondônia',
     'RR': 'Roraima', 'SC': 'Santa Catarina',
     'SP': 'São Paulo', 'SE': 'Sergipe', 'TO': 'Tocantins'
+}
+
+REGION_CITIES = {
+    'Rio Branco': 'AC', 'Maceió': 'AL', 'Macapá': 'AP', 'Manaus': 'AM',
+    'Salvador': 'BA', 'Fortaleza': 'CE', 'Brasília': 'DF', 'Vitória': 'ES',
+    'Goiânia': 'GO', 'São Luís': 'MA', 'Cuiabá': 'MT', 'Campo Grande': 'MS',
+    'Belo Horizonte': 'MG', 'Belém': 'PA', 'João Pessoa': 'PB', 'Curitiba': 'PR',
+    'Recife': 'PE', 'Teresina': 'PI', 'Rio De Janeiro': 'RJ', 'Natal': 'RN',
+    'Porto Alegre': 'RS', 'Porto Velho': 'RO', 'Boa Vista': 'RR', 'Florianópolis': 'SC',
+    'São Paulo': 'SP', 'Aracaju': 'SE', 'Palmas': 'TO', 'Campinas': 'SP'
 }

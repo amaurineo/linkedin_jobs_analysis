@@ -19,7 +19,7 @@ def run_pipeline(classify_titles: bool = True):
         jobs_data = pd.read_csv(dataset_path)
         # Removing same vacancies posted more than one time
         jobs_data_unique = jobs_data.drop_duplicates(subset=['work_model', 'job_title',
-                                                     'company_name', 'location', 'xp_level', 'job_type',
+                                                     'company_name', 'xp_level', 'job_type',
                                                      'job_sectors', 'job_description'])
         df_jobs, df_skills = extractor.process_dataframe(jobs_data_unique, text_column="job_description")
         logger.success(f'Successfully extracted skills from {len(jobs_data)} postings.')
