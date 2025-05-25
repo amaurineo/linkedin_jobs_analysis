@@ -14,8 +14,8 @@ class SkillExtractor:
     """
 
     def __init__(self, skill_patterns):
-        """
-        Initializes the SkillExtractor.
+        r"""
+        Initialize the SkillExtractor.
 
         Args:
             skill_patterns (dict): A dictionary where keys are canonical skill names
@@ -71,7 +71,7 @@ class SkillExtractor:
 
     def normalize_text(self, text: str) -> str:
         """
-        Normalizes text by removing accents, converting to lowercase, and stripping whitespace.
+        Normalize text by removing accents, converting to lowercase, and stripping whitespace.
 
         Args:
             text (str): The input string to normalize.
@@ -97,7 +97,7 @@ class SkillExtractor:
 
     def extract_skills(self, text: str) -> list:
         """
-        Extracts skills from a given text using the pre-compiled regex patterns.
+        Extract skills from a given text using the pre-compiled regex patterns.
 
         Args:
             text (str): The text from which to extract skills.
@@ -127,7 +127,7 @@ class SkillExtractor:
         self, df: pd.DataFrame, text_column: str
     ) -> tuple[pd.DataFrame, pd.DataFrame]:
         """
-        Processes a DataFrame to extract skills from a specified text column.
+        Process a DataFrame to extract skills from a specified text column.
 
         Args:
             df (pd.DataFrame): The input DataFrame.
@@ -193,7 +193,7 @@ class SkillExtractor:
 
     def export(self, df, path):
         """
-        Exports a DataFrame to a CSV file.
+        Export a DataFrame to a CSV file.
 
         Args:
             df (pd.DataFrame): The DataFrame to export.

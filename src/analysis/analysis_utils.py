@@ -189,7 +189,7 @@ def classify_job_titles(
 
 def parse_posted_date(row):
     """
-    Parses a 'time_posted' string (e.g., "Há 1 dia", "Há 2 semanas") relative to a 'scrape_date'
+    Parse a 'time_posted' string (e.g., "Há 1 dia", "Há 2 semanas") relative to a 'scrape_date'
     to determine the actual posting date.
 
     Args:
@@ -251,7 +251,6 @@ def standardize_locations(
     Returns:
         pd.DataFrame: The DataFrame with added 'city', 'state', and 'country' columns.
     """
-
     df['city'] = None
     df['state'] = None
     df['country'] = 'Brasil'

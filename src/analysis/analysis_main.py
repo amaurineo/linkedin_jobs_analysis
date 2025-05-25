@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 def run_pipeline(classify_titles: bool = True):
-    """Main pipeline with optional classification"""
+    """Execute main pipeline with optional classification."""
     try:
         logger.info('Starting job skills extraction.')
 
