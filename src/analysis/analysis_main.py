@@ -1,10 +1,14 @@
 import logging
-import pandas as pd
 from pathlib import Path
-from .extracting_skills_list import SkillExtractor
-from .analysis_utils import classify_job_titles, parse_posted_date, standardize_locations
+
+import pandas as pd
+
 from config.analysis import STANDARD_SKILL_MAP
+
 from ..utils.logger import setup_logging
+from .analysis_utils import (classify_job_titles, parse_posted_date,
+                             standardize_locations)
+from .extracting_skills_list import SkillExtractor
 
 logger = logging.getLogger(__name__)
     

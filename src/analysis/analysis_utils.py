@@ -1,12 +1,15 @@
 import logging
 import re
-import pandas as pd
+from datetime import datetime, timedelta
 from pathlib import Path
-from datetime import timedelta, datetime
-from typing import List, Tuple, Dict, Any, Optional 
+from typing import List, Optional, Tuple
+
+import pandas as pd
+
+from config.analysis import (BRAZILIAN_STATES, REGION_CITIES, ROLE_PATTERNS,
+                             SPECIAL_CASES)
 
 from ..utils.logger import setup_logging
-from config.analysis import ROLE_PATTERNS, SPECIAL_CASES, BRAZILIAN_STATES, REGION_CITIES
 
 logger = logging.getLogger(__name__)
 

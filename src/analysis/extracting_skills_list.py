@@ -1,7 +1,8 @@
 import logging
-import unicodedata
-import pandas as pd
 import re
+import unicodedata
+
+import pandas as pd
 from tqdm.auto import tqdm
 
 logger = logging.getLogger(__name__)

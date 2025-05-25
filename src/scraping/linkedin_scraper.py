@@ -1,13 +1,15 @@
-import requests
-import random
 import logging
-import time
-import pandas as pd
 import pickle
-from bs4 import BeautifulSoup
-from urllib.parse import quote
-from pathlib import Path
+import random
+import time
 from datetime import datetime
+from pathlib import Path
+from urllib.parse import quote
+
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+
 from config.scraping import USER_AGENTS, WORK_MODEL
 
 logger = logging.getLogger(__name__)

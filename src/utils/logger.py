@@ -1,6 +1,6 @@
 import logging
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
 
 LOG_TIMESTAMP = datetime.now().strftime('%Y%m%d_%H%M%S')
 

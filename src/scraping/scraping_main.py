@@ -1,7 +1,9 @@
 import logging
+
+from config.scraping import KEYWORDS
+
 from ..utils.logger import setup_logging
 from .linkedin_scraper import JobScraper
-from config.scraping import KEYWORDS
 
 logger = logging.getLogger(__name__)
 
