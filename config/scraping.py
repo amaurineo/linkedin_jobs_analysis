@@ -13,23 +13,19 @@ USER_AGENTS = [
     'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/537.36',
-    ]
-WORK_MODEL = {
-    '1': 'Presencial', 
-    '2': 'Remoto', 
-    '3': 'Híbrido'
-    }
+]
+WORK_MODEL = {'1': 'Presencial', '2': 'Remoto', '3': 'Híbrido'}
 KEYWORDS = [
     'Analista de Dados',
-    'Cientista de Dados', 
-    'Engenheiro de Dados', 
-    'Data Analyst', 
+    'Cientista de Dados',
+    'Engenheiro de Dados',
+    'Data Analyst',
     'Data Scientist',
-    'Data Engineer', 
+    'Data Engineer',
     'Analista de BI',
     'Business Intelligence Analyst',
     'Machine Learning Engineer',
     'Engenheiro de Machine Learning',
     'Engenheiro de IA',
-    'AI Engineer'
-    ]
+    'AI Engineer',
+]

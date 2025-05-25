@@ -1,78 +1,64 @@
 STANDARD_SKILL_MAP = {
     'Solução de problemas': [
         r'\bsolu[çc][aã]o\s+de\s+problemas\b',
-        r'\bproblem\s+solving\b'
+        r'\bproblem\s+solving\b',
     ],
     'Pensamento crítico': [
-        r'\bcritical\s+thinking\b', 
-        r'\bpensamento\s+cr[ií]tico\b'
+        r'\bcritical\s+thinking\b',
+        r'\bpensamento\s+cr[ií]tico\b',
     ],
     'Inteligência Artificial': [
-        r'\bia\b', 
-        r'\bintelig[êe]ncia\s+artificial\b', 
-        r'\bartificial\s+intelligence\b', 
-        r'\bai\b'
+        r'\bia\b',
+        r'\bintelig[êe]ncia\s+artificial\b',
+        r'\bartificial\s+intelligence\b',
+        r'\bai\b',
     ],
     'Machine Learning': [
-        r'\bmachine\s+learning\b', 
+        r'\bmachine\s+learning\b',
         r'\baprendizado\s+de\s+m[áa]quina\b',
-        r'\bml\b'
+        r'\bml\b',
     ],
     'Cloud': [
-        r'\bcloud\b', 
-        r'\bnuvem\b', 
-        r'\bcomputa[çc][aã]o\s+em\s+nuvem\b', 
-        r'\bcloud\s+computing\b'
+        r'\bcloud\b',
+        r'\bnuvem\b',
+        r'\bcomputa[çc][aã]o\s+em\s+nuvem\b',
+        r'\bcloud\s+computing\b',
     ],
     'NLP': [
-        r'\bnatural\s+language\s+processing\b', 
+        r'\bnatural\s+language\s+processing\b',
         r'\bprocessamento\s+de\s+linguagem\s+natural\b',
-        r'\bpln\b', 
-        r'\bnlp\b'
+        r'\bpln\b',
+        r'\bnlp\b',
     ],
     'Visão computacional': [
-        r'\bvis[ãa]o\s+computacional\b', 
-        r'\bcomputer\s+vision\b'
+        r'\bvis[ãa]o\s+computacional\b',
+        r'\bcomputer\s+vision\b',
     ],
     'Feature engineering': [
         r'\bfeature\s+engineering\b',
-        r'\bengenharia\s+de\s+caracter[íi]sticas\b'
+        r'\bengenharia\s+de\s+caracter[íi]sticas\b',
     ],
     'Visualização de dados': [
-        r'\bdata\s+visualization\b', 
+        r'\bdata\s+visualization\b',
         r'\bvisualiza[çc][ãa]o\s+de\s+dados\b',
         r'\bdata\s+viz\b',
-        r'\bdataviz\b'
+        r'\bdataviz\b',
     ],
     'Programação': [
         r'\bprograma[çc][ãa]o\b',
         r'\bprogramming\b',
-        r'\bcoding\b'
+        r'\bcoding\b',
     ],
-    'Excel': [
-        r'\bexcel\b',
-        r'\bmicrosoft\s+excel\b'
-    ],
-    'Tableau': [
-        r'\btableau\b'
-    ],
-    'Adaptabilidade': [
-        r'\badaptabilidade\b',
-        r'\badaptability\b'
-    ],
-    'Azure': [
-        r'\bazure\b',
-        r'\bmicrosoft\s+azure\b'
-    ],
+    'Excel': [r'\bexcel\b', r'\bmicrosoft\s+excel\b'],
+    'Tableau': [r'\btableau\b'],
+    'Adaptabilidade': [r'\badaptabilidade\b', r'\badaptability\b'],
+    'Azure': [r'\bazure\b', r'\bmicrosoft\s+azure\b'],
     'GCP': [
         r'\bgcp\b',
         r'\bgoogle\s+cloud\s+platform\b',
-        r'\bgoogle\s+cloud\b'
+        r'\bgoogle\s+cloud\b',
     ],
-    'Estatística': [
-        r'\bestat[íi]stica\b', 
-        r'\bstatistics\b'
-    ],
+    'Estatística': [r'\bestat[íi]stica\b', r'\bstatistics\b'],
     'R': [
         r'\br\b',
         r'\br\s+language\b',
@@ -81,331 +67,153 @@ STANDARD_SKILL_MAP = {
     'Trabalho em equipe': [
         r'\btrabalho\s+em\s+equipe\b',
         r'\bteamwork\b',
-        r'\bteam\s+work\b'
+        r'\bteam\s+work\b',
     ],
-    'Limpeza de dados': [
-        r'\blimpeza\s+de\s+dados\b', 
-        r'\bdata\s+cleaning\b'
-    ],
+    'Limpeza de dados': [r'\blimpeza\s+de\s+dados\b', r'\bdata\s+cleaning\b'],
     'Arquitetura de dados': [
-        r'\barquitetura\s+de\s+dados\b', 
-        r'\bdata\s+architecture\b'
+        r'\barquitetura\s+de\s+dados\b',
+        r'\bdata\s+architecture\b',
     ],
-    'Séries temporais': [
-        r'\bs[ée]ries\s+temporais\b', 
-        r'\btime\s+series\b'
-    ],
+    'Séries temporais': [r'\bs[ée]ries\s+temporais\b', r'\btime\s+series\b'],
     'BI': [
-        r'\bbusiness\s+intelligence\b', 
+        r'\bbusiness\s+intelligence\b',
         r'\bintelig[êe]ncia\s+de\s+neg[óo]cios\b',
-        r'(?<!power\s)\bbi\b'
+        r'(?<!power\s)\bbi\b',
     ],
-    'Python': [
-        r'\bpython\b'
-    ],
-    'Teste A/B': [
-        r'\ba/b\b',
-        r'\ba/b\s+testing\b',
-        r'\bteste\s+a/b\b'
-    ],
-    'ETL': [
-        r'\betl\b',
-        r'\bextract\s+transform\s+load\b'
-    ],
+    'Python': [r'\bpython\b'],
+    'Teste A/B': [r'\ba/b\b', r'\ba/b\s+testing\b', r'\bteste\s+a/b\b'],
+    'ETL': [r'\betl\b', r'\bextract\s+transform\s+load\b'],
     'Aprendizado por reforço': [
         r'\breinforcement\s+learning\b',
         r'\baprendizado\s+por\s+refor[çc]o\b',
-        r'\brl\b'
+        r'\brl\b',
     ],
-    'PostgreSQL': [
-        r'\bpostgresql\b',
-        r'\bpostgres\b'
-    ],
-    'Redes neurais': [
-        r'\bredes\s+neurais\b',
-        r'\bneural\s+networks\b'
-    ],
-    'NoSQL': [
-        r'\bnosql\b',
-        r'\bnon\s+sql\b',
-        r'\bn[ãa]o\s+relacional\b'
-    ],
-    'Airflow': [
-        r'\bairflow\b',
-        r'\bapache\s+airflow\b'
-    ],
-    'Comunicação': [
-        r'\bcomunica[çc][ãa]o\b',
-        r'\bcommunication\b'
-    ],
-    'Tensorflow': [
-        r'\btensorflow\b',
-        r'\btf\b'
-    ],
-    'Data Warehouse': [
-        r'\bdata\s+warehouse\b',
-        r'\bdw\b'
-    ],
-    'Kubernetes': [
-        r'\bkubernetes\b'
-    ],
-    'Pipeline': [
-        r'\bpipeline\b', 
-        r'\bdata\s+pipeline\b'
-    ],
+    'PostgreSQL': [r'\bpostgresql\b', r'\bpostgres\b'],
+    'Redes neurais': [r'\bredes\s+neurais\b', r'\bneural\s+networks\b'],
+    'NoSQL': [r'\bnosql\b', r'\bnon\s+sql\b', r'\bn[ãa]o\s+relacional\b'],
+    'Airflow': [r'\bairflow\b', r'\bapache\s+airflow\b'],
+    'Comunicação': [r'\bcomunica[çc][ãa]o\b', r'\bcommunication\b'],
+    'Tensorflow': [r'\btensorflow\b', r'\btf\b'],
+    'Data Warehouse': [r'\bdata\s+warehouse\b', r'\bdw\b'],
+    'Kubernetes': [r'\bkubernetes\b'],
+    'Pipeline': [r'\bpipeline\b', r'\bdata\s+pipeline\b'],
     'Governança de dados': [
-        r'\bgovernança\s+de\s+dados\b', 
-        r'\bdata\s+governance\b'
+        r'\bgovernança\s+de\s+dados\b',
+        r'\bdata\s+governance\b',
     ],
-    'Hadoop': [
-        r'\bhadoop\b',
-        r'\bapache\s+hadoop\b'
-    ],
+    'Hadoop': [r'\bhadoop\b', r'\bapache\s+hadoop\b'],
     'Manipulação de dados': [
-        r'\bdata\s+wrangling\b', 
-        r'\bmanipula[çc]a[ãa]o\s+de\s+dados\b'
+        r'\bdata\s+wrangling\b',
+        r'\bmanipula[çc]a[ãa]o\s+de\s+dados\b',
     ],
     'Qualidade dos dados': [
-        r'\bdata\s+quality\b', 
-        r'\bqualidade\s+dos\s+dados\b'
+        r'\bdata\s+quality\b',
+        r'\bqualidade\s+dos\s+dados\b',
     ],
-    'PyTorch': [
-        r'\bpytorch\b',
-        r'\bpy[-\s]?torch\b'
-    ],
-    'MySQL': [
-        r'\bmysql\b'
-    ],
+    'PyTorch': [r'\bpytorch\b', r'\bpy[-\s]?torch\b'],
+    'MySQL': [r'\bmysql\b'],
     'Análise de negócios': [
-        r'\bbusiness\s+analytics\b', 
-        r'\ban[áa]lise\s+de\s+neg[óo]cios\b'
+        r'\bbusiness\s+analytics\b',
+        r'\ban[áa]lise\s+de\s+neg[óo]cios\b',
     ],
-    'Deep Learning': [
-        r'\bdeep\s+learning\b', 
-        r'\baprendizado\s+profundo\b'
-    ],
-    'Big Data': [
-        r'\bbig\s+data\b'
-    ],
-    'Storytelling de dados': [
-        r'\bstorytelling\b',
-        r'\bdata\s+storytelling\b'
-    ],
+    'Deep Learning': [r'\bdeep\s+learning\b', r'\baprendizado\s+profundo\b'],
+    'Big Data': [r'\bbig\s+data\b'],
+    'Storytelling de dados': [r'\bstorytelling\b', r'\bdata\s+storytelling\b'],
     'Mineração de dados': [
-        r'\bmineração\s+de\s+dados\b', 
-        r'\bdata\s+mining\b'
+        r'\bmineração\s+de\s+dados\b',
+        r'\bdata\s+mining\b',
     ],
-    'SQL': [
-        r'\bsql\b',
-        r'\bstructured\s+query\s+language\b'
-    ],
-    'Power BI': [
-        r'\bpower\s+bi\b',
-        r'\bpowerbi\b'
-    ],
-    'Spark': [
-        r'\bspark\b', 
-        r'\bpyspark\b',
-        r'\bapache\s+spark\b'
-    ],
+    'SQL': [r'\bsql\b', r'\bstructured\s+query\s+language\b'],
+    'Power BI': [r'\bpower\s+bi\b', r'\bpowerbi\b'],
+    'Spark': [r'\bspark\b', r'\bpyspark\b', r'\bapache\s+spark\b'],
     'API': [
         r'\bapi\b',
         r'\bapis\b',
-        r'\bapplication\s+programming\s+interface\b'
+        r'\bapplication\s+programming\s+interface\b',
     ],
-    'Scikit-learn': [
-        r'\bscikit[-\s]?learn\b',
-        r'\bsklearn\b'
-    ],
-    'Pandas': [
-        r'\bpandas\b'
-    ],
-    'Docker': [
-        r'\bdocker\b'
-    ],
-    'AWS': [
-        r'\baws\b',
-        r'\bamazon\s+web\s+services\b'
-    ],
-    'MATLAB': [
-        r'\bmatlab\b'
-    ],
+    'Scikit-learn': [r'\bscikit[-\s]?learn\b', r'\bsklearn\b'],
+    'Pandas': [r'\bpandas\b'],
+    'Docker': [r'\bdocker\b'],
+    'AWS': [r'\baws\b', r'\bamazon\s+web\s+services\b'],
+    'MATLAB': [r'\bmatlab\b'],
     'SQL Server': [
         r'\bsql\s+server\b',
         r'\bmssql\b',
-        r'\bmicrosoft\s+sql\s+server\b'
+        r'\bmicrosoft\s+sql\s+server\b',
     ],
-    'NumPy': [
-        r'\bnumpy\b'
-    ],
+    'NumPy': [r'\bnumpy\b'],
     'Git': [
         r'\bgit\b',
         r'\bgithub\b',
         r'\bversion\s+control\b',
-        r'\bcontrole\s+de\s+vers[ãa]o\b'
+        r'\bcontrole\s+de\s+vers[ãa]o\b',
     ],
-    'Jupyter': [
-        r'\bjupyter\b',
-        r'\bjupyter\s+notebook\b'
-    ],
-    'Linux': [
-        r'\blinux\b',
-        r'\bunix\b'
-    ],
-    'Flask': [
-        r'\bflask\b'
-    ],
-    'Django': [
-        r'\bdjango\b'
-    ],
-    'REST': [
-        r'\brest\b',
-        r'\brestful\b',
-        r'\brest\s+api\b'
-    ],
-    'FastAPI': [
-        r'\bfastapi\b',
-        r'\bfast\s+api\b'
-    ],
-    'Looker': [
-        r'\blooker\b',
-        r'\bgoogle\s+looker\b'
-    ],
-    'Qlik': [
-        r'\bqlik\b',
-        r'\bqlikview\b',
-        r'\bqlik\s+sense\b'
-    ],
-    'Metabase': [
-        r'\bmetabase\b'
-    ],
-    'Superset': [
-        r'\bsuperset\b',
-        r'\bapache\s+superset\b'
-    ],
-    'Google Analytics': [
-        r'\bgoogle\s+analytics\b',
-        r'\bga4\b',
-        r'\bga\b'
-    ],
+    'Jupyter': [r'\bjupyter\b', r'\bjupyter\s+notebook\b'],
+    'Linux': [r'\blinux\b', r'\bunix\b'],
+    'Flask': [r'\bflask\b'],
+    'Django': [r'\bdjango\b'],
+    'REST': [r'\brest\b', r'\brestful\b', r'\brest\s+api\b'],
+    'FastAPI': [r'\bfastapi\b', r'\bfast\s+api\b'],
+    'Looker': [r'\blooker\b', r'\bgoogle\s+looker\b'],
+    'Qlik': [r'\bqlik\b', r'\bqlikview\b', r'\bqlik\s+sense\b'],
+    'Metabase': [r'\bmetabase\b'],
+    'Superset': [r'\bsuperset\b', r'\bapache\s+superset\b'],
+    'Google Analytics': [r'\bgoogle\s+analytics\b', r'\bga4\b', r'\bga\b'],
     'Google Data Studio': [
         r'\bdata\s+studio\b',
         r'\bgoogle\s+data\s+studio\b',
-        r'\blooker\s+studio\b'
+        r'\blooker\s+studio\b',
     ],
-    'DAX': [
-        r'\bdax\b',
-        r'\bdata\s+analysis\s+expressions\b'
-    ],
-    'OLAP': [
-        r'\bolap\b',
-        r'\bon[-\s]?line\s+analytical\s+processing\b'
-    ],
-    'Google BigQuery': [
-        r'\bbigquery\b',
-        r'\bgoogle\s+bigquery\b',
-        r'\bbq\b'
-    ],
+    'DAX': [r'\bdax\b', r'\bdata\s+analysis\s+expressions\b'],
+    'OLAP': [r'\bolap\b', r'\bon[-\s]?line\s+analytical\s+processing\b'],
+    'Google BigQuery': [r'\bbigquery\b', r'\bgoogle\s+bigquery\b', r'\bbq\b'],
     'Modelagem dimensional': [
         r'\bdimensional\s+model\w*\b',
         r'\bmodela\w+\s+dimensional\b',
         r'\bstar\s+schema\b',
         r'\bschema\s+estrela\b',
         r'\bsnowflake\s+schema\b',
-        r'\bschema\s+floco\s+de\s+neve\b'
+        r'\bschema\s+floco\s+de\s+neve\b',
     ],
-    'Databricks': [
-        r'\bdatabricks\b',
-        r'\bdelta\s+lake\b'
-    ],
-    'Snowflake': [
-        r'\bsnowflake\b'
-    ],
-    'dbt': [
-        r'\bdbt\b',
-        r'\bdata\s+build\s+tool\b'
-    ],
-    'Apache Hive': [
-        r'\bhive\b',
-        r'\bapache\s+hive\b'
-    ],
-    'Apache Kafka': [
-        r'\bkafka\b',
-        r'\bapache\s+kafka\b'
-    ],
-    'Apache Beam': [
-        r'\bbeam\b',
-        r'\bapache\s+beam\b'
-    ],
-    'Prefect': [
-        r'\bprefect\b'
-    ],
-    'Dagster': [
-        r'\bdagster\b'
-    ],
+    'Databricks': [r'\bdatabricks\b', r'\bdelta\s+lake\b'],
+    'Snowflake': [r'\bsnowflake\b'],
+    'dbt': [r'\bdbt\b', r'\bdata\s+build\s+tool\b'],
+    'Apache Hive': [r'\bhive\b', r'\bapache\s+hive\b'],
+    'Apache Kafka': [r'\bkafka\b', r'\bapache\s+kafka\b'],
+    'Apache Beam': [r'\bbeam\b', r'\bapache\s+beam\b'],
+    'Prefect': [r'\bprefect\b'],
+    'Dagster': [r'\bdagster\b'],
     'Streaming': [
         r'\bdata\s+streaming\b',
         r'\bstreaming\s+de\s+dados\b',
-        r'\bstreaming\b'
+        r'\bstreaming\b',
     ],
-    'Data Lake': [
-        r'\bdata\s+lake\b',
-        r'\blago\s+de\s+dados\b'
-    ],
-    'Data Mesh': [
-        r'\bdata\s+mesh\b',
-        r'\bmesh\s+de\s+dados\b'
-    ],
+    'Data Lake': [r'\bdata\s+lake\b', r'\blago\s+de\s+dados\b'],
+    'Data Mesh': [r'\bdata\s+mesh\b', r'\bmesh\s+de\s+dados\b'],
     'Terraforming': [
         r'\bterraform\b',
         r'\biac\b',
         r'\binfrastructure\s+as\s+code\b',
-        r'\binfra\s+as\s+code\b'
+        r'\binfra\s+as\s+code\b',
     ],
-    'MLOps': [
-        r'\bmlops\b',
-        r'\bml\s+ops\b',
-        r'\bml[-\s]?operations\b'
-    ],
-    'MLflow': [
-        r'\bmlflow\b'
-    ],
-    'DVC': [
-        r'\bdvc\b',
-        r'\bdata\s+version\s+control\b'
-    ],
-    'Vertex AI': [
-        r'\bvertex\s+ai\b',
-        r'\bgoogle\s+vertex\b'
-    ],
-    'SageMaker': [
-        r'\bsagemaker\b',
-        r'\baws\s+sagemaker\b'
-    ],
-    'Kubeflow': [
-        r'\bkubeflow\b'
-    ],
-    'Feature Store': [
-        r'\bfeature\s+store\b'
-    ],
-    'Hugging Face': [
-        r'\bhugging\s*face\b',
-        r'\bhf\b',
-        r'\btransformers\b'
-    ],
-    'BERT': [
-        r'\bbert\b',
-        r'\bbidirectional\s+encoder\s+representations\b'
-    ],
+    'MLOps': [r'\bmlops\b', r'\bml\s+ops\b', r'\bml[-\s]?operations\b'],
+    'MLflow': [r'\bmlflow\b'],
+    'DVC': [r'\bdvc\b', r'\bdata\s+version\s+control\b'],
+    'Vertex AI': [r'\bvertex\s+ai\b', r'\bgoogle\s+vertex\b'],
+    'SageMaker': [r'\bsagemaker\b', r'\baws\s+sagemaker\b'],
+    'Kubeflow': [r'\bkubeflow\b'],
+    'Feature Store': [r'\bfeature\s+store\b'],
+    'Hugging Face': [r'\bhugging\s*face\b', r'\bhf\b', r'\btransformers\b'],
+    'BERT': [r'\bbert\b', r'\bbidirectional\s+encoder\s+representations\b'],
     'GPT': [
         r'\bgpt\b',
         r'\bgpt[\-\s]?[234]\b',
-        r'\bgenerative\s+pre[-\s]?trained\s+transformer\b'
+        r'\bgenerative\s+pre[-\s]?trained\s+transformer\b',
     ],
     'LLM': [
         r'\bllm\b',
         r'\blarge\s+language\s+model\b',
-        r'\bmodelo\s+de\s+linguagem\s+grande\b'
+        r'\bmodelo\s+de\s+linguagem\s+grande\b',
     ],
     'Vector Database': [
         r'\bvector\s+database\b',
@@ -416,115 +224,85 @@ STANDARD_SKILL_MAP = {
         r'\bfaiss\b',
         r'\bpgvector\b',
         r'\bvector\s+search\b',
-        r'\bbanco\s+de\s+dados\s+vetorial\b'
+        r'\bbanco\s+de\s+dados\s+vetorial\b',
     ],
     'Embeddings': [
         r'\bembeddings\b',
         r'\bword\s+embeddings\b',
         r'\bsentence\s+embeddings\b',
         r'\btext\s+embeddings\b',
-        r'\bembedimentos\b'
+        r'\bembedimentos\b',
     ],
-    'RAG': [
-        r'\brag\b',
-        r'\bretrieval\s+augmented\s+generation\b'
-    ],
+    'RAG': [r'\brag\b', r'\bretrieval\s+augmented\s+generation\b'],
     'Feature Selection': [
         r'\bfeature\s+selection\b',
-        r'\bsele[cç][aã]o\s+de\s+caracter[ií]sticas\b'
+        r'\bsele[cç][aã]o\s+de\s+caracter[ií]sticas\b',
     ],
     'Teste A/B': [
         r'\ba/b\s+testing\b',
         r'\bteste\s+a/b\b',
         r'\bexperiment\s+design\b',
-        r'\bdesenho\s+de\s+experimentos\b'
+        r'\bdesenho\s+de\s+experimentos\b',
     ],
     'Testes de hipóteses': [
         r'\bhypothesis\s+testing\b',
-        r'\bteste\s+de\s+hip[óo]teses?\b'
+        r'\bteste\s+de\s+hip[óo]teses?\b',
     ],
     'Regressão linear': [
         r'\blinear\s+regression\b',
-        r'\bregressão\s+linear\b'
+        r'\bregressão\s+linear\b',
     ],
     'Regressão logística': [
         r'\blogistic\s+regression\b',
-        r'\bregressão\s+log[ií]stica\b'
+        r'\bregressão\s+log[ií]stica\b',
     ],
-    'Random Forest': [
-        r'\brandom\s+forest\b',
-        r'\bfloresta\s+aleat[óo]ria\b'
-    ],
-    'Bayesian': [
-        r'\bbayesian\b',
-        r'\bbayes\b',
-        r'\bbay[ée]siano\b'
-    ],
+    'Random Forest': [r'\brandom\s+forest\b', r'\bfloresta\s+aleat[óo]ria\b'],
+    'Bayesian': [r'\bbayesian\b', r'\bbayes\b', r'\bbay[ée]siano\b'],
     'Clusterização': [
         r'\bclustering\b',
         r'\bclusteriza[çc][ãa]o\b',
-        r'\bagrupamento\b'
+        r'\bagrupamento\b',
     ],
     'PCA': [
         r'\bpca\b',
         r'\bprincipal\s+component\s+analysis\b',
-        r'\ban[áa]lise\s+de\s+componentes\s+principais\b'
+        r'\ban[áa]lise\s+de\s+componentes\s+principais\b',
     ],
-    'XGBoost': [
-        r'\bxgboost\b'
-    ],
-    'LightGBM': [
-        r'\blightgbm\b'
-    ],
-    'CatBoost': [
-        r'\bcatboost\b'
-    ],
+    'XGBoost': [r'\bxgboost\b'],
+    'LightGBM': [r'\blightgbm\b'],
+    'CatBoost': [r'\bcatboost\b'],
     'Tunagem de hiperparâmetros': [
         r'\bhyperparameter\s+tuning\b',
         r'\bhyperparameter\s+optimization\b',
-        r'\botimiza[çc][ãa]o\s+de\s+hiperpar[âa]metros\b'
+        r'\botimiza[çc][ãa]o\s+de\s+hiperpar[âa]metros\b',
     ],
-    'GraphQL': [
-        r'\bgraphql\b'
-    ],
+    'GraphQL': [r'\bgraphql\b'],
     'Neo4j': [
         r'\bneo4j\b',
         r'\bgraph\s+database\b',
-        r'\bbanco\s+de\s+dados\s+em\s+grafo\b'
+        r'\bbanco\s+de\s+dados\s+em\s+grafo\b',
     ],
-    'Agile': [
-        r'\bagile\b',
-        r'\b[áa]gil\b',
-        r'\bscrum\b',
-        r'\bkanban\b'
-    ],
+    'Agile': [r'\bagile\b', r'\b[áa]gil\b', r'\bscrum\b', r'\bkanban\b'],
     'CI/CD': [
-        r'\bci/cd\b', 
+        r'\bci/cd\b',
         r'\bcontinuous\s+integration\b',
         r'\bcontinuous\s+delivery\b',
         r'\bintegra[çc][ãa]o\s+cont[ií]nua\b',
-        r'\bentrega\s+cont[ií]nua\b'
+        r'\bentrega\s+cont[ií]nua\b',
     ],
-    'Prometheus': [
-        r'\bprometheus\b'
-    ],
-    'Grafana': [
-        r'\bgrafana\b'
-    ],
+    'Prometheus': [r'\bprometheus\b'],
+    'Grafana': [r'\bgrafana\b'],
     'Growth Analytics': [
         r'\bgrowth\s+analytics\b',
         r'\bcrescimento\s+anal[ií]tico\b',
-        r'\bcrescimento\s+de\s+neg[óo]cio\b'
+        r'\bcrescimento\s+de\s+neg[óo]cio\b',
     ],
     'Datalake': [
         r'\bdatalake\b',
         r'\bdata\s+lake\b',
-        r'\blago\s+de\s+dados\b'
+        r'\blago\s+de\s+dados\b',
     ],
-    'ELT': [
-        r'\belt\b',
-        r'\bextract\s+load\s+transform\b'
-    ],
+    'ELT': [r'\belt\b', r'\bextract\s+load\s+transform\b'],
     'Web Scraping': [
         r'\bweb\s+scraping\b',
         r'\bscraping\b',
@@ -533,17 +311,14 @@ STANDARD_SKILL_MAP = {
         r'\bscraper\b',
         r'\bbeautiful\s*soup\b',
         r'\bselenium\b',
-        r'\bscrape\b'
+        r'\bscrape\b',
     ],
     'Modelagem de dados': [
         r'\bmodelagem\s+de\s+dados\b',
         r'\bdata\s+modeling\b',
-        r'\bmodelo\s+de\s+dados\b'
+        r'\bmodelo\s+de\s+dados\b',
     ],
-    'Monitoramento': [
-        r'\bmonitoramento\b',
-        r'\bmonitoring\b'
-    ]
+    'Monitoramento': [r'\bmonitoramento\b', r'\bmonitoring\b'],
 }
 
 ROLE_PATTERNS = {
@@ -552,13 +327,13 @@ ROLE_PATTERNS = {
         r'\banalista de (bi\b|business intelligence)',
         r'(data analyst|analista de dados).*\b(bi\b|business intelligence)\b',
         r'\bbi\b analyst\b',
-        r'\b(bi |business intelligence )developer\b'
+        r'\b(bi |business intelligence )developer\b',
     ],
     'Engenheiro de ML': [
         r'\b(ml\b engineer|machine learning engineer|engenheiro de ml\b)\b',
         r'\bmlops\b',
         r'\bengenheiro\b.*\b(machine learning|ml\b)\b',
-        r'\b(machine learning|ml\b)\b.*\bengenheiro\b'
+        r'\b(machine learning|ml\b)\b.*\bengenheiro\b',
     ],
     'Cientista de Dados': [
         r'\b(ml\b|machine learning|deep learning|llm\b|nlp\b)\b',
@@ -567,7 +342,7 @@ ROLE_PATTERNS = {
         r'\b(dados|data)\b.*\b(cientista|scientist|science)\b',
         r'ci[êe]ncia de dados\b',
         r'\bgenai\b',
-        r'\b(computer vision|visão computacional)\b'
+        r'\b(computer vision|visão computacional)\b',
     ],
     'Engenheiro de Dados': [
         r'\b(data engineer|engenheiro(?:a|s)? de dados)\b',
@@ -576,7 +351,7 @@ ROLE_PATTERNS = {
         r'\b(big data|spark|hadoop|airflow)\b.*\bengenheiro\b',
         r'\bdataops\b',
         r'engenharia de dados\b',
-        r'\bdados\b.*\b(engenheiro|engineer)\b'
+        r'\bdados\b.*\b(engenheiro|engineer)\b',
     ],
     'Engenheiro de IA': [
         r'\b(ai\b engineer|engenheiro de (?:ia\b|intelig[êe]ncia artificial)|engenheiro ai\b)\b',
@@ -584,49 +359,87 @@ ROLE_PATTERNS = {
         r'\b(?:ia\b|ai\b|intelig[êe]ncia artificial)\b(?:\W+\w+){0,3}?\W+\bengenheiro\b',
         r'\bprompt engineer\b',
         r'\bengenheiro de (?:chatbot|llm\b|modelos generativos)\b',
-        r'\bautoma[cç][ãa]o\b\W+(?:com|de)\W+(?:ia\b|ai\b)\b'
+        r'\bautoma[cç][ãa]o\b\W+(?:com|de)\W+(?:ia\b|ai\b)\b',
     ],
     'Analista de Dados': [
         r'\b(data analyst|analista de dados)\b',
         r'\banal[íi]se de dados\b',
         r'\breporting\b.*\bdados\b',
         r'\b(analista|assistente)\b.*\bdados\b',
-        r'\b(sql\b|powerbi|tableau|looker)\b.*\banalista\b'
-    ]
+        r'\b(sql\b|powerbi|tableau|looker)\b.*\banalista\b',
+    ],
 }
 
 SPECIAL_CASES = {
     'Analista de Dados': [
         (r'\b(bi|business intelligence)\b', 'Analista de BI'),
-        (r'\b(etl|data pipeline)\b', 'Engenheiro de Dados')
+        (r'\b(etl|data pipeline)\b', 'Engenheiro de Dados'),
     ],
     # 'Engenheiro de Software': [
     #     (r'\b(data|dados)\b', None)
     # ],
     'Engenheiro de IA': [
         (r'analista.*(dados)', 'Analista de Dados'),
-    ]
+    ],
 }
 
 BRAZILIAN_STATES = {
-    'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas',
-    'BA': 'Bahia', 'CE': 'Ceará', 'DF': 'Distrito Federal',
-    'ES': 'Espírito Santo', 'GO': 'Goiás', 'MA': 'Maranhão',
-    'MT': 'Mato Grosso', 'MS': 'Mato Grosso do Sul',
-    'MG': 'Minas Gerais', 'PA': 'Pará', 'PB': 'Paraíba',
-    'PR': 'Paraná', 'PE': 'Pernambuco', 'PI': 'Piauí',
-    'RJ': 'Rio de Janeiro', 'RN': 'Rio Grande do Norte',
-    'RS': 'Rio Grande do Sul', 'RO': 'Rondônia',
-    'RR': 'Roraima', 'SC': 'Santa Catarina',
-    'SP': 'São Paulo', 'SE': 'Sergipe', 'TO': 'Tocantins'
+    'AC': 'Acre',
+    'AL': 'Alagoas',
+    'AP': 'Amapá',
+    'AM': 'Amazonas',
+    'BA': 'Bahia',
+    'CE': 'Ceará',
+    'DF': 'Distrito Federal',
+    'ES': 'Espírito Santo',
+    'GO': 'Goiás',
+    'MA': 'Maranhão',
+    'MT': 'Mato Grosso',
+    'MS': 'Mato Grosso do Sul',
+    'MG': 'Minas Gerais',
+    'PA': 'Pará',
+    'PB': 'Paraíba',
+    'PR': 'Paraná',
+    'PE': 'Pernambuco',
+    'PI': 'Piauí',
+    'RJ': 'Rio de Janeiro',
+    'RN': 'Rio Grande do Norte',
+    'RS': 'Rio Grande do Sul',
+    'RO': 'Rondônia',
+    'RR': 'Roraima',
+    'SC': 'Santa Catarina',
+    'SP': 'São Paulo',
+    'SE': 'Sergipe',
+    'TO': 'Tocantins',
 }
 
 REGION_CITIES = {
-    'Rio Branco': 'AC', 'Maceió': 'AL', 'Macapá': 'AP', 'Manaus': 'AM',
-    'Salvador': 'BA', 'Fortaleza': 'CE', 'Brasília': 'DF', 'Vitória': 'ES',
-    'Goiânia': 'GO', 'São Luís': 'MA', 'Cuiabá': 'MT', 'Campo Grande': 'MS',
-    'Belo Horizonte': 'MG', 'Belém': 'PA', 'João Pessoa': 'PB', 'Curitiba': 'PR',
-    'Recife': 'PE', 'Teresina': 'PI', 'Rio De Janeiro': 'RJ', 'Natal': 'RN',
-    'Porto Alegre': 'RS', 'Porto Velho': 'RO', 'Boa Vista': 'RR', 'Florianópolis': 'SC',
-    'São Paulo': 'SP', 'Aracaju': 'SE', 'Palmas': 'TO', 'Campinas': 'SP'
+    'Rio Branco': 'AC',
+    'Maceió': 'AL',
+    'Macapá': 'AP',
+    'Manaus': 'AM',
+    'Salvador': 'BA',
+    'Fortaleza': 'CE',
+    'Brasília': 'DF',
+    'Vitória': 'ES',
+    'Goiânia': 'GO',
+    'São Luís': 'MA',
+    'Cuiabá': 'MT',
+    'Campo Grande': 'MS',
+    'Belo Horizonte': 'MG',
+    'Belém': 'PA',
+    'João Pessoa': 'PB',
+    'Curitiba': 'PR',
+    'Recife': 'PE',
+    'Teresina': 'PI',
+    'Rio De Janeiro': 'RJ',
+    'Natal': 'RN',
+    'Porto Alegre': 'RS',
+    'Porto Velho': 'RO',
+    'Boa Vista': 'RR',
+    'Florianópolis': 'SC',
+    'São Paulo': 'SP',
+    'Aracaju': 'SE',
+    'Palmas': 'TO',
+    'Campinas': 'SP',
 }

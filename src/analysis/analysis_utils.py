@@ -6,12 +6,17 @@ from typing import List, Optional, Tuple
 
 import pandas as pd
 
-from config.analysis import (BRAZILIAN_STATES, REGION_CITIES, ROLE_PATTERNS,
-                             SPECIAL_CASES)
+from config.analysis import (
+    BRAZILIAN_STATES,
+    REGION_CITIES,
+    ROLE_PATTERNS,
+    SPECIAL_CASES,
+)
 
 from ..utils.logger import setup_logging
 
 logger = logging.getLogger(__name__)
+
 
 def title_classifier(title: str) -> str:
     """
@@ -25,7 +30,9 @@ def title_classifier(title: str) -> str:
              or 'Outros Dados'/'Outros' if no specific category is matched.
     """
     if not isinstance(title, str) or not title.strip():
-        logger.debug(f"Title '{title}' is invalid or empty, classifying as 'Outros'.")
+        logger.debug(
+            f"Title '{title}' is invalid or empty, classifying as 'Outros'."
+        )
         return 'Outros'
 
     title_lower = title.lower().strip()
@@ -69,33 +76,33 @@ def test_classifier(
     """
     if test_cases is None:
         test_cases = [
-            ("Engenheiro de Machine Learning Pleno", "Engenheiro de ML"),
-            ("Data Scientist - NLP Specialist", "Cientista de Dados"),
-            ("Software Engineer Python", "Outros"),
-            ("Analista de BI com Power BI", "Analista de BI"),
-            ("Engenheiro de Dados Cloud", "Engenheiro de Dados"),
-            ("DevOps Engineer AWS", "Outros"),
-            ("AI Prompt Engineer", "Engenheiro de IA"),
-            ("Analista de Dados SQL", "Analista de Dados"),
-            ("Arquiteto de Dados Corporativos", "Outros Dados"),
-            ("Machine Learning Engineer", "Engenheiro de ML"),
-            ("Engenheiro de Software Java", "Outros"),
-            ("Data Engineer with Python", "Engenheiro de Dados"),
-            ("Business Intelligence Analyst", "Analista de BI"),
-            ("Analista de Marketing", "Outros"), 
-            ("Cientista de Dados Junior", "Cientista de Dados"),
-            ("Engenheiro de Plataforma de Dados", "Engenheiro de Dados"),
-            ("Analista de Dados com BI", "Analista de BI"), 
-            ("Software Engineer Data Systems", "Engenheiro de Dados"),
-            ("Data Analytics Engineer", "Outros Dados"),
-            ("Especialista em dados", "Outros Dados"), 
-            ("", "Outros"), 
-            ("  ", "Outros"),
-            ("Financial Data Analyst", "Analista de Dados"), 
-            ("Head of Data Science", "Cientista de Dados"),
+            ('Engenheiro de Machine Learning Pleno', 'Engenheiro de ML'),
+            ('Data Scientist - NLP Specialist', 'Cientista de Dados'),
+            ('Software Engineer Python', 'Outros'),
+            ('Analista de BI com Power BI', 'Analista de BI'),
+            ('Engenheiro de Dados Cloud', 'Engenheiro de Dados'),
+            ('DevOps Engineer AWS', 'Outros'),
+            ('AI Prompt Engineer', 'Engenheiro de IA'),
+            ('Analista de Dados SQL', 'Analista de Dados'),
+            ('Arquiteto de Dados Corporativos', 'Outros Dados'),
+            ('Machine Learning Engineer', 'Engenheiro de ML'),
+            ('Engenheiro de Software Java', 'Outros'),
+            ('Data Engineer with Python', 'Engenheiro de Dados'),
+            ('Business Intelligence Analyst', 'Analista de BI'),
+            ('Analista de Marketing', 'Outros'),
+            ('Cientista de Dados Junior', 'Cientista de Dados'),
+            ('Engenheiro de Plataforma de Dados', 'Engenheiro de Dados'),
+            ('Analista de Dados com BI', 'Analista de BI'),
+            ('Software Engineer Data Systems', 'Engenheiro de Dados'),
+            ('Data Analytics Engineer', 'Outros Dados'),
+            ('Especialista em dados', 'Outros Dados'),
+            ('', 'Outros'),
+            ('  ', 'Outros'),
+            ('Financial Data Analyst', 'Analista de Dados'),
+            ('Head of Data Science', 'Cientista de Dados'),
         ]
 
-    logger.info("Starting classifier test...")
+    logger.info('Starting classifier test...')
     failed_count = 0
     passed_count = 0
 
@@ -108,10 +115,12 @@ def test_classifier(
             print(f"FAIL Case {i+1}: Input Title: '{title}'")
             print(f"  Expected: '{expected_classification}'")
             print(f"  Got:      '{actual_classification}'")
-            logger.warning(f"Test FAIL: '{title}' | Expected: '{expected_classification}', Got: '{actual_classification}'")
+            logger.warning(
+                f"Test FAIL: '{title}' | Expected: '{expected_classification}', Got: '{actual_classification}'"
+            )
 
-    summary_message = f"Test results: {passed_count} passed, {failed_count} failed out of {len(test_cases)} cases."
-    print(f"\n{summary_message}")
+    summary_message = f'Test results: {passed_count} passed, {failed_count} failed out of {len(test_cases)} cases.'
+    print(f'\n{summary_message}')
     if failed_count > 0:
         logger.error(summary_message)
     else:
@@ -121,9 +130,9 @@ def test_classifier(
 def classify_job_titles(
     input_path: Path = Path('data/processed/df_jobs.csv'),
     output_path: Path = Path('data/processed/df_jobs_classified.csv'),
-    df: pd.DataFrame = None
+    df: pd.DataFrame = None,
 ) -> pd.DataFrame:
-    '''
+    """
     Classifies job titles in a DataFrame, either loaded from a CSV or provided directly.
     The DataFrame must contain a column with job titles to be classified.
 
@@ -139,35 +148,44 @@ def classify_job_titles(
         FileNotFoundError: If `df` is None and `input_path` does not exist.
         KeyError: If `title_column` is not found in the DataFrame.
         Exception: Propagates other exceptions during processing.Classify job titles either from DataFrame or CSV input
-    '''
+    """
     try:
         if df is not None:
             data = df.copy()
-            logger.info(f"Using provided DataFrame (shape: {data.shape}) for classification.")
+            logger.info(
+                f'Using provided DataFrame (shape: {data.shape}) for classification.'
+            )
         else:
             if not input_path.exists():
-                logger.error(f"Input file not found: {input_path}")
-                raise FileNotFoundError(f"Input file not found: {input_path}")
+                logger.error(f'Input file not found: {input_path}')
+                raise FileNotFoundError(f'Input file not found: {input_path}')
             data = pd.read_csv(input_path)
             logger.info(f"Loaded {len(data)} jobs from '{input_path}'.")
 
         data.dropna(subset=['job_title'], inplace=True)
         data['job_title'] = data['job_title'].astype(str)
-        data['classified_job_title'] = data['job_title'].apply(title_classifier)
-        
+        data['classified_job_title'] = data['job_title'].apply(
+            title_classifier
+        )
+
         if output_path:
             try:
                 output_path.parent.mkdir(parents=True, exist_ok=True)
                 data.to_csv(output_path, index=False)
-                logger.success(f"Saved classified data ({len(data)} rows) to '{output_path}'")
+                logger.success(
+                    f"Saved classified data ({len(data)} rows) to '{output_path}'"
+                )
             except Exception as e:
-                logger.error(f"Failed to save classified data to '{output_path}': {e}")
-        
+                logger.error(
+                    f"Failed to save classified data to '{output_path}': {e}"
+                )
+
         return data
 
     except Exception as e:
-        logger.error(f"Job title classification process failed: {e}")
+        logger.error(f'Job title classification process failed: {e}')
         raise
+
 
 def parse_posted_date(row):
     """
@@ -218,7 +236,10 @@ def parse_posted_date(row):
     except Exception:
         return pd.NaT
 
-def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> pd.DataFrame:
+
+def standardize_locations(
+    df: pd.DataFrame, location_col: str = 'location'
+) -> pd.DataFrame:
     """
     Standardizes location strings from a DataFrame column into separate city, state, and country columns.
     It handles various formats commonly found in Brazilian job postings.
@@ -230,74 +251,91 @@ def standardize_locations(df: pd.DataFrame, location_col: str = 'location') -> p
     Returns:
         pd.DataFrame: The DataFrame with added 'city', 'state', and 'country' columns.
     """
-    
+
     df['city'] = None
     df['state'] = None
     df['country'] = 'Brasil'
-    
-    state_mapping = {**{v: k for k, v in BRAZILIAN_STATES.items()}, **BRAZILIAN_STATES}
-    
+
+    state_mapping = {
+        **{v: k for k, v in BRAZILIAN_STATES.items()},
+        **BRAZILIAN_STATES,
+    }
+
     state_names = set(BRAZILIAN_STATES.values())
     state_abbrevs = set(BRAZILIAN_STATES.keys())
-    
+
     def extract_location(location):
         """Helper function to extract city, state, country from a single location string."""
         if pd.isna(location):
             return (None, None, 'Brasil')
-            
+
         location = str(location).strip()
 
         if location.lower() in ['brasil']:
             return (None, None, 'Brasil')
-        
+
         if location in state_names or location in state_abbrevs:
-            state_code = location if location in state_abbrevs else state_mapping.get(location)
+            state_code = (
+                location
+                if location in state_abbrevs
+                else state_mapping.get(location)
+            )
             return (None, state_code, 'Brasil')
-            
-        match = re.match(r'^(?P<state>[^,]+),\s*Brasil$', location, re.IGNORECASE)
+
+        match = re.match(
+            r'^(?P<state>[^,]+),\s*Brasil$', location, re.IGNORECASE
+        )
         if match and match.group('state') in state_names:
             state_name = match.group('state')
             return (None, state_mapping.get(state_name), 'Brasil')
-        
+
         match = re.match(r'^(?P<city>.+)\s+e\s+Região$', location)
         if match:
             city = match.group('city').strip().title()
             state = REGION_CITIES.get(city)
             return (city, state, 'Brasil')
-        
+
         match = re.match(r'^(?P<city>[^,]+),\s*(?P<state>[A-Z]{2})$', location)
         if match:
-            return (match.group('city').title(), match.group('state').upper(), 'Brasil')
-        
+            return (
+                match.group('city').title(),
+                match.group('state').upper(),
+                'Brasil',
+            )
+
         match = re.match(r'^(?P<city>[^,]+),\s*(?P<state>.+)$', location)
         if match:
             state = match.group('state').strip()
-            
+
             if state.lower() in ['brasil', 'brazil']:
                 city_name = match.group('city').title()
                 return (city_name, REGION_CITIES.get(city_name), 'Brasil')
-                
+
             if state in state_names or state in state_abbrevs:
-                state_code = state if state in state_abbrevs else state_mapping.get(state)
+                state_code = (
+                    state
+                    if state in state_abbrevs
+                    else state_mapping.get(state)
+                )
                 return (match.group('city').title(), state_code, 'Brasil')
-            
+
             return (match.group('city').title(), None, 'Brasil')
-        
-        logger.info(f"Standardizing locations...")
-        
+
+        logger.info(f'Standardizing locations...')
+
         city_name = location.title()
         if city_name in REGION_CITIES:
             return (city_name, REGION_CITIES.get(city_name), 'Brasil')
-        
+
         return (city_name, None, 'Brasil')
-    
+
     df[['city', 'state', 'country']] = df[location_col].apply(
         lambda x: pd.Series(extract_location(x))
     )
-    logger.success("Location standardization complete.")
+    logger.success('Location standardization complete.')
     return df
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     setup_logging()
     test_classifier()
-
