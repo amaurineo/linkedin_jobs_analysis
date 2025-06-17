@@ -1,0 +1,8 @@
+2025-06-04 19:31:01,224 - src.scraping.linkedin_scraper - INFO - Successfully loaded job_data cache with 8150 entries from data\cache\job_data_cache.pkl
+2025-06-04 19:31:01,244 - src.scraping.linkedin_scraper - INFO - Successfully loaded job_id cache with 8150 entries from data\cache\job_ids_cache.pkl
+2025-06-04 19:31:01,244 - __main__ - SUCCESS - Successfully initialized scraper.
+2025-06-04 19:31:01,244 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Analista de Dados' from URL: https://www.linkedin.com/jobs/search?keywords="Analista%20de%20Dados"&location=Brasil&geoId=106057199
+2025-06-04 19:31:02,205 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Cientista de Dados' from URL: https://www.linkedin.com/jobs/search?keywords="Cientista%20de%20Dados"&location=Brasil&geoId=106057199
+2025-06-04 19:31:03,051 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Engenheiro de Dados' from URL: https://www.linkedin.com/jobs/search?keywords="Engenheiro%20de%20Dados"&location=Brasil&geoId=106057199
+2025-06-04 19:31:03,954 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Data Analyst' from URL: https://www.linkedin.com/jobs/search?keywords="Data%20Analyst"&location=Brasil&geoId=106057199
+2025-06-04 19:31:05,106 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Data Scientist' from URL: https://www.linkedin.com/jobs/search?keywords="Data%20Scientist"&location=Brasil&geoId=106057199

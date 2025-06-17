@@ -3,7 +3,7 @@ import re
 import unicodedata
 
 import pandas as pd
-from tqdm.auto import tqdm
+from tqdm import tqdm
 
 logger = logging.getLogger(__name__)
 

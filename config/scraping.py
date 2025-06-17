@@ -14,7 +14,9 @@ USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/537.36',
 ]
+
 WORK_MODEL = {'1': 'Presencial', '2': 'Remoto', '3': 'Híbrido'}
+
 KEYWORDS = [
     'Analista de Dados',
     'Cientista de Dados',
