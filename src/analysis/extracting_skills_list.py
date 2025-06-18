@@ -82,9 +82,7 @@ class SkillExtractor:
         if not text:
             return ''
         try:
-            # Decompose Unicode characters (e.g., 'é' to 'e' and combining acute accent)
             nfkd_form = unicodedata.normalize('NFD', str(text))
-            # Keep only non-spacing marks (remove accents)
             normalized_string = ''.join(
                 [c for c in nfkd_form if not unicodedata.combining(c)]
             )
@@ -176,8 +174,6 @@ class SkillExtractor:
                     )
 
             df_skills = pd.DataFrame(skills_data)
-
-            # Drop the temporary column from the processed DataFrame copy
             df_processed = df_processed.drop(columns=['skills_found'])
 
             logger.info(

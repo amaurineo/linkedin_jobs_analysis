@@ -164,7 +164,7 @@ class JobScraper:
             Optional[requests.Response]: The response object if successful,
                 None otherwise.
         """
-        current_headers = self.get_random_headers()   # Initial headers
+        current_headers = self.get_random_headers()
 
         for attempt in range(max_retries):
             try:
@@ -172,7 +172,7 @@ class JobScraper:
                     f'Request attempt {attempt + 1}/{max_retries} for {url}'
                 )
 
-                if attempt > 0:   # Change tactics on subsequent retries
+                if attempt > 0:
                     current_headers = self.get_random_headers()
                     logger.info(f'Rotated headers for retry {attempt + 1}')
 
@@ -182,8 +182,7 @@ class JobScraper:
 
                 if response.status_code == 200:
                     return response
-                elif response.status_code == 429:   # Rate limited
-                    # Exponential backoff with jitter
+                elif response.status_code == 429:
                     wait_time = min(30, (2**attempt) + random.uniform(1, 3))
                     logger.warning(
                         f'Rate limited (429) on attempt {attempt + 1}. Waiting {wait_time:.2f}s before retry...'
@@ -200,9 +199,7 @@ class JobScraper:
                     f'Request failed for {url} on attempt {attempt + 1}: {e}'
                 )
                 if attempt < max_retries - 1:
-                    # Optional: Short delay before any retry for general network issues
-                    # time.sleep(random.uniform(1, 3))
-                    pass   # Retry strategy for 429 is specific, others just retry
+                    pass
                 else:
                     logger.error(
                         f'All {max_retries} retries failed for {url}. Last error: {e}'
@@ -233,7 +230,6 @@ class JobScraper:
 
         for keyword_raw in keywords:
             keyword_formatted = self.format_keyword(keyword_raw)
-            # Building search URL for LinkedIn jobs in Brasil
             url = f'https://www.linkedin.com/jobs/search?keywords={keyword_formatted}&location=Brasil&geoId=106057199'
             logger.info(
                 f"Fetching job amounts for keyword: '{keyword_raw}' from URL: {url}"
@@ -360,7 +356,7 @@ class JobScraper:
                     f'Found {page_ids_found} new job IDs on page with offset {start_offset}.'
                 )
 
-                if page_ids_found > 0:   # Only save if new IDs were added
+                if page_ids_found > 0:
                     self.save_job_cache(type='job_id')
 
             logger.success(
@@ -375,7 +371,6 @@ class JobScraper:
                 exc_info=True,
             )
         finally:
-            # Ensure cache is saved even if errors occur
             self.save_job_cache(type='job_id')
 
     def save_checkpoint(
@@ -402,10 +397,8 @@ class JobScraper:
             file_exists = output_path.exists()
             df_batch.to_csv(
                 output_path,
-                mode='a'
-                if file_exists
-                else 'w',  # Append if exists, write otherwise
-                header=not file_exists,  # Add header only if file is new
+                mode='a' if file_exists else 'w',
+                header=not file_exists,
                 index=False,
             )
             action = 'Appended' if file_exists else 'Created new file with'
@@ -484,7 +477,6 @@ class JobScraper:
             for job_id, job_data in self.job_ids_cache.items():
                 job_work_model = job_data['work_model']
                 job_keyword = job_data['keyword']
-                # Skip if already in the CSV file
                 if job_id in processed_ids:
                     logger.info(
                         f'Skipping job ID {job_id} - already in CSV file ({len(processed_ids)} total)'
@@ -507,7 +499,6 @@ class JobScraper:
 
                 job_url = f'https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job_id}?_l=pt_BR'
 
-                # Use smart retry for fetching
                 job_response = self.fetch_with_smart_retry(job_url)
 
                 if not job_response:
@@ -591,16 +582,13 @@ class JobScraper:
                     )
                     job_post['job_description'] = None
 
-                # Add to result list and cache
                 job_list.append(job_post)
                 checkpoint_batch.append(job_post)
                 self.job_data_cache[job_id] = job_post
 
-                # Save cache periodically
                 if len(job_list) % 10 == 0:
                     self.save_job_cache()
 
-                # Check if we should save a checkpoint
                 if len(checkpoint_batch) >= self.checkpoint_frequency:
                     self.save_checkpoint(checkpoint_batch, output_path)
                     checkpoint_batch = []
@@ -610,10 +598,6 @@ class JobScraper:
                     f'Processed job {job_id}, {remaining_jobs} remaining'
                 )
 
-                # Add a small delay between requests to avoid triggering rate limits
-                # time.sleep(random.uniform(0.8, 2.0))
-
-            # Save any remaining jobs in the checkpoint batch
             if checkpoint_batch:
                 self.save_checkpoint(checkpoint_batch, output_path)
 
@@ -621,7 +605,6 @@ class JobScraper:
                 f'Added {len(job_list)} new jobs. Total processed: {len(processed_ids) + len(job_list)}'
             )
 
-            # Return dataframe of all jobs (including those from existing CSV)
             if output_path.exists():
                 return pd.concat(
                     [
@@ -635,14 +618,11 @@ class JobScraper:
         except Exception as e:
             logger.error(f'Unexpected error during job scraping: {e}')
 
-            # Save any remaining jobs in the checkpoint batch
             if checkpoint_batch:
                 self.save_checkpoint(checkpoint_batch, output_path)
 
-            # Save cache even on error
             self.save_job_cache()
 
-            # Return whatever we have in the CSV
             if output_path.exists():
                 try:
                     return pd.read_csv(output_path, on_bad_lines='skip')
@@ -658,5 +638,4 @@ class JobScraper:
 
 if __name__ == '__main__':
     scraper = JobScraper()
-    # scraper.get_job_ids(100)
     scraper.get_job_info()

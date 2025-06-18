@@ -4,12 +4,10 @@ from pathlib import Path
 
 LOG_TIMESTAMP = datetime.now().strftime('%Y%m%d_%H%M%S')
 
-
 def setup_logging(log_dir: str = 'logs') -> None:
     """
     Set up basic logging configuration for the project
     """
-    # Prevent multiple configurations
     if logging.getLogger().hasHandlers():
         return
 
@@ -26,7 +24,6 @@ def setup_logging(log_dir: str = 'logs') -> None:
         ],
     )
 
-    # Adding SUCCESS level logging
     SUCCESS_LEVEL = logging.INFO + 5
     logging.addLevelName(SUCCESS_LEVEL, 'SUCCESS')
 
@@ -36,5 +33,3 @@ def setup_logging(log_dir: str = 'logs') -> None:
 
     logging.Logger.success = success
 
-
-# setup_logging()
