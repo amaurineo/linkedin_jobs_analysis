@@ -10,6 +10,9 @@
 [![Requests](https://img.shields.io/badge/Requests-989999?logo=requests&logoColor=white)](https://requests.readthedocs.io/en/latest/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
 
+<p align="center">
+  <img src="img\cover_img.png" alt="Imagem de capa do repositório">
+</p>
 
 ## Project Overview
 
@@ -49,9 +52,14 @@ The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it
 - Handles special cases and ambiguous titles.
 
 ### 4. Dashboard Visualization
-- Data is exported for visualization in Power BI, Tableau, or Streamlit.
+- Data is exported for visualization in Power BI.
 - Dashboards highlight trends, top skills, and most common roles.
 <br>
+<p align="center">
+  <img src="img\dashboard_demo.png" alt="Main panel of the dashboard">
+</p>
+
+- [**You can have full access to the dashboard panels by clicking here (Portuguese version only).**](https://app.powerbi.com/view?r=eyJrIjoiNThlNmY5ZjUtN2QwNC00YTBhLTk3MDMtMGFhNTUwYTU4MTRmIiwidCI6IjNjYWM4MTQ4LTMxMDQtNGIxMi1hNWJmLWVmZTYyMGM2YjkyNyJ9&pageName=d1009dfccb65332051b3) The dashboard contains data extracted since 19/05/2025.
 
 ## Technologies Used
 
@@ -90,7 +98,7 @@ The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it
     - Processed data and extracted skills will be saved to `./data/processed`.
 
 5. **Visualize**
-    - The CSVs are used to feed the Power BI dashboard.
+    - The CSVs are used to feed the Power BI dashboard (you may need to do some adjustments to the sources in order to make it work).
 <br>
 
 ## Results & Insights
@@ -173,6 +181,11 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 - Os dados são exportados para visualização no Power BI.
 - Os painéis destacam tendências, principais habilidades e funções mais comuns.
 <br>
+<p align="center">
+  <img src="img\dashboard_demo.png" alt="Painel principal do dashboard">
+</p>
+
+- [**Você pode acessar o dashboard completo clicando aqui.**](https://app.powerbi.com/view?r=eyJrIjoiNThlNmY5ZjUtN2QwNC00YTBhLTk3MDMtMGFhNTUwYTU4MTRmIiwidCI6IjNjYWM4MTQ4LTMxMDQtNGIxMi1hNWJmLWVmZTYyMGM2YjkyNyJ9&pageName=d1009dfccb65332051b3) O dashboard contém dados extraídos a partir de 19/05/2025.
 
 ## Tecnologias usadas
 
@@ -211,7 +224,7 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
     - Os dados processados e as habilidades extraídas serão salvos em `./data/processed`.
 
 5. **Visualização**
-    - Os CSVs são usados para alimentar o painel do Power BI.
+    - Os CSVs são usados para alimentar o painel do Power BI (será necessário realizar alguns ajustes nas fontes de dados para que funcione adequadamente).
 <br>
 
 ## Resultados e percepções
@@ -241,5 +254,5 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 ## Possíveis melhorias futuras
 - **Orquestração**: Automatizar e agendar a execução do pipeline usando Apache Airflow.
 - **Análise de tendências**: Acompanhar as mudanças na demanda por habilidades ao longo do tempo.
-- **Armazenamento adequado**: Armazene dados brutos e processados ​​em um banco de dados PostgreSQL.
+- **Armazenamento adequado**: Armazenar dados brutos e processados ​​em um banco de dados PostgreSQL.
 <br>
