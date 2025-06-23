@@ -1,4 +1,15 @@
-# LinkedIn Jobs Analysis
+### English
+
+# LinkedIn Data Jobs Analysis
+
+[![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![Poetry](https://img.shields.io/badge/Poetry-01b0e6?logo=poetry&logoColor=white)](https://python-poetry.org/)
+[![Pandas](https://img.shields.io/badge/-Pandas-130654?&logo=pandas)](https://pandas.pydata.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Requests](https://img.shields.io/badge/Requests-989999?logo=requests&logoColor=white)](https://requests.readthedocs.io/en/latest/)
+[![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-FFFFFF?logo=beautiful-soup&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
+
 
 ## Project Overview
 
@@ -8,7 +19,8 @@ A data-driven project to analyze the Brazilian data job market by scraping Linke
 
 ## Motivation
 
-The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it challenging for job seekers and employers to keep up with market demands.  
+The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it challenging for job seekers and employers to keep up with market demands. 
+
 **Why this project?**  
 - To identify the most sought-after skills and roles in the Brazilian data job market.
 - To support career planning and curriculum development with real, up-to-date market data.
@@ -44,18 +56,17 @@ The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it
 
 ## Technologies Used
 
-- **Python**: Data scraping, cleaning, and processing (`pandas`, `requests`, `BeautifulSoup`, `spacy`, `re`)
+- **Python**: Data scraping, cleaning, and processing (`pandas`, `requests`, `BeautifulSoup`, `re`)
 - **Jupyter Notebooks**: Prototyping and EDA
-- **Power BI / Tableau / Streamlit**: Dashboard and data visualization
+- **Power BI**: Dashboard and data visualization
 - **CSV**: Data storage
-- **(Optional) SQL**: For advanced querying if loaded into a database
 <br>
 
 ## How to Run
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/linkedin_jobs_analysis.git
+   git clone https://github.com/sch-paulo/linkedin_jobs_analysis.git
    cd linkedin_jobs_analysis
    ```
 
@@ -84,50 +95,43 @@ The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it
 <br>
 
 ## Results & Insights
-### Top 5 Most In-Demand Skills:
+### Top 5 Most In-Demand Skills (among all postings):
 
-1. Python
 1. SQL
+1. Python
+1. Cloud
 1. Power BI
-1. Machine Learning
-1. Data Visualization
+1. Communication
 
 ### Most Common Roles:
 
-1. Engenheiro de Dados (Data Engineer)
 1. Analista de Dados (Data Analyst)
+1. Engenheiro de Dados (Data Engineer)
 1. Cientista de Dados (Data Scientist)
 1. Analista de BI (BI Analyst)
-1. Engenheiro de ML (ML Engineer)
+1. Outros Dados (Other specific data-related roles)
 
 ### Other Insights:
 
-- Hybrid and remote work models are highly prevalent.
-- Cloud skills (AWS, Azure, GCP) are increasingly requested.
+- For Data Analysts, Python is in higher demand than Excel.
+- Cloud skills (AWS, Azure, GCP) are increasingly in demand, and the order of popularity is AWS > Azure > GCP.
 - Soft skills like "Solução de problemas" (Problem Solving) and "Comunicação" (Communication) are frequently mentioned.
 <br>
 
 ## Future Enhancements
-- Trend Analysis: Track changes in skill demand over time.
-- Sentiment Analysis: Analyze job descriptions for company culture signals.
-- Salary Extraction: Add salary parsing if/when available.
-- Geographical Analysis: Map demand by region/city.
-- Interactive Dashboard: Deploy a public Streamlit dashboard.
-<br>
+- **Orchestration**: Automate and schedule the data pipeline using Apache Airflow.
+- **Trend analysis**: Track changes in skill demand over time.
+- **Proper storage**: Store raw and processed data in a PostgreSQL database.
 
-## Contact
-Paulo
+<br>
 
 <br>
 
 ---
-# **Português**
 
-<br>
+### Português
 
-
-
-# Análise de empregos no LinkedIn
+# Análise de vagas de dados no LinkedIn
 
 ## Visão geral do projeto
 
@@ -137,8 +141,9 @@ Um projeto orientado por dados para analisar o mercado de trabalho de dados bras
 
 ## Motivação
 
-A rápida evolução das funções de dados (cientista de dados, engenheiro de dados etc.) torna desafiador para os candidatos a emprego e empregadores acompanhar as demandas do mercado.  
-**Por que este projeto?  
+A rápida evolução das funções de dados (cientista de dados, engenheiro de dados etc.) torna desafiador para os candidatos a emprego e empregadores acompanhar as demandas do mercado.
+
+**Por que este projeto?**  
 - Para identificar as habilidades e as funções mais procuradas no mercado de trabalho de dados brasileiro.
 - Apoiar o planejamento de carreiras e o desenvolvimento de currículos com dados de mercado reais e atualizados.
 <br>
@@ -154,58 +159,57 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 
 ## Principais recursos e componentes
 
-### 1. Raspagem de dados
+### 1. Web scraping
 - Coleta automatizada de anúncios de emprego do LinkedIn usando Python (`requests`, `BeautifulSoup`).
 - Cache e checkpointing para evitar downloads duplicados e garantir a robustez.
 
 ### 2. Extração de habilidades
-- Usa um mapa de habilidades abrangente baseado em regex ([`STANDARD_SKILL_MAP`](config/analysis.py)) para extrair habilidades técnicas e interpessoais das descrições de cargos.
+- Usa um mapa de habilidades abrangente baseado em regex ([`STANDARD_SKILL_MAP`](config/analysis.py)) para extrair habilidades técnicas e sociais das descrições de cargos.
 - Lida com sinônimos e variações em português e inglês.
 
 ### 3. Padronização de títulos de cargos
-- Agrupamento e classificação baseados em Regex de títulos de cargos ([`ROLE_PATTERNS`](config/analysis.py)), por exemplo, mapeando "Data Scientist NLP" e "Cientista de Dados" para um rótulo padrão.
+- Agrupamento e classificação baseados em Regex de títulos de cargos ([`ROLE_PATTERNS`](config/analysis.py)), por exemplo, mapeando "Data Scientist NLP" e "Cientista de Dados" para um título padrão.
 - Lida com casos especiais e títulos ambíguos.
 
 ### 4. Visualização do painel
-- Os dados são exportados para visualização no Power BI, Tableau ou Streamlit.
+- Os dados são exportados para visualização no Power BI.
 - Os painéis destacam tendências, principais habilidades e funções mais comuns.
 <br>
 
 ## Tecnologias usadas
 
-- **Python**: Raspagem, limpeza e processamento de dados (`pandas`, `requests`, `BeautifulSoup`, `spacy`, `re`)
+- **Python**: Raspagem, limpeza e processamento de dados (`pandas`, `requests`, `BeautifulSoup`, `re`)
 - **Jupyter Notebooks**: Prototipagem e EDA
-- **Power BI / Tableau / Streamlit**: Dashboard e visualização de dados
+- **Power BI**: Dashboard e visualização de dados
 - **CSV**: Armazenamento de dados
-- **SQL** (opcional): Para consultas avançadas se carregado em um banco de dados
 <br>
 
 ## Como executar
 
 1. **Clonar o repositório**
- ```sh
- git clone https://github.com/yourusername/linkedin_jobs_analysis.git
- cd linkedin_jobs_analysis
- ```
+    ```sh
+    git clone https://github.com/sch-paulo/linkedin_jobs_analysis.git
+    cd linkedin_jobs_analysis
+    ```
 
 2. **Instalar dependências**
- ```sh
- poetry install
-    # ou
- pip install -r requirements.txt
- ```
+    ```sh
+    poetry install
+        # ou
+    pip install -r requirements.txt
+    ```
 
 3. **Executar o Scraper**
- ```sh
- python -m src.scraping.scraping_main
- ```
+    ```sh
+    python -m src.scraping.scraping_main
+    ```
 
     - Os dados extraídos serão salvos em `./data/raw/jobs_data.csv`.
 
 4. **Executar o pipeline de análise**
- ```sh
- python src/analysis/analysis_main.py
- ```
+    ```sh
+    python src/analysis/analysis_main.py
+    ```
     - Os dados processados e as habilidades extraídas serão salvos em `./data/processed`.
 
 5. **Visualização**
@@ -213,34 +217,31 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 <br>
 
 ## Resultados e percepções
-### As 5 habilidades mais requisitadas:
+### As 5 habilidades mais requisitadas (dentre todas as vagas):
 
-1. Python
 1. SQL
+1. Python
+1. Cloud
 1. Power BI
-1. Machine Learning
-1. Visualização de dados
+1. Comunicação
 
 ### Funções mais comuns:
 
-1. Engenheiro de Dados (Data Engineer)
-1. Analista de Dados (Data Analyst)
-1. Cientista de Dados (Data Scientist)
-1. Analista de BI (BI Analyst)
-1. Engenheiro de ML (ML Engineer)
+1. Analista de Dados 
+1. Engenheiro de Dados
+1. Cientista de Dados
+1. Analista de BI
+1. Outros Dados (Outras posições relacionadas a dados)
 
-### Outras percepções:
+### Outros insights:
 
-- Modelos de trabalho híbridos e remotos são altamente predominantes.
-- As habilidades em nuvem (AWS, Azure, GCP) são cada vez mais solicitadas.
-- Habilidades interpessoais como “Solução de problemas” e “Comunicação” são mencionadas com frequência.
+- Para analistas de dados, Python está sendo mais requisitado do que Excel.
+- Habilidades em nuvem (AWS, Azure, GCP) são cada vez mais procuradas, e a ordem de popularidade é AWS > Azure > GCP.
+- Habilidades interpessoais como "Solução de problemas" e "Comunicação" são frequentemente mencionadas.
 <br>
 
-## Aprimoramentos futuros
-- Análise de tendências: Acompanhe as mudanças na demanda de habilidades ao longo do tempo.
-- Análise de sentimento: Analise as descrições de cargos em busca de sinais da cultura da empresa.
-- Extração de salários: Adicione análise de salário se/quando disponível.
-- Análise geográfica: Mapeie a demanda por região/cidade.
+## Possíveis melhorias futuras
+- **Orquestração**: Automatizar e agendar a execução do pipeline usando Apache Airflow.
+- **Análise de tendências**: Acompanhar as mudanças na demanda por habilidades ao longo do tempo.
+- **Armazenamento adequado**: Armazene dados brutos e processados ​​em um banco de dados PostgreSQL.
 <br>
-
-## Contato

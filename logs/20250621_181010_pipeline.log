@@ -1,0 +1,12 @@
+2025-06-21 18:10:10,526 - __main__ - INFO - Starting job skills extraction.
+2025-06-21 18:10:10,542 - src.analysis.extracting_skills_list - SUCCESS - Successfully prepared regex patterns for 123 skills.
+2025-06-21 18:10:10,987 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 7751 rows.
+2025-06-21 18:11:39,747 - src.analysis.extracting_skills_list - INFO - Skill extraction completed. Found 60532 skill entries.
+2025-06-21 18:11:39,762 - __main__ - SUCCESS - Successfully extracted skills from 11418 postings.
+2025-06-21 18:11:39,762 - __main__ - INFO - Starting job title classification
+2025-06-21 18:11:39,762 - src.analysis.analysis_utils - INFO - Using provided DataFrame (shape: (7751, 13)) for classification.
+2025-06-21 18:11:39,953 - __main__ - SUCCESS - Successfully classified job titles.
+2025-06-21 18:11:40,431 - src.analysis.analysis_utils - SUCCESS - Location standardization complete.
+2025-06-21 18:11:40,748 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_jobs_classified.csv
+2025-06-21 18:11:40,780 - src.analysis.extracting_skills_list - INFO - Saved processed DataFrame to: data\processed\df_skills.csv
+2025-06-21 18:11:40,780 - __main__ - SUCCESS - Successfully exported CSV file with 7751 data jobs info and their skills required.

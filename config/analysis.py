@@ -75,11 +75,6 @@ STANDARD_SKILL_MAP = {
         r'\bdata\s+architecture\b',
     ],
     'Séries temporais': [r'\bs[ée]ries\s+temporais\b', r'\btime\s+series\b'],
-    'BI': [
-        r'\bbusiness\s+intelligence\b',
-        r'\bintelig[êe]ncia\s+de\s+neg[óo]cios\b',
-        r'(?<!power\s)\bbi\b',
-    ],
     'Python': [r'\bpython\b'],
     'Teste A/B': [r'\ba/b\b', r'\ba/b\s+testing\b', r'\bteste\s+a/b\b'],
     'ETL': [r'\betl\b', r'\bextract\s+transform\s+load\b'],
