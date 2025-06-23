@@ -3,11 +3,11 @@
 # LinkedIn Data Jobs Analysis
 
 [![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![Poetry](https://img.shields.io/badge/Poetry-01b0e6?logo=poetry&logoColor=white)](https://python-poetry.org/)
-[![Pandas](https://img.shields.io/badge/-Pandas-130654?&logo=pandas)](https://pandas.pydata.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Requests](https://img.shields.io/badge/Requests-989999?logo=requests&logoColor=white)](https://requests.readthedocs.io/en/latest/)
+[![Pandas](https://img.shields.io/badge/-Pandas-130654?&logo=pandas)](https://pandas.pydata.org/)
+[![Poetry](https://img.shields.io/badge/Poetry-01b0e6?logo=poetry&logoColor=white)](https://python-poetry.org/)
 [![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-FFFFFF?logo=beautiful-soup&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[![Requests](https://img.shields.io/badge/Requests-989999?logo=requests&logoColor=white)](https://requests.readthedocs.io/en/latest/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
 
 
