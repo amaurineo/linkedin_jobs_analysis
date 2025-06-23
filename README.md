@@ -30,7 +30,6 @@ The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it
 
 - **LinkedIn Job Postings**: Scraped using automated scripts.
   - **Ethical Considerations**:  
-    - The scraper respects LinkedIn's robots.txt and rate limits.
     - Data is collected for educational and research purposes only.
     - No personal or sensitive user data is collected.
 <br>
@@ -150,9 +149,8 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 
 ## Fontes de dados
 
-- Anúncios de emprego do LinkedIn**: Raspados usando scripts automatizados.
-  - Considerações éticas**:  
-    - O scraper respeita o robots.txt do LinkedIn e os limites de taxa.
+- **Anúncios de emprego do LinkedIn**: Raspados usando scripts automatizados.
+  - **Considerações éticas**:  
     - Os dados são coletados apenas para fins educacionais e de pesquisa.
     - Nenhum dado pessoal ou sensível do usuário é coletado.
 <br>
