@@ -85,7 +85,7 @@ The rapid evolution of data roles (Data Scientist, Data Engineer, etc.) makes it
 
 4. **Run the Analysis Pipeline**
     ```sh
-    python src/analysis/analysis_main.py
+    python -m src.analysis.analysis_main
     ```
     - Processed data and extracted skills will be saved to `./data/processed`.
 
@@ -193,7 +193,7 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 2. **Instalar dependências**
     ```sh
     poetry install
-        # ou
+    # ou
     pip install -r requirements.txt
     ```
 
@@ -206,7 +206,7 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 
 4. **Executar o pipeline de análise**
     ```sh
-    python src/analysis/analysis_main.py
+    python -m src.analysis.analysis_main
     ```
     - Os dados processados e as habilidades extraídas serão salvos em `./data/processed`.
 
@@ -235,7 +235,7 @@ A rápida evolução das funções de dados (cientista de dados, engenheiro de d
 
 - Para analistas de dados, Python está sendo mais requisitado do que Excel.
 - Habilidades em nuvem (AWS, Azure, GCP) são cada vez mais procuradas, e a ordem de popularidade é AWS > Azure > GCP.
-- Habilidades interpessoais como "Solução de problemas" e "Comunicação" são frequentemente mencionadas.
+- Soft skills como "Solução de problemas" e "Comunicação" são frequentemente mencionadas.
 <br>
 
 ## Possíveis melhorias futuras
