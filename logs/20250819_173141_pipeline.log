@@ -1,0 +1,2 @@
+2025-08-19 17:31:41,523 - __main__ - INFO - Starting job skills extraction.
+2025-08-19 17:31:41,523 - __main__ - ERROR - Pipeline failed: cannot process flags argument with a compiled pattern

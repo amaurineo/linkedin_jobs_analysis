@@ -1,0 +1,29 @@
+2025-08-19 17:28:52,914 - __main__ - INFO - Starting job skills extraction.
+2025-08-19 17:28:52,915 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'jira' is not a list. Skipping this skill.
+2025-08-19 17:28:52,915 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'confluence' is not a list. Skipping this skill.
+2025-08-19 17:28:52,915 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'ms project' is not a list. Skipping this skill.
+2025-08-19 17:28:52,915 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'microsoft project' is not a list. Skipping this skill.
+2025-08-19 17:28:52,916 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'excel' is not a list. Skipping this skill.
+2025-08-19 17:28:52,916 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'trello' is not a list. Skipping this skill.
+2025-08-19 17:28:52,916 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'asana' is not a list. Skipping this skill.
+2025-08-19 17:28:52,916 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'monday' is not a list. Skipping this skill.
+2025-08-19 17:28:52,917 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'clickup' is not a list. Skipping this skill.
+2025-08-19 17:28:52,917 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'pmo' is not a list. Skipping this skill.
+2025-08-19 17:28:52,917 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'scrum' is not a list. Skipping this skill.
+2025-08-19 17:28:52,917 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'kanban' is not a list. Skipping this skill.
+2025-08-19 17:28:52,918 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'xp' is not a list. Skipping this skill.
+2025-08-19 17:28:52,918 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'agile' is not a list. Skipping this skill.
+2025-08-19 17:28:52,918 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'csm' is not a list. Skipping this skill.
+2025-08-19 17:28:52,918 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'pmp' is not a list. Skipping this skill.
+2025-08-19 17:28:52,919 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'prince2' is not a list. Skipping this skill.
+2025-08-19 17:28:52,919 - src.analysis.extracting_skills_list - WARNING - Patterns for skill 'okrs' is not a list. Skipping this skill.
+2025-08-19 17:28:52,919 - src.analysis.extracting_skills_list - WARNING - No regex patterns were prepared. Skill extraction will not find any skills.
+2025-08-19 17:28:52,946 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 20 rows.
+2025-08-19 17:28:53,058 - src.analysis.extracting_skills_list - INFO - Skill extraction completed. Found 0 skill entries.
+2025-08-19 17:28:53,059 - __main__ - SUCCESS - Successfully extracted skills from 20 postings.
+2025-08-19 17:28:53,060 - __main__ - INFO - Starting job title classification
+2025-08-19 17:28:53,060 - src.analysis.analysis_utils - INFO - Using provided DataFrame (shape: (20, 13)) for classification.
+2025-08-19 17:28:53,065 - src.analysis.analysis_utils - ERROR - Job title classification process failed: 're.Pattern' object is not iterable
+2025-08-19 17:28:53,066 - __main__ - ERROR - Error while classifying job titles: 're.Pattern' object is not iterable
+2025-08-19 17:28:53,103 - src.analysis.analysis_utils - SUCCESS - Location standardization complete.
+2025-08-19 17:28:53,107 - __main__ - ERROR - Pipeline failed: cannot access local variable 'output_path' where it is not associated with a value

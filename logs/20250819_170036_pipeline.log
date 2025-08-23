@@ -1,0 +1,56 @@
+2025-08-19 17:00:37,567 - src.scraping.linkedin_scraper - INFO - Successfully loaded job_data cache with 15 entries from data\cache\job_data_cache.pkl
+2025-08-19 17:00:37,568 - src.scraping.linkedin_scraper - INFO - Successfully loaded job_id cache with 1231 entries from data\cache\job_ids_cache.pkl
+2025-08-19 17:00:37,568 - __main__ - SUCCESS - Successfully initialized scraper.
+2025-08-19 17:00:37,568 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Gestor de Projetos' from URL: https://www.linkedin.com/jobs/search?keywords="Gestor%20de%20Projetos"&location=Brasil&geoId=106057199
+2025-08-19 17:00:39,306 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Gerente de Projetos' from URL: https://www.linkedin.com/jobs/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199
+2025-08-19 17:00:41,031 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Project Manager' from URL: https://www.linkedin.com/jobs/search?keywords="Project%20Manager"&location=Brasil&geoId=106057199
+2025-08-19 17:00:42,528 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Project Coordinator' from URL: https://www.linkedin.com/jobs/search?keywords="Project%20Coordinator"&location=Brasil&geoId=106057199
+2025-08-19 17:00:43,955 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Scrum Master' from URL: https://www.linkedin.com/jobs/search?keywords="Scrum%20Master"&location=Brasil&geoId=106057199
+2025-08-19 17:00:45,454 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Product Owner' from URL: https://www.linkedin.com/jobs/search?keywords="Product%20Owner"&location=Brasil&geoId=106057199
+2025-08-19 17:00:46,947 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'PMO' from URL: https://www.linkedin.com/jobs/search?keywords="PMO"&location=Brasil&geoId=106057199
+2025-08-19 17:00:48,436 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Agile Coach' from URL: https://www.linkedin.com/jobs/search?keywords="Agile%20Coach"&location=Brasil&geoId=106057199
+2025-08-19 17:00:49,790 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Coordenador de Projetos' from URL: https://www.linkedin.com/jobs/search?keywords="Coordenador%20de%20Projetos"&location=Brasil&geoId=106057199
+2025-08-19 17:00:51,582 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Coordenador de Projetos' from URL: https://www.linkedin.com/jobs/search?keywords="Coordenador%20de%20Projetos"&location=Brasil&geoId=106057199
+2025-08-19 17:00:52,887 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Especialista em Projetos' from URL: https://www.linkedin.com/jobs/search?keywords="Especialista%20em%20Projetos"&location=Brasil&geoId=106057199
+2025-08-19 17:00:54,090 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Analista de Projetos' from URL: https://www.linkedin.com/jobs/search?keywords="Analista%20de%20Projetos"&location=Brasil&geoId=106057199
+2025-08-19 17:00:55,742 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Gestor de Portfolio' from URL: https://www.linkedin.com/jobs/search?keywords="Gestor%20de%20Portfolio"&location=Brasil&geoId=106057199
+2025-08-19 17:00:56,866 - src.scraping.linkedin_scraper - INFO - Fetching job amounts for keyword: 'Portfolio Manager' from URL: https://www.linkedin.com/jobs/search?keywords="Portfolio%20Manager"&location=Brasil&geoId=106057199
+2025-08-19 17:00:58,291 - __main__ - SUCCESS - Successfully fetched job data for 13 keywords and 2272 job postings.
+2025-08-19 17:00:58,291 - src.scraping.linkedin_scraper - INFO - Initializing scraping for up to 21 job IDs for keyword 'Gestor de Projetos' (work model: 1).
+2025-08-19 17:00:58,291 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gestor%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=0
+2025-08-19 17:00:59,336 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 0.
+2025-08-19 17:00:59,336 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gestor%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=10
+2025-08-19 17:00:59,902 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 10.
+2025-08-19 17:00:59,903 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gestor%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=20
+2025-08-19 17:01:00,432 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 20.
+2025-08-19 17:01:00,433 - src.scraping.linkedin_scraper - SUCCESS - Finished scraping for keyword 'Gestor de Projetos'. Added 0 new job IDs. Total unique job IDs in cache: 1231.
+2025-08-19 17:01:00,434 - src.scraping.linkedin_scraper - INFO - Job_id cache saved with 1231 entries to data\cache\job_ids_cache.pkl
+2025-08-19 17:01:00,435 - __main__ - SUCCESS - Fetched job IDs for keyword='Gestor de Projetos', work_model_id=1, count=21
+2025-08-19 17:01:00,435 - src.scraping.linkedin_scraper - INFO - Initializing scraping for up to -4 job IDs for keyword 'Gestor de Projetos' (work model: 2).
+2025-08-19 17:01:00,435 - src.scraping.linkedin_scraper - SUCCESS - Finished scraping for keyword 'Gestor de Projetos'. Added 0 new job IDs. Total unique job IDs in cache: 1231.
+2025-08-19 17:01:00,436 - src.scraping.linkedin_scraper - INFO - Job_id cache saved with 1231 entries to data\cache\job_ids_cache.pkl
+2025-08-19 17:01:00,436 - __main__ - SUCCESS - Fetched job IDs for keyword='Gestor de Projetos', work_model_id=2, count=-4
+2025-08-19 17:01:00,437 - src.scraping.linkedin_scraper - INFO - Initializing scraping for up to -6 job IDs for keyword 'Gestor de Projetos' (work model: 3).
+2025-08-19 17:01:00,437 - src.scraping.linkedin_scraper - SUCCESS - Finished scraping for keyword 'Gestor de Projetos'. Added 0 new job IDs. Total unique job IDs in cache: 1231.
+2025-08-19 17:01:00,438 - src.scraping.linkedin_scraper - INFO - Job_id cache saved with 1231 entries to data\cache\job_ids_cache.pkl
+2025-08-19 17:01:00,438 - __main__ - SUCCESS - Fetched job IDs for keyword='Gestor de Projetos', work_model_id=3, count=-6
+2025-08-19 17:01:00,438 - src.scraping.linkedin_scraper - INFO - Initializing scraping for up to 165 job IDs for keyword 'Gerente de Projetos' (work model: 1).
+2025-08-19 17:01:00,439 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=0
+2025-08-19 17:01:00,695 - src.scraping.linkedin_scraper - WARNING - Rate limited (429) on attempt 1. Waiting 2.39s before retry...
+2025-08-19 17:01:03,089 - src.scraping.linkedin_scraper - INFO - Request attempt 2/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=0
+2025-08-19 17:01:03,089 - src.scraping.linkedin_scraper - INFO - Rotated headers for retry 2
+2025-08-19 17:01:03,828 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 0.
+2025-08-19 17:01:03,829 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=10
+2025-08-19 17:01:04,444 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 10.
+2025-08-19 17:01:04,445 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=20
+2025-08-19 17:01:05,125 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 20.
+2025-08-19 17:01:05,125 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=30
+2025-08-19 17:01:05,718 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 30.
+2025-08-19 17:01:05,719 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=40
+2025-08-19 17:01:06,259 - src.scraping.linkedin_scraper - INFO - Found 0 new job IDs on page with offset 40.
+2025-08-19 17:01:06,259 - src.scraping.linkedin_scraper - INFO - Request attempt 1/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=50
+2025-08-19 17:01:06,629 - src.scraping.linkedin_scraper - WARNING - Rate limited (429) on attempt 1. Waiting 2.36s before retry...
+2025-08-19 17:01:08,985 - src.scraping.linkedin_scraper - INFO - Request attempt 2/5 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords="Gerente%20de%20Projetos"&location=Brasil&geoId=106057199&f_WT=1&start=50
+2025-08-19 17:01:08,985 - src.scraping.linkedin_scraper - INFO - Rotated headers for retry 2
+2025-08-19 17:01:09,257 - src.scraping.linkedin_scraper - WARNING - Rate limited (429) on attempt 2. Waiting 3.48s before retry...
+2025-08-19 17:01:10,315 - src.scraping.linkedin_scraper - INFO - Job_id cache saved with 1231 entries to data\cache\job_ids_cache.pkl

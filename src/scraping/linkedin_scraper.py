@@ -48,7 +48,7 @@ class JobScraper:
             type='job_id'
         )
 
-        self.checkpoint_frequency: int = 20
+        self.checkpoint_frequency: int = 5
 
     def get_random_headers(self) -> Dict[str, str]:
         """
@@ -612,9 +612,12 @@ class JobScraper:
                         pd.DataFrame(job_list),
                     ]
                 ).drop_duplicates('job_id')
+            
+            if job_list:
+                self.save_checkpoint(job_list, Path('data/raw/jobs_data.csv'))
 
             return pd.DataFrame(job_list)
-
+        
         except Exception as e:
             logger.error(f'Unexpected error during job scraping: {e}')
 

@@ -1,0 +1,11 @@
+2025-08-19 17:34:53,984 - __main__ - INFO - Starting job skills extraction.
+2025-08-19 17:34:53,985 - src.analysis.extracting_skills_list - SUCCESS - Successfully prepared regex patterns for 17 skills.
+2025-08-19 17:34:53,999 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 20 rows.
+2025-08-19 17:34:54,031 - src.analysis.extracting_skills_list - INFO - Skill extraction completed. Found 22 skill entries.
+2025-08-19 17:34:54,032 - __main__ - SUCCESS - Successfully extracted skills from 20 postings.
+2025-08-19 17:34:54,032 - __main__ - INFO - Starting job title classification
+2025-08-19 17:34:54,032 - src.analysis.analysis_utils - INFO - Using provided DataFrame (shape: (20, 13)) for classification.
+2025-08-19 17:34:54,035 - __main__ - SUCCESS - Successfully classified job titles.
+2025-08-19 17:34:54,055 - src.analysis.analysis_utils - SUCCESS - Location standardization complete.
+2025-08-19 17:34:54,057 - src.analysis.extracting_skills_list - ERROR - Failed to export DataFrame to data\processed\df_jobs_classified.csv: Cannot save file into a non-existent directory: 'data\processed'
+2025-08-19 17:34:54,058 - __main__ - ERROR - Pipeline failed: Cannot save file into a non-existent directory: 'data\processed'

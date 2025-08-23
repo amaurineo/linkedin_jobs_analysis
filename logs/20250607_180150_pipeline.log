@@ -1,3 +1,0 @@
-2025-06-07 18:01:50,738 - __main__ - INFO - Starting job skills extraction.
-2025-06-07 18:01:50,747 - src.analysis.extracting_skills_list - SUCCESS - Successfully prepared regex patterns for 124 skills.
-2025-06-07 18:01:51,136 - src.analysis.extracting_skills_list - INFO - Starting skill extraction for DataFrame with 6471 rows.

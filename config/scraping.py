@@ -18,16 +18,18 @@ USER_AGENTS = [
 WORK_MODEL = {'1': 'Presencial', '2': 'Remoto', '3': 'Híbrido'}
 
 KEYWORDS = [
-    'Analista de Dados',
-    'Cientista de Dados',
-    'Engenheiro de Dados',
-    'Data Analyst',
-    'Data Scientist',
-    'Data Engineer',
-    'Analista de BI',
-    'Business Intelligence Analyst',
-    'Machine Learning Engineer',
-    'Engenheiro de Machine Learning',
-    'Engenheiro de IA',
-    'AI Engineer',
+    'Gestor de Projetos',
+    'Gerente de Projetos',
+    'Project Manager',
+    'Project Coordinator',
+    'Scrum Master',
+    'Product Owner',
+    'PMO',
+    'Agile Coach',
+    'Coordenador de Projetos',
+    'Coordenador de Projetos',
+    'Especialista em Projetos',
+    'Analista de Projetos',
+    'Gestor de Portfolio',
+    'Portfolio Manager'
 ]
